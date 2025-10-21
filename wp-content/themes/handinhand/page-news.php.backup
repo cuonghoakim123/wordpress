@@ -1,0 +1,291 @@
+<?php get_header(); ?>
+
+<style>
+/* Reset CSS cho trang tin tức để tránh xung đột */
+.news-archive-section {
+    margin-top: 110px !important;
+    padding: 80px 30px !important;
+    background: white !important;
+    clear: both !important;
+}
+
+.news-archive-section * {
+    box-sizing: border-box !important;
+}
+</style>
+
+<section class="news-archive-section" style="margin-top: 110px; padding: 80px 30px; background: white;">
+    <div class="news-archive-container" style="max-width: 1200px; margin: 0 auto;">
+        <!-- Tiêu đề TIN TỨC -->
+        <h1 style="color: #e63946; font-size: 18px; font-weight: 700; margin-bottom: 50px; text-transform: uppercase; letter-spacing: 1px; font-family: Arial, sans-serif;">TIN TỨC</h1>
+        
+        <div class="news-archive-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 60px 50px;">
+            <!-- Bài viết 1 -->
+            <article class="news-archive-item" style="display: block;">
+                <h2 style="font-size: 16px; color: #4a9fa5; margin-bottom: 10px; font-weight: 700; text-transform: uppercase; line-height: 1.4; text-align: center; font-family: Arial, sans-serif;">
+                    <a href="#" style="color: #4a9fa5; text-decoration: none; display: block;">CỬA TIỆM HẠNH PHÚC CỦA NGƯỜI TỰ KỶ</a>
+                </h2>
+                <p style="font-size: 13px; color: #888; margin-bottom: 20px; text-align: center; font-family: Arial, sans-serif;">
+                    vnexpress - 06/03/2025
+                </p>
+                <div style="display: flex; gap: 20px; align-items: flex-start;">
+                    <div style="flex: 0 0 160px;">
+                        <div style="width: 160px; height: 120px; overflow: hidden; border-radius: 5px;">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/news-sample-1.svg" alt="Cửa tiệm hạnh phúc" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                    </div>
+                    <div style="flex: 1;">
+                        <div style="font-size: 14px; line-height: 1.6; color: #333; margin-bottom: 15px; font-family: Arial, sans-serif;">
+                            "Cửa tiệm hạnh phúc" là tên gọi thân mật của mô hình kinh tế dành cho người tự kỷ, nơi họ được công nhận là người lao động có lương, thưởng và được ghi nhận...
+                        </div>
+                        <a href="#" style="color: #ff8c00; font-weight: 600; font-size: 13px; text-decoration: none; font-family: Arial, sans-serif;">
+                            Xem thêm →
+                        </a>
+                    </div>
+                </div>
+            </article>
+            
+            <!-- Bài viết 2 -->
+            <article class="news-archive-item" style="display: block;">
+                <h2 style="font-size: 16px; color: #4a9fa5; margin-bottom: 10px; font-weight: 700; text-transform: uppercase; line-height: 1.4; text-align: center; font-family: Arial, sans-serif;">
+                    <a href="#" style="color: #4a9fa5; text-decoration: none; display: block;">TỶ LỆ TRẺ TỰ KỶ TĂNG MẠNH, BỘ TRƯỞNG Y TẾ MỸ PHÁT NGÔN GÂY TRANH CÃI</a>
+                </h2>
+                <p style="font-size: 13px; color: #888; margin-bottom: 20px; text-align: center; font-family: Arial, sans-serif;">
+                    tuoitre - 25/04/2025
+                </p>
+                <div style="display: flex; gap: 20px; align-items: flex-start;">
+                    <div style="flex: 0 0 160px;">
+                        <div style="width: 160px; height: 120px; overflow: hidden; border-radius: 5px;">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/news-sample-2.svg" alt="Trẻ tự kỷ" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                    </div>
+                    <div style="flex: 1;">
+                        <div style="font-size: 14px; line-height: 1.6; color: #333; margin-bottom: 15px; font-family: Arial, sans-serif;">
+                            Tỉ lệ trẻ em mắc chứng rối loạn phổ tự kỷ (ASD) tại Mỹ tiếp tục tăng mạnh, theo báo cáo mới nhất từ Trung tâm Kiểm soát và Phòng ngừa dịch bệnh nước này (CDC)...
+                        </div>
+                        <a href="#" style="color: #ff8c00; font-weight: 600; font-size: 13px; text-decoration: none; font-family: Arial, sans-serif;">
+                            Xem thêm →
+                        </a>
+                    </div>
+                </div>
+            </article>
+            
+            <!-- Bài viết 3 -->
+            <article class="news-archive-item" style="display: block;">
+                <h2 style="font-size: 16px; color: #4a9fa5; margin-bottom: 10px; font-weight: 700; text-transform: uppercase; line-height: 1.4; text-align: center; font-family: Arial, sans-serif;">
+                    <a href="#" style="color: #4a9fa5; text-decoration: none; display: block;">HÀNH TRÌNH 13 NĂM CỦA MẸ ĐƠN THÂN CHĂM CON TỰ KỶ</a>
+                </h2>
+                <p style="font-size: 13px; color: #888; margin-bottom: 20px; text-align: center; font-family: Arial, sans-serif;">
+                    vnexpress - 18/4/2019
+                </p>
+                <div style="display: flex; gap: 20px; align-items: flex-start;">
+                    <div style="flex: 0 0 160px;">
+                        <div style="width: 160px; height: 120px; overflow: hidden; border-radius: 5px;">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/news-sample-3.svg" alt="Hành trình chăm con" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                    </div>
+                    <div style="flex: 1;">
+                        <div style="font-size: 14px; line-height: 1.6; color: #333; margin-bottom: 15px; font-family: Arial, sans-serif;">
+                            Yang Yang chia sẻ về hành trình vừa làm cha, làm mẹ, giáo viên và là bạn của đứa con trai tự kỷ ở Trung Quốc.
+                        </div>
+                        <a href="#" style="color: #ff8c00; font-weight: 600; font-size: 13px; text-decoration: none; font-family: Arial, sans-serif;">
+                            Xem thêm →
+                        </a>
+                    </div>
+                </div>
+            </article>
+            
+            <!-- Bài viết 4 -->
+            <article class="news-archive-item" style="display: block;">
+                <h2 style="font-size: 16px; color: #4a9fa5; margin-bottom: 10px; font-weight: 700; text-transform: uppercase; line-height: 1.4; text-align: center; font-family: Arial, sans-serif;">
+                    <a href="#" style="color: #4a9fa5; text-decoration: none; display: block;">CẶP SONG SINH TỰ KỶ ĐƯỢC CHỮA TRỊ BẰNG Y HỌC CỔ TRUYỀN</a>
+                </h2>
+                <p style="font-size: 13px; color: #888; margin-bottom: 20px; text-align: center; font-family: Arial, sans-serif;">
+                    vnexpress - 16/8/2018
+                </p>
+                <div style="display: flex; gap: 20px; align-items: flex-start;">
+                    <div style="flex: 0 0 160px;">
+                        <div style="width: 160px; height: 120px; overflow: hidden; border-radius: 5px;">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/news-sample-4.svg" alt="Song sinh tự kỷ" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                    </div>
+                    <div style="flex: 1;">
+                        <div style="font-size: 14px; line-height: 1.6; color: #333; margin-bottom: 15px; font-family: Arial, sans-serif;">
+                            Hằng ngày hai cháu đến Bệnh viện Châm cứu Trung ương (Hà Nội) để điều châm, thủy châm, xoa bóp bấm huyệt, trong liệu trình mỗi tháng.
+                        </div>
+                        <a href="#" style="color: #ff8c00; font-weight: 600; font-size: 13px; text-decoration: none; font-family: Arial, sans-serif;">
+                            Xem thêm →
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<style>
+/* CSS cải thiện cho trang tin tức */
+.news-archive-section {
+    margin-top: 110px !important;
+    padding: 80px 30px !important;
+    background: white !important;
+}
+
+.news-archive-container {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
+}
+
+.news-archive-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 60px 50px !important;
+}
+
+.news-archive-item {
+    display: block !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+}
+
+.news-archive-item h2 {
+    font-size: 16px !important;
+    color: #4a9fa5 !important;
+    margin-bottom: 10px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    line-height: 1.4 !important;
+    text-align: center !important;
+    font-family: Arial, sans-serif !important;
+}
+
+.news-archive-item h2 a {
+    color: #4a9fa5 !important;
+    text-decoration: none !important;
+    display: block !important;
+}
+
+.news-archive-item h2 a:hover {
+    color: #3a8a8f !important;
+}
+
+.news-archive-item p {
+    font-size: 13px !important;
+    color: #888 !important;
+    margin-bottom: 20px !important;
+    text-align: center !important;
+    font-family: Arial, sans-serif !important;
+}
+
+.news-archive-item div[style*="display: flex"] {
+    display: flex !important;
+    gap: 20px !important;
+    align-items: flex-start !important;
+}
+
+.news-archive-item div[style*="flex: 0 0 160px"] {
+    flex: 0 0 160px !important;
+}
+
+.news-archive-item div[style*="width: 160px"] {
+    width: 160px !important;
+    height: 120px !important;
+    overflow: hidden !important;
+    border-radius: 5px !important;
+}
+
+.news-archive-item img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+}
+
+.news-archive-item div[style*="flex: 1"] {
+    flex: 1 !important;
+}
+
+.news-archive-item div[style*="font-size: 14px"] {
+    font-size: 14px !important;
+    line-height: 1.6 !important;
+    color: #333 !important;
+    margin-bottom: 15px !important;
+    font-family: Arial, sans-serif !important;
+}
+
+.news-archive-item a[style*="color: #ff8c00"] {
+    color: #ff8c00 !important;
+    font-weight: 600 !important;
+    font-size: 13px !important;
+    text-decoration: none !important;
+    font-family: Arial, sans-serif !important;
+}
+
+.news-archive-item a[style*="color: #ff8c00"]:hover {
+    color: #e67d00 !important;
+}
+
+/* Responsive cho tin tức */
+@media (max-width: 768px) {
+    .news-archive-grid {
+        grid-template-columns: 1fr !important;
+        gap: 40px !important;
+    }
+    
+    .news-archive-item div[style*="display: flex"] {
+        flex-direction: column !important;
+        gap: 15px !important;
+    }
+    
+    .news-archive-item div[style*="flex: 0 0 160px"] {
+        flex: none !important;
+        align-self: center !important;
+    }
+    
+    .news-archive-section {
+        padding: 40px 20px !important;
+        margin-top: 80px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .news-archive-container h1 {
+        font-size: 16px !important;
+        margin-bottom: 30px !important;
+    }
+    
+    .news-archive-item h2 {
+        font-size: 14px !important;
+    }
+    
+    .news-archive-item div[style*="width: 160px"] {
+        width: 140px !important;
+        height: 105px !important;
+    }
+}
+
+/* Fix cho các vấn đề hiển thị chung */
+.news-archive-section * {
+    box-sizing: border-box !important;
+}
+
+/* Đảm bảo font được load đúng */
+.news-archive-section, 
+.news-archive-section * {
+    font-family: Arial, sans-serif !important;
+}
+
+/* Xóa margin/padding không mong muốn */
+.news-archive-item {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Đảm bảo layout không bị vỡ */
+.news-archive-container {
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+</style>
+
+<?php get_footer(); ?>

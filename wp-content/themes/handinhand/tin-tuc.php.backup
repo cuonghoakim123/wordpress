@@ -1,0 +1,254 @@
+<?php
+/**
+ * Template Name: Trang Tin Tức
+ * Description: Template cho trang tin tức
+ */
+
+get_header(); ?>
+
+<section class="news-archive-section" style="margin-top: 110px; padding: 80px 30px; background: white;">
+    <div class="news-archive-container" style="max-width: 1200px; margin: 0 auto;">
+        <!-- Tiêu đề TIN TỨC -->
+        <h1 style="color: #e63946; font-size: 18px; font-weight: 700; margin-bottom: 50px; text-transform: uppercase; letter-spacing: 1px; font-family: Arial, sans-serif;">TIN TỨC</h1>
+        
+        <div class="news-archive-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 60px 50px;">
+            <?php
+            // Query for news posts
+            $news_query = new WP_Query(array(
+                'post_type' => 'post',
+                'posts_per_page' => 8,
+                'post_status' => 'publish'
+            ));
+            
+            if ($news_query->have_posts()) :
+                while ($news_query->have_posts()) : $news_query->the_post();
+                    ?>
+                    <article class="news-archive-item" style="display: block;">
+                        <!-- Tiêu đề bài viết -->
+                        <h2 style="font-size: 16px; color: #4a9fa5; margin-bottom: 10px; font-weight: 700; text-transform: uppercase; line-height: 1.4; text-align: center; font-family: Arial, sans-serif;">
+                            <a href="<?php the_permalink(); ?>" style="color: #4a9fa5; text-decoration: none; display: block;"><?php the_title(); ?></a>
+                        </h2>
+                        
+                        <!-- Nguồn và ngày -->
+                        <p style="font-size: 13px; color: #888; margin-bottom: 20px; text-align: center; font-family: Arial, sans-serif;">
+                            <?php 
+                            $post_title_lower = strtolower(get_the_title());
+                            $source = 'vnexpress';
+                            if (strpos($post_title_lower, 'bộ trưởng') !== false || strpos($post_title_lower, 'tăng mạnh') !== false || strpos($post_title_lower, 'tuoitre') !== false) {
+                                $source = 'tuoitre';
+                            }
+                            echo $source . ' - ' . get_the_date('d/m/Y'); 
+                            ?>
+                        </p>
+                        
+                        <div style="display: flex; gap: 20px; align-items: flex-start;">
+                            <!-- Hình ảnh bên trái -->
+                            <div style="flex: 0 0 160px;">
+                                <?php if (has_post_thumbnail()) : ?>
+                                    <div style="width: 160px; height: 120px; overflow: hidden; border-radius: 5px;">
+                                        <a href="<?php the_permalink(); ?>">
+                                            <?php the_post_thumbnail('medium', array('style' => 'width: 100%; height: 100%; object-fit: cover;')); ?>
+                                        </a>
+                                    </div>
+                                <?php else : ?>
+                                    <div style="width: 160px; height: 120px; background: #f0f0f0; border-radius: 5px; display: flex; align-items: center; justify-content: center;">
+                                        <svg width="60" height="60" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                            <rect width="100" height="100" fill="#ddd" rx="5"/>
+                                            <circle cx="35" cy="35" r="8" fill="#bbb"/>
+                                            <polygon points="0,100 35,65 55,80 75,55 100,75 100,100" fill="#bbb"/>
+                                        </svg>
+                                    </div>
+                                <?php endif; ?>
+                            </div>
+                            
+                            <!-- Nội dung bên phải -->
+                            <div style="flex: 1;">
+                                <!-- Mô tả -->
+                                <div style="font-size: 14px; line-height: 1.6; color: #333; margin-bottom: 15px; font-family: Arial, sans-serif;">
+                                    <?php 
+                                    $content = get_the_content();
+                                    $excerpt = get_the_excerpt();
+                                    
+                                    if (!empty($excerpt)) {
+                                        echo wp_trim_words($excerpt, 25);
+                                    } else if (!empty($content)) {
+                                        echo wp_trim_words(strip_tags($content), 25);
+                                    } else {
+                                        echo 'Đây là nội dung mô tả cho bài viết này. Bạn có thể chỉnh sửa nội dung này trong phần quản trị WordPress.';
+                                    }
+                                    ?>
+                                </div>
+                                
+                                <!-- Link xem thêm -->
+                                <a href="<?php the_permalink(); ?>" style="color: #ff8c00; font-weight: 600; font-size: 13px; text-decoration: none; font-family: Arial, sans-serif;">
+                                    Xem thêm →
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                    <?php
+                endwhile;
+                wp_reset_postdata();
+            else :
+                // Fallback content nếu không có posts trong database
+                ?>
+                <article class="news-archive-item" style="display: block;">
+                    <h2 style="font-size: 16px; color: #4a9fa5; margin-bottom: 10px; font-weight: 700; text-transform: uppercase; line-height: 1.4; text-align: center; font-family: Arial, sans-serif;">
+                        <a href="#" style="color: #4a9fa5; text-decoration: none; display: block;">CHÀO TẤT CẢ MỌI NGƯỜI!</a>
+                    </h2>
+                    <p style="font-size: 13px; color: #888; margin-bottom: 20px; text-align: center; font-family: Arial, sans-serif;">
+                        admin - 21/10/2025
+                    </p>
+                    <div style="display: flex; gap: 20px; align-items: flex-start;">
+                        <div style="flex: 0 0 160px;">
+                            <div style="width: 160px; height: 120px; background: #f0f0f0; border-radius: 5px; display: flex; align-items: center; justify-content: center;">
+                                <svg width="60" height="60" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="100" height="100" fill="#ddd" rx="5"/>
+                                    <circle cx="35" cy="35" r="8" fill="#bbb"/>
+                                    <polygon points="0,100 35,65 55,80 75,55 100,75 100,100" fill="#bbb"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div style="flex: 1;">
+                            <div style="font-size: 14px; line-height: 1.6; color: #333; margin-bottom: 15px; font-family: Arial, sans-serif;">
+                                Cảm ơn vì đã sử dụng WordPress. Đây là bài viết đầu tiên của bạn. Sửa hoặc xóa nó, và bắt đầu bài viết của...
+                            </div>
+                            <a href="#" style="color: #ff8c00; font-weight: 600; font-size: 13px; text-decoration: none; font-family: Arial, sans-serif;">
+                                Xem thêm →
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="news-archive-item" style="display: block;">
+                    <h2 style="font-size: 16px; color: #4a9fa5; margin-bottom: 10px; font-weight: 700; text-transform: uppercase; line-height: 1.4; text-align: center; font-family: Arial, sans-serif;">
+                        <a href="#" style="color: #4a9fa5; text-decoration: none; display: block;">TỶ LỆ TRẺ TỰ KỶ TĂNG MẠNH, BỘ TRƯỞNG Y TẾ MỸ PHÁT NGÔN GÂY TRANH CÃI</a>
+                    </h2>
+                    <p style="font-size: 13px; color: #888; margin-bottom: 20px; text-align: center; font-family: Arial, sans-serif;">
+                        admin - 25/04/2025
+                    </p>
+                    <div style="display: flex; gap: 20px; align-items: flex-start;">
+                        <div style="flex: 0 0 160px;">
+                            <div style="width: 160px; height: 120px; background: #f0f0f0; border-radius: 5px; display: flex; align-items: center; justify-content: center;">
+                                <svg width="60" height="60" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="100" height="100" fill="#ddd" rx="5"/>
+                                    <circle cx="35" cy="35" r="8" fill="#bbb"/>
+                                    <polygon points="0,100 35,65 55,80 75,55 100,75 100,100" fill="#bbb"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div style="flex: 1;">
+                            <div style="font-size: 14px; line-height: 1.6; color: #333; margin-bottom: 15px; font-family: Arial, sans-serif;">
+                                Tỷ lệ trẻ em mắc chứng rối loạn phổ tự kỷ (ASD) tại Mỹ tiếp tục tăng mạnh, theo báo cáo mới nhất tại Trung...
+                            </div>
+                            <a href="#" style="color: #ff8c00; font-weight: 600; font-size: 13px; text-decoration: none; font-family: Arial, sans-serif;">
+                                Xem thêm →
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="news-archive-item" style="display: block;">
+                    <h2 style="font-size: 16px; color: #4a9fa5; margin-bottom: 10px; font-weight: 700; text-transform: uppercase; line-height: 1.4; text-align: center; font-family: Arial, sans-serif;">
+                        <a href="#" style="color: #4a9fa5; text-decoration: none; display: block;">HÀNH TRÌNH 13 NĂM CỦA MẸ ĐƠN THÂN CHĂM CON TỰ KỶ</a>
+                    </h2>
+                    <p style="font-size: 13px; color: #888; margin-bottom: 20px; text-align: center; font-family: Arial, sans-serif;">
+                        admin - 18/04/2019
+                    </p>
+                    <div style="display: flex; gap: 20px; align-items: flex-start;">
+                        <div style="flex: 0 0 160px;">
+                            <div style="width: 160px; height: 120px; background: #f0f0f0; border-radius: 5px; display: flex; align-items: center; justify-content: center;">
+                                <svg width="60" height="60" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="100" height="100" fill="#ddd" rx="5"/>
+                                    <circle cx="35" cy="35" r="8" fill="#bbb"/>
+                                    <polygon points="0,100 35,65 55,80 75,55 100,75 100,100" fill="#bbb"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div style="flex: 1;">
+                            <div style="font-size: 14px; line-height: 1.6; color: #333; margin-bottom: 15px; font-family: Arial, sans-serif;">
+                                Yang Yang chia sẻ về hành trình vừa làm cha, làm mẹ, giáo viên và là bạn của đứa con trai tự kỷ ở Trung Quốc...
+                            </div>
+                            <a href="#" style="color: #ff8c00; font-weight: 600; font-size: 13px; text-decoration: none; font-family: Arial, sans-serif;">
+                                Xem thêm →
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                
+                <article class="news-archive-item" style="display: block;">
+                    <h2 style="font-size: 16px; color: #4a9fa5; margin-bottom: 10px; font-weight: 700; text-transform: uppercase; line-height: 1.4; text-align: center; font-family: Arial, sans-serif;">
+                        <a href="#" style="color: #4a9fa5; text-decoration: none; display: block;">CỬA TIỆM HẠNH PHÚC CỦA NGƯỜI TỰ KỶ</a>
+                    </h2>
+                    <p style="font-size: 13px; color: #888; margin-bottom: 20px; text-align: center; font-family: Arial, sans-serif;">
+                        admin - 06/03/2025
+                    </p>
+                    <div style="display: flex; gap: 20px; align-items: flex-start;">
+                        <div style="flex: 0 0 160px;">
+                            <div style="width: 160px; height: 120px; background: #f0f0f0; border-radius: 5px; display: flex; align-items: center; justify-content: center;">
+                                <svg width="60" height="60" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="100" height="100" fill="#ddd" rx="5"/>
+                                    <circle cx="35" cy="35" r="8" fill="#bbb"/>
+                                    <polygon points="0,100 35,65 55,80 75,55 100,75 100,100" fill="#bbb"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div style="flex: 1;">
+                            <div style="font-size: 14px; line-height: 1.6; color: #333; margin-bottom: 15px; font-family: Arial, sans-serif;">
+                                Cửa tiệm hạnh phúc là tên gọi thân mật của mô hình kinh tế dành cho người tự kỷ, nơi họ được công nhận là người lao động có lương, thưởng và được ghi nhận...
+                            </div>
+                            <a href="#" style="color: #ff8c00; font-weight: 600; font-size: 13px; text-decoration: none; font-family: Arial, sans-serif;">
+                                Xem thêm →
+                            </a>
+                        </div>
+                    </div>
+                </article>
+                <?php
+            endif;
+            ?>
+        </div>
+    </div>
+</section>
+
+<style>
+/* Responsive cho tin tức */
+@media (max-width: 768px) {
+    .news-archive-grid {
+        grid-template-columns: 1fr !important;
+        gap: 40px !important;
+    }
+    
+    .news-archive-item div[style*="display: flex"] {
+        flex-direction: column !important;
+        gap: 15px !important;
+    }
+    
+    .news-archive-item div[style*="flex: 0 0 160px"] {
+        flex: none !important;
+        align-self: center;
+    }
+    
+    .news-archive-section {
+        padding: 40px 20px !important;
+        margin-top: 80px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .news-archive-container h1 {
+        font-size: 16px !important;
+        margin-bottom: 30px !important;
+    }
+    
+    .news-archive-item h2 {
+        font-size: 14px !important;
+    }
+    
+    .news-archive-item div[style*="width: 160px"] {
+        width: 140px !important;
+        height: 105px !important;
+    }
+}
+</style>
+
+<?php get_footer(); ?>
