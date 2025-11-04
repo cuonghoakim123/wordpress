@@ -4,7 +4,9 @@
                 <?php if (has_custom_logo()) : ?>
                     <?php the_custom_logo(); ?>
                 <?php else : ?>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="<?php bloginfo('name'); ?>" onerror="this.style.display='none'">
+                    <div class="text-logo" style="color: #4a9fa5; font-size: 1.5rem; font-weight: 700;">
+                        <?php bloginfo('name'); ?>
+                    </div>
                 <?php endif; ?>
             </div>
             <p class="footer-text">

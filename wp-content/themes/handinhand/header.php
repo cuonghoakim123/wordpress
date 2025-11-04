@@ -66,9 +66,8 @@ function handinhand_default_menu() {
     echo '<ul>';
     echo '<li><a href="' . home_url('/') . '" class="active">TRANG CHỦ</a></li>';
     echo '<li><a href="' . home_url('/gioi-thieu') . '">GIỚI THIỆU</a></li>';
-    echo '<li><a href="' . home_url('/tin-tuc') . '">TIN TỨC</a></li>';
-    echo '<li><a href="' . home_url('/dich-vu') . '">DỊCH VỤ</a></li>';
     echo '<li><a href="' . home_url('/chuyen-gia') . '">CHUYÊN GIA</a></li>';
+    echo '<li><a href="' . home_url('/tin-tuc') . '">TIN TỨC</a></li>';
     echo '<li><a href="' . home_url('/tai-lieu') . '">TÀI LIỆU</a></li>';
     echo '<li><a href="' . home_url('/lien-he') . '">LIÊN HỆ</a></li>';
     echo '</ul>';

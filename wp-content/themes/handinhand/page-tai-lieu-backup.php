@@ -21,7 +21,8 @@ get_header(); ?>
         </div>
     </section>
 
-        <!-- Featured Document -->
+    <!-- Featured Document -->
+    <section class="featured-section">
         <div class="container">
             <div class="featured-document">
                 <div class="featured-content">
@@ -49,7 +50,8 @@ get_header(); ?>
         </div>
     </section>
 
-        <!-- Additional Featured Document -->
+    <!-- Additional Featured Document -->
+    <section class="additional-featured-section">
         <div class="container">
             <div class="featured-document speech-delay-doc">
                 <div class="featured-content">
@@ -81,7 +83,8 @@ get_header(); ?>
         </div>
     </section>
 
-        <!-- Third Featured Document: Toilet Training -->
+    <!-- Third Featured Document: Toilet Training -->
+    <section class="toilet-training-section">
         <div class="container">
             <div class="featured-document toilet-training-doc">
                 <div class="featured-content">
@@ -113,7 +116,8 @@ get_header(); ?>
         </div>
     </section>
 
-        <!-- Fourth Featured Document: Golden Period -->
+    <!-- Fourth Featured Document: Golden Period -->
+    <section class="golden-period-section">
         <div class="container">
             <div class="featured-document golden-period-doc">
                 <div class="featured-content">
@@ -145,7 +149,8 @@ get_header(); ?>
         </div>
     </section>
 
-        <!-- Fifth Featured Document: Parents as First Teachers -->
+    <!-- Fifth Featured Document: Parents as First Teachers -->
+    <section class="parents-teacher-section">
         <div class="container">
             <div class="featured-document parents-teacher-doc">
                 <div class="featured-content">
@@ -346,16 +351,19 @@ get_header(); ?>
         </div>
     </section>
 
-        <!-- Document 12: Screen Time Effects on Brain -->
+    <!-- Document 12: Screen Time Effects on Brain -->
+    <section class="document-card screen-time-brain-doc">
         <div class="container">
-            <div class="featured-document screen-time-brain-doc">
+            <div class="document-content">
                 <div class="featured-content">
                     <div class="featured-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/36.png" 
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/21.jpg" 
                              alt="Ảnh hưởng màn hình thiết bị điện tử đến não"
                              style="width: 120px; height: 120px; object-fit: cover; border-radius: 15px; box-shadow: 0 8px 25px rgba(233, 30, 99, 0.3); border: 3px solid white;"
                              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-
+                        <div style="display: none; width: 120px; height: 120px; background: linear-gradient(135deg, #fce4ec, #f8bbd9); border-radius: 15px; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 25px rgba(233, 30, 99, 0.3); border: 3px solid white;">
+                            <i class="fas fa-mobile-alt" style="font-size: 2.5em; color: #e91e63;"></i>
+                        </div>
                     </div>
                     <div class="featured-text">
                         <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
@@ -380,16 +388,19 @@ get_header(); ?>
         </div>
     </section>
 
-        <!-- Document 13: Communication Strategies for Autism -->
+    <!-- Document 13: Communication Strategies for Autism -->
+    <section class="document-card autism-communication-doc">
         <div class="container">
-            <div class="featured-document autism-communication-doc">
+            <div class="document-content">
                 <div class="featured-content">
                     <div class="featured-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/37.png" 
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/22.jpg" 
                              alt="Chiến lược giao tiếp với trẻ tự kỷ"
                              style="width: 120px; height: 120px; object-fit: cover; border-radius: 15px; box-shadow: 0 8px 25px rgba(103, 58, 183, 0.3); border: 3px solid white;"
                              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-
+                        <div style="display: none; width: 120px; height: 120px; background: linear-gradient(135deg, #f3e5f5, #e1bee7); border-radius: 15px; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 25px rgba(103, 58, 183, 0.3); border: 3px solid white;">
+                            <i class="fas fa-comments" style="font-size: 2.5em; color: #673ab7;"></i>
+                        </div>
                     </div>
                     <div class="featured-text">
                         <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
@@ -414,15 +425,19 @@ get_header(); ?>
         </div>
     </section>
 
-        <!-- Document 14: What is Communication and Interaction -->
+    <!-- Document 14: What is Communication and Interaction -->
+    <section class="document-card communication-interaction-doc">
         <div class="container">
-            <div class="featured-document communication-interaction-doc">
+            <div class="document-content">
                 <div class="featured-content">
                     <div class="featured-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/40.png" 
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/23.jpg" 
                              alt="Giao tiếp và tương tác là gì"
-                             style="width: 120px; height: 120px; object-fit: cover; border-radius: 15px; box-shadow: 0 8px 25px rgba(76, 175, 80, 0.3); border: 3px solid white;">
-
+                             style="width: 120px; height: 120px; object-fit: cover; border-radius: 15px; box-shadow: 0 8px 25px rgba(76, 175, 80, 0.3); border: 3px solid white;"
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div style="display: none; width: 120px; height: 120px; background: linear-gradient(135deg, #e8f5e8, #c8e6c9); border-radius: 15px; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 25px rgba(76, 175, 80, 0.3); border: 3px solid white;">
+                            <i class="fas fa-handshake" style="font-size: 2.5em; color: #4caf50;"></i>
+                        </div>
                     </div>
                     <div class="featured-text">
                         <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
@@ -447,16 +462,19 @@ get_header(); ?>
         </div>
     </section>
 
-        <!-- Document 15: Chewing and Food Structure -->
+    <!-- Document 15: Chewing and Food Structure -->
+    <section class="document-card food-structure-doc">
         <div class="container">
-            <div class="featured-document food-structure-doc">
+            <div class="document-content">
                 <div class="featured-content">
                     <div class="featured-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/41.png" 
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/24.jpg" 
                              alt="Nhai và cấu trúc thức ăn"
                              style="width: 120px; height: 120px; object-fit: cover; border-radius: 15px; box-shadow: 0 8px 25px rgba(255, 152, 0, 0.3); border: 3px solid white;"
                              onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-
+                        <div style="display: none; width: 120px; height: 120px; background: linear-gradient(135deg, #fff8e1, #ffcc02); border-radius: 15px; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 25px rgba(255, 152, 0, 0.3); border: 3px solid white;">
+                            <i class="fas fa-utensils" style="font-size: 2.5em; color: #ff9800;"></i>
+                        </div>
                     </div>
                     <div class="featured-text">
                         <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
@@ -481,15 +499,19 @@ get_header(); ?>
         </div>
     </section>
 
-        <!-- Document 16: Intensive Interaction -->
+    <!-- Document 16: Intensive Interaction -->
+    <section class="document-card intensive-interaction-doc">
         <div class="container">
-            <div class="featured-document intensive-interaction-doc">
+            <div class="document-content">
                 <div class="featured-content">
                     <div class="featured-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/43.png" 
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/25.jpg" 
                              alt="Chiến lược giao tiếp chuyên sâu"
-                             style="width: 120px; height: 120px; object-fit: cover; border-radius: 15px; box-shadow: 0 8px 25px rgba(156, 39, 176, 0.3); border: 3px solid white;">
-
+                             style="width: 120px; height: 120px; object-fit: cover; border-radius: 15px; box-shadow: 0 8px 25px rgba(156, 39, 176, 0.3); border: 3px solid white;"
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div style="display: none; width: 120px; height: 120px; background: linear-gradient(135deg, #f3e5f5, #e1bee7); border-radius: 15px; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 25px rgba(156, 39, 176, 0.3); border: 3px solid white;">
+                            <i class="fas fa-heart" style="font-size: 2.5em; color: #9c27b0;"></i>
+                        </div>
                     </div>
                     <div class="featured-text">
                         <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
@@ -2113,1658 +2135,6 @@ get_header(); ?>
     </div>
 </div>
 
-<!-- Screen Time Brain Modal -->
-<div id="screenTimeBrainModal" class="pointing-modal" style="display: none;">
-    <div class="modal-content-pointing">
-        <div class="modal-header-pointing" style="background: linear-gradient(135deg, #fce4ec 0%, #f8bbd9 100%);">
-            <h2 style="color: #c2185b;">Ảnh hưởng màn hình của thiết bị điện tử đến não thế nào?</h2>
-            <span class="close-pointing" onclick="closeScreenTimeBrainModal()">&times;</span>
-        </div>
-        <div class="modal-body-pointing">
-            <div class="document-images">
-                <div class="main-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/35.png" 
-                         alt="Tác động màn hình lên não bộ"
-                         style="width: 100%; height: auto; border-radius: 15px; object-fit: cover;">
-                </div>
-            </div>
-            <div class="document-content-detailed">
-                <div class="intro-section">
-                    <h3><i class="fas fa-brain"></i> Tác động của màn hình lên não bộ trẻ em</h3>
-                    <p><strong>Thời đại số đã mang lại những thay đổi lớn trong cách trẻ em tương tác với thế giới.</strong> Việc tiếp xúc với màn hình điện tử từ sớm có những tác động sâu sắc đến sự phát triển não bộ của trẻ em.</p>
-                </div>
-
-                <div class="content-section">
-                    <h3><i class="fas fa-microscope"></i> 1. Tác động lên cấu trúc não</h3>
-                    <div class="impact-list">
-                        <h4><i class="fas fa-exclamation-triangle"></i> Các thay đổi cấu trúc quan trọng:</h4>
-                        <ul>
-                            <li><strong>Giảm chất xám ở vùng não trước trán:</strong> Vùng này chịu trách nhiệm cho khả năng tập trung, lập kế hoạch và kiểm soát xung động</li>
-                            <li><strong>Thay đổi kết nối thần kinh:</strong> Ảnh hưởng đến khả năng xử lý thông tin và tư duy phản biện</li>
-                            <li><strong>Giảm mật độ chất trắng:</strong> Làm chậm tốc độ truyền tín hiệu giữa các vùng não</li>
-                            <li><strong>Thu nhỏ vỏ não:</strong> Đặc biệt ở các vùng liên quan đến ngôn ngữ và nhận thức</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="content-section">
-                    <h3><i class="fas fa-flask"></i> 2. Tác động lên hóa chất não bộ</h3>
-                    <div class="chemical-impacts">
-                        <h4><i class="fas fa-atom"></i> Thay đổi neurotransmitter:</h4>
-                        <div class="chemical-item">
-                            <h5>Dopamine (Hormone hạnh phúc)</h5>
-                            <p><strong>Tăng cao bất thường:</strong> Màn hình kích thích giải phóng dopamine liên tục, tạo cảm giác nghiện tương tự như ma túy</p>
-                            <p><strong>Hậu quả:</strong> Trẻ cần kích thích mạnh hơn để cảm thấy hài lòng, dẫn đến khó tập trung vào các hoạt động bình thường</p>
-                        </div>
-                        <div class="chemical-item">
-                            <h5>Cortisol (Hormone stress)</h5>
-                            <p><strong>Tăng mãn tính:</strong> Nội dung kích thích và ánh sáng xanh làm tăng cortisol</p>
-                            <p><strong>Hậu quả:</strong> Trẻ thường xuyên trong trạng thái căng thẳng, ảnh hưởng đến học tập và hành vi</p>
-                        </div>
-                        <div class="chemical-item">
-                            <h5>Melatonin (Hormone giấc ngủ)</h5>
-                            <p><strong>Giảm sản xuất:</strong> Ánh sáng xanh từ màn hình ức chế sản xuất melatonin</p>
-                            <p><strong>Hậu quả:</strong> Rối loạn giấc ngủ, ảnh hưởng đến quá trình phát triển và củng cố trí nhớ</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content-section">
-                    <h3><i class="fas fa-cogs"></i> 3. Tác động lên các chức năng não</h3>
-                    <div class="function-impacts">
-                        <div class="function-item">
-                            <h4><i class="fas fa-eye"></i> Chú ý và Tập trung</h4>
-                            <ul>
-                                <li>Giảm khả năng duy trì chú ý kéo dài</li>
-                                <li>Khó chuyển đổi chú ý linh hoạt</li>
-                                <li>Tăng xu hướng mất tập trung và bồn chồn</li>
-                                <li>Khó tập trung vào các nhiệm vụ không có kích thích mạnh</li>
-                            </ul>
-                        </div>
-                        <div class="function-item">
-                            <h4><i class="fas fa-memory"></i> Trí nhớ và Học tập</h4>
-                            <ul>
-                                <li>Giảm khả năng ghi nhớ thông tin dài hạn</li>
-                                <li>Ảnh hưởng đến trí nhớ làm việc</li>
-                                <li>Khó khăn trong việc tổ chức và lưu trữ thông tin</li>
-                                <li>Giảm khả năng học từ kinh nghiệm</li>
-                            </ul>
-                        </div>
-                        <div class="function-item">
-                            <h4><i class="fas fa-users"></i> Kỹ năng Xã hội</h4>
-                            <ul>
-                                <li>Giảm khả năng đọc biểu cảm khuôn mặt</li>
-                                <li>Khó khăn trong giao tiếp trực tiếp</li>
-                                <li>Giảm empathy và khả năng thấu hiểu người khác</li>
-                                <li>Ưa thích tương tác ảo hơn thực tế</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content-section">
-                    <h3><i class="fas fa-clock"></i> 4. Tác động theo độ tuổi</h3>
-                    <div class="age-impacts">
-                        <div class="age-group">
-                            <h4>0-2 tuổi (Giai đoạn vàng phát triển não)</h4>
-                            <p><strong>Tác động nghiêm trọng nhất:</strong> Não đang phát triển 80% kích thước người lớn</p>
-                            <ul>
-                                <li>Chậm phát triển ngôn ngữ</li>
-                                <li>Giảm kỹ năng tương tác xã hội</li>
-                                <li>Ảnh hưởng đến khả năng tập trung</li>
-                                <li>Rối loạn giấc ngủ và ăn uống</li>
-                            </ul>
-                        </div>
-                        <div class="age-group">
-                            <h4>3-5 tuổi (Tiền học đường)</h4>
-                            <p><strong>Ảnh hưởng đến sự chuẩn bị cho trường học:</strong></p>
-                            <ul>
-                                <li>Khó ngồi yên và tập trung</li>
-                                <li>Giảm khả năng kiểm soát hành vi</li>
-                                <li>Chậm phát triển kỹ năng vận động tinh</li>
-                                <li>Khó khăn trong việc tuân thủ quy tắc</li>
-                            </ul>
-                        </div>
-                        <div class="age-group">
-                            <h4>6-12 tuổi (Học tiểu học)</h4>
-                            <p><strong>Tác động đến thành tích học tập:</strong></p>
-                            <ul>
-                                <li>Giảm hiệu suất học tập</li>
-                                <li>Khó khăn trong việc hoàn thành bài tập</li>
-                                <li>Tăng hành vi bốc đồng</li>
-                                <li>Có thể xuất hiện triệu chứng giống ADHD</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content-section">
-                    <h3><i class="fas fa-search"></i> 5. Nghiên cứu khoa học gần đây</h3>
-                    <div class="research-findings">
-                        <div class="study-item">
-                            <h4><i class="fas fa-university"></i> Nghiên cứu NIH (2018-2020)</h4>
-                            <p><strong>Quy mô:</strong> 11,000 trẻ em từ 9-10 tuổi</p>
-                            <p><strong>Phát hiện:</strong> Trẻ sử dụng màn hình > 2 giờ/ngày có điểm số nhận thức thấp hơn đáng kể</p>
-                            <p><strong>Hình ảnh MRI:</strong> Cho thấy sự khác biệt rõ ràng trong cấu trúc não</p>
-                        </div>
-                        <div class="study-item">
-                            <h4><i class="fas fa-microscope"></i> Nghiên cứu tại Hàn Quốc (2019)</h4>
-                            <p><strong>Đối tượng:</strong> Trẻ em nghiện internet</p>
-                            <p><strong>Kết quả:</strong> Tỷ lệ GABA/Creatine bất thường trong não, liên quan đến lo âu và trầm cảm</p>
-                        </div>
-                        <div class="study-item">
-                            <h4><i class="fas fa-chart-line"></i> Meta-analysis (2020)</h4>
-                            <p><strong>Phân tích:</strong> 29 nghiên cứu về screen time và phát triển não</p>
-                            <p><strong>Kết luận:</strong> Mối liên hệ mạnh mẽ giữa thời gian màn hình và chậm phát triển nhận thức</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content-section">
-                    <h3><i class="fas fa-shield-alt"></i> 6. Khuyến nghị từ các tổ chức y tế</h3>
-                    <div class="recommendations">
-                        <div class="org-recommendation">
-                            <h4><i class="fas fa-hospital"></i> Hiệp hội Nhi khoa Mỹ (AAP)</h4>
-                            <ul>
-                                <li><strong>Dưới 18 tháng:</strong> Tránh hoàn toàn (trừ video call)</li>
-                                <li><strong>18-24 tháng:</strong> Chương trình chất lượng cao với sự đồng hành của cha mẹ</li>
-                                <li><strong>2-5 tuổi:</strong> Tối đa 1 giờ/ngày</li>
-                                <li><strong>6+ tuổi:</strong> Giới hạn thời gian và đảm bảo không ảnh hưởng đến giấc ngủ, hoạt động thể chất</li>
-                            </ul>
-                        </div>
-                        <div class="org-recommendation">
-                            <h4><i class="fas fa-globe"></i> Tổ chức Y tế Thế giới (WHO)</h4>
-                            <ul>
-                                <li><strong>Dưới 2 tuổi:</strong> Không nên tiếp xúc với màn hình</li>
-                                <li><strong>2-4 tuổi:</strong> Tối đa 1 giờ/ngày, ít hơn thì tốt hơn</li>
-                                <li><strong>Ưu tiên:</strong> Hoạt động thể chất và ngủ đủ giấc</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content-section">
-                    <h3><i class="fas fa-lightbulb"></i> 7. Chiến lược giảm thiểu tác hại</h3>
-                    <div class="mitigation-strategies">
-                        <div class="strategy-category">
-                            <h4><i class="fas fa-clock"></i> Quản lý thời gian</h4>
-                            <ul>
-                                <li>Đặt giới hạn thời gian cụ thể và nhất quán</li>
-                                <li>Sử dụng timer để trẻ biết thời gian còn lại</li>
-                                <li>Tạo lịch trình cân bằng giữa màn hình và các hoạt động khác</li>
-                                <li>Tránh màn hình 1-2 giờ trước khi ngủ</li>
-                            </ul>
-                        </div>
-                        <div class="strategy-category">
-                            <h4><i class="fas fa-star"></i> Chất lượng nội dung</h4>
-                            <ul>
-                                <li>Chọn chương trình giáo dục, phù hợp độ tuổi</li>
-                                <li>Tránh nội dung có tính bạo lực hoặc quá kích thích</li>
-                                <li>Ưu tiên nội dung tương tác, khuyến khích suy nghĩ</li>
-                                <li>Cùng con xem và thảo luận về nội dung</li>
-                            </ul>
-                        </div>
-                        <div class="strategy-category">
-                            <h4><i class="fas fa-home"></i> Môi trường gia đình</h4>
-                            <ul>
-                                <li>Tạo "vùng không màn hình" (phòng ăn, phòng ngủ)</li>
-                                <li>Cha mẹ làm gương về việc sử dụng thiết bị</li>
-                                <li>Khuyến khích các hoạt động thay thế hấp dẫn</li>
-                                <li>Tổ chức các hoạt động gia đình không có màn hình</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="conclusion-section">
-                    <div class="conclusion-highlight">
-                        <h3><i class="fas fa-exclamation-circle"></i> Kết luận quan trọng</h3>
-                        <p><strong>Não bộ trẻ em đang phát triển rất dễ bị tổn thương bởi việc tiếp xúc màn hình quá mức.</strong> Những thay đổi này có thể có tác động lâu dài đến khả năng học tập, hành vi và sức khỏe tinh thần của trẻ.</p>
-                    </div>
-                    
-                    <div class="key-takeaways">
-                        <h4><i class="fas fa-key"></i> Điểm quan trọng cần nhớ:</h4>
-                        <ul>
-                            <li>Não trẻ em rất dễ bị ảnh hưởng bởi môi trường</li>
-                            <li>Thời gian màn hình cần được kiểm soát chặt chẽ</li>
-                            <li>Chất lượng nội dung quan trọng hơn thời lượng</li>
-                            <li>Tương tác thực tế không thể thay thế bằng màn hình</li>
-                            <li>Can thiệp sớm có thể đảo ngược một số tác hại</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal-footer-pointing">
-            <button onclick="closeScreenTimeBrainModal()" class="btn-close">Đóng</button>
-            <button onclick="shareScreenTimeBrainDocument()" class="btn-share" style="border-color: #e91e63; color: #e91e63;">
-                <i class="fas fa-share"></i> Chia sẻ
-            </button>
-        </div>
-    </div>
-</div>
-
-<!-- Autism Communication Modal -->
-<div id="autismCommunicationModal" class="pointing-modal" style="display: none;">
-    <div class="modal-content-pointing">
-        <div class="modal-header-pointing" style="background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%);">
-            <h2 style="color: #512da8;">Những cách mà người lớn có thể tác động đến việc giao tiếp của một trẻ tự kỷ</h2>
-            <span class="close-pointing" onclick="closeAutismCommunicationModal()">&times;</span>
-        </div>
-        <div class="modal-body-pointing">
-            <div class="document-images">
-                <div class="main-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/38.png" 
-                         alt="Chiến lược giao tiếp với trẻ tự kỷ"
-                         style="width: 100%; height: auto; border-radius: 15px; object-fit: cover;">
-                </div>
-            </div>
-            <div class="document-content-detailed">
-                <div class="intro-section">
-                    <h3><i class="fas fa-heart"></i> Hiểu về giao tiếp của trẻ tự kỷ</h3>
-                    <p><strong>Trẻ em có rối loạn phổ tự kỷ không phải là không muốn giao tiếp, mà họ giao tiếp theo cách khác.</strong> Người lớn đóng vai trò quan trọng trong việc hỗ trợ và phát triển khả năng giao tiếp của các em.</p>
-                </div>
-
-                <div class="content-section">
-                    <h3><i class="fas fa-comments"></i> 12 Chiến lược giao tiếp hiệu quả</h3>
-                    
-                    <div class="strategy-group">
-                        <h4><i class="fas fa-microphone"></i> Nhóm 1: Chiến lược Ngôn ngữ</h4>
-                        
-                        <div class="strategy-item">
-                            <h5>1. Sử dụng ngôn ngữ đơn giản và rõ ràng</h5>
-                            <p><strong>Cách thực hiện:</strong></p>
-                            <ul>
-                                <li>Nói chậm, rõ ràng với từng từ</li>
-                                <li>Sử dụng câu ngắn, đơn giản</li>
-                                <li>Tránh ngôn ngữ ẩn dụ, mỉa mai</li>
-                                <li>Lặp lại thông tin quan trọng</li>
-                            </ul>
-                            <p><strong>Ví dụ:</strong> Thay vì "Bây giờ chúng ta sẽ dọn dẹp và chuẩn bị cho bữa trưa", hãy nói "Bây giờ dọn đồ chơi. Sau đó ăn cơm."</p>
-                        </div>
-
-                        <div class="strategy-item">
-                            <h5>2. Đưa ra hướng dẫn tích cực</h5>
-                            <p><strong>Thay vì nói "KHÔNG":</strong></p>
-                            <ul>
-                                <li>"Đừng chạy" → "Đi bộ"</li>
-                                <li>"Đừng la hét" → "Nói nhỏ"</li>
-                                <li>"Đừng ném đồ" → "Để đồ xuống bàn"</li>
-                            </ul>
-                            <p><strong>Lý do:</strong> Trẻ tự kỷ dễ hiểu hành động cụ thể hơn là điều cấm đoán</p>
-                        </div>
-
-                        <div class="strategy-item">
-                            <h5>3. Sử dụng ngôn ngữ cụ thể, tránh trừu tượng</h5>
-                            <p><strong>Các ví dụ thay thế:</strong></p>
-                            <ul>
-                                <li>"Hành xử tốt" → "Ngồi yên trên ghế"</li>
-                                <li>"Cẩn thận" → "Cầm chắc cốc"</li>
-                                <li>"Sắp xong rồi" → "Còn 5 phút nữa"</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="strategy-group">
-                        <h4><i class="fas fa-eye"></i> Nhóm 2: Chiến lược Thị giác</h4>
-                        
-                        <div class="strategy-item">
-                            <h5>4. Sử dụng hỗ trợ thị giác</h5>
-                            <p><strong>Các công cụ hiệu quả:</strong></p>
-                            <ul>
-                                <li><strong>Hình ảnh và ký hiệu:</strong> Kết hợp với lời nói</li>
-                                <li><strong>Lịch trình hình ảnh:</strong> Giúp trẻ hiểu trình tự hoạt động</li>
-                                <li><strong>Bảng giao tiếp:</strong> Cho trẻ chưa nói được</li>
-                                <li><strong>Cử chỉ và chỉ dẫn:</strong> Chỉ vào đối tượng khi nói</li>
-                            </ul>
-                        </div>
-
-                        <div class="strategy-item">
-                            <h5>5. Thu hút sự chú ý trước khi giao tiếp</h5>
-                            <p><strong>Các cách hiệu quả:</strong></p>
-                            <ul>
-                                <li>Gọi tên trẻ và chờ trẻ nhìn</li>
-                                <li>Đưa vật phẩm vào tầm nhìn của trẻ</li>
-                                <li>Sử dụng tín hiệu thị giác (vẫy tay)</li>
-                                <li>Đứng trong tầm nhìn của trẻ</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="strategy-group">
-                        <h4><i class="fas fa-clock"></i> Nhóm 3: Chiến lược Thời gian</h4>
-                        
-                        <div class="strategy-item">
-                            <h5>6. Cho trẻ thời gian xử lý thông tin</h5>
-                            <p><strong>Kỹ thuật "Chờ đợi có chủ đích":</strong></p>
-                            <ul>
-                                <li>Đưa ra yêu cầu, sau đó đợi 10-15 giây</li>
-                                <li>Không lặp lại ngay lập tức</li>
-                                <li>Quan sát các dấu hiệu trẻ đang xử lý thông tin</li>
-                                <li>Kiên nhẫn với thời gian phản hồi của trẻ</li>
-                            </ul>
-                        </div>
-
-                        <div class="strategy-item">
-                            <h5>7. Chuẩn bị trẻ cho thay đổi</h5>
-                            <p><strong>Chiến lược thông báo trước:</strong></p>
-                            <ul>
-                                <li>"Còn 10 phút nữa chúng ta sẽ dọn dẹp"</li>
-                                <li>"Sau bữa ăn này, chúng ta sẽ đi ra ngoài"</li>
-                                <li>Sử dụng timer để trẻ thấy thời gian còn lại</li>
-                                <li>Tạo thói quen và lịch trình dự đoán được</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="strategy-group">
-                        <h4><i class="fas fa-hands-helping"></i> Nhóm 4: Chiến lược Hỗ trợ</h4>
-                        
-                        <div class="strategy-item">
-                            <h5>8. Mô hình hóa giao tiếp mong muốn</h5>
-                            <p><strong>Cách thực hiện:</strong></p>
-                            <ul>
-                                <li>Nói thành tiếng suy nghĩ của mình</li>
-                                <li>Mô tả hành động đang thực hiện</li>
-                                <li>Thể hiện cách giải quyết vấn đề</li>
-                                <li>Sử dụng ngôn ngữ mà bạn muốn trẻ học</li>
-                            </ul>
-                            <p><strong>Ví dụ:</strong> "Tôi thấy khát nước. Tôi sẽ nói 'Cho tôi nước' để xin nước."</p>
-                        </div>
-
-                        <div class="strategy-item">
-                            <h5>9. Khuyến khích mọi hình thức giao tiếp</h5>
-                            <p><strong>Chấp nhận và phát triển:</strong></p>
-                            <ul>
-                                <li><strong>Cử chỉ:</strong> Chỉ tay, gật đầu, vẫy tay</li>
-                                <li><strong>Âm thanh:</strong> Tiếng kêu, tiếng rên có ý nghĩa</li>
-                                <li><strong>Hành vi:</strong> Kéo tay người lớn đến vật cần</li>
-                                <li><strong>Công cụ:</strong> Hình ảnh, ứng dụng trên máy tính bảng</li>
-                            </ul>
-                        </div>
-
-                        <div class="strategy-item">
-                            <h5>10. Tạo cơ hội giao tiếp tự nhiên</h5>
-                            <p><strong>Các tình huống thực tế:</strong></p>
-                            <ul>
-                                <li><strong>Trong bữa ăn:</strong> Để đồ ăn khó với, chờ trẻ yêu cầu</li>
-                                <li><strong>Khi chơi:</strong> Tạm dừng hoạt động vui, chờ trẻ yêu cầu tiếp tục</li>
-                                <li><strong>Trong sinh hoạt:</strong> "Quên" một bước trong thói quen quen thuộc</li>
-                                <li><strong>Lúc cần giúp đỡ:</strong> Chờ trẻ chủ động xin giúp</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="strategy-group">
-                        <h4><i class="fas fa-users"></i> Nhóm 5: Chiến lược Tương tác</h4>
-                        
-                        <div class="strategy-item">
-                            <h5>11. Theo dõi sở thích và quan tâm của trẻ</h5>
-                            <p><strong>Cách tận dụng:</strong></p>
-                            <ul>
-                                <li>Tham gia vào hoạt động trẻ đang quan tâm</li>
-                                <li>Sử dụng sở thích làm cầu nối giao tiếp</li>
-                                <li>Mở rộng chủ đề từ điều trẻ yêu thích</li>
-                                <li>Không cố gắng thay đổi ngay lập tức</li>
-                            </ul>
-                            <p><strong>Ví dụ:</strong> Nếu trẻ thích xe ô tô, sử dụng xe để dạy màu sắc, số đếm, âm thanh</p>
-                        </div>
-
-                        <div class="strategy-item">
-                            <h5>12. Tạo môi trường giao tiếp tích cực</h5>
-                            <p><strong>Nguyên tắc quan trọng:</strong></p>
-                            <ul>
-                                <li><strong>Giảm áp lực:</strong> Không ép buộc giao tiếp</li>
-                                <li><strong>Khen ngợi nỗ lực:</strong> Công nhận mọi cố gắng giao tiếp</li>
-                                <li><strong>Tôn trọng cách giao tiếp của trẻ:</strong> Không phản đối cách riêng của trẻ</li>
-                                <li><strong>Tạo cảm giác an toàn:</strong> Môi trường không phán xét</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content-section">
-                    <h3><i class="fas fa-exclamation-triangle"></i> Những điều cần tránh</h3>
-                    <div class="avoid-list">
-                        <ul>
-                            <li><strong>Không ép buộc giao tiếp bằng mọi giá:</strong> Có thể gây phản tác dụng</li>
-                            <li><strong>Không sửa chữa liên tục:</strong> Tập trung vào ý nghĩa hơn là hình thức</li>
-                            <li><strong>Không so sánh với trẻ khác:</strong> Mỗi trẻ có tốc độ phát triển riêng</li>
-                            <li><strong>Không bỏ qua cố gắng giao tiếp:</strong> Dù không hoàn hảo cũng cần công nhận</li>
-                            <li><strong>Không sử dụng ngôn ngữ phức tạp:</strong> Khi trẻ đang căng thẳng hoặc kích động</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="content-section">
-                    <h3><i class="fas fa-chart-line"></i> Theo dõi tiến bộ</h3>
-                    <div class="progress-tracking">
-                        <h4><i class="fas fa-list-check"></i> Các dấu hiệu tiến bộ cần quan sát:</h4>
-                        <ul>
-                            <li><strong>Tăng sự chú ý:</strong> Nhìn vào người nói lâu hơn</li>
-                            <li><strong>Tăng cố gắng giao tiếp:</strong> Nhiều cử chỉ, âm thanh hơn</li>
-                            <li><strong>Tương tác xã hội:</strong> Chủ động tìm kiếm sự chú ý từ người khác</li>
-                            <li><strong>Hiểu biết ngôn ngữ:</strong> Phản hồi chính xác với yêu cầu</li>
-                            <li><strong>Sử dụng ngôn ngữ:</strong> Từ, cụm từ mới xuất hiện</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="content-section">
-                    <h3><i class="fas fa-users"></i> Vai trò của các thành viên gia đình</h3>
-                    <div class="family-roles">
-                        <div class="role-item">
-                            <h4><i class="fas fa-heart"></i> Cha mẹ</h4>
-                            <ul>
-                                <li>Tạo môi trường giao tiếp nhất quán</li>
-                                <li>Học và áp dụng các chiến lược hàng ngày</li>
-                                <li>Ghi nhận và chia sẻ tiến bộ với các chuyên gia</li>
-                                <li>Kiên nhẫn và tích cực trong quá trình hỗ trợ</li>
-                            </ul>
-                        </div>
-                        <div class="role-item">
-                            <h4><i class="fas fa-child"></i> Anh chị em</h4>
-                            <ul>
-                                <li>Trở thành đối tác giao tiếp tự nhiên</li>
-                                <li>Mô hình hóa cách giao tiếp phù hợp</li>
-                                <li>Tạo cơ hội chơi và tương tác</li>
-                                <li>Thể hiện sự kiên nhẫn và hiểu biết</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="conclusion-section">
-                    <div class="conclusion-highlight">
-                        <h3><i class="fas fa-heart"></i> Thông điệp quan trọng</h3>
-                        <p><strong>Giao tiếp không chỉ là lời nói.</strong> Trẻ tự kỷ có thể giao tiếp theo nhiều cách khác nhau. Vai trò của chúng ta là hiểu, chấp nhận và hỗ trợ các em phát triển khả năng này theo cách tự nhiên nhất.</p>
-                    </div>
-                    
-                    <div class="key-takeaways">
-                        <h4><i class="fas fa-key"></i> Điểm mấu chốt:</h4>
-                        <ul>
-                            <li><strong>Kiên nhẫn:</strong> Mỗi trẻ có tốc độ phát triển riêng</li>
-                            <li><strong>Tích cực:</strong> Tập trung vào điểm mạnh và tiến bộ</li>
-                            <li><strong>Nhất quán:</strong> Áp dụng chiến lược trong mọi hoàn cảnh</li>
-                            <li><strong>Linh hoạt:</strong> Điều chỉnh theo nhu cầu cá nhân của trẻ</li>
-                            <li><strong>Hợp tác:</strong> Phối hợp với các chuyên gia và gia đình</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal-footer-pointing">
-            <button onclick="closeAutismCommunicationModal()" class="btn-close">Đóng</button>
-            <button onclick="shareAutismCommunicationDocument()" class="btn-share" style="border-color: #673ab7; color: #673ab7;">
-                <i class="fas fa-share"></i> Chia sẻ
-            </button>
-        </div>
-    </div>
-</div>
-
-<!-- Communication Interaction Modal -->
-<div id="communicationInteractionModal" class="pointing-modal" style="display: none;">
-    <div class="modal-content-pointing">
-        <div class="modal-header-pointing" style="background: linear-gradient(135deg, #e8f5e8 0%, #c8e6c9 100%);">
-            <h2 style="color: #388e3c;">Giao tiếp và tương tác là gì?</h2>
-            <span class="close-pointing" onclick="closeCommunicationInteractionModal()">&times;</span>
-        </div>
-        <div class="modal-body-pointing">
-            <div class="document-images">
-                <div class="main-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/39.png" 
-                         alt="Giao tiếp và tương tác"
-                         style="width: 100%; height: auto; border-radius: 15px; object-fit: cover;">
-                </div>
-            </div>
-            <div class="document-content-detailed">
-                <div class="intro-section">
-                    <h3><i class="fas fa-handshake"></i> Hiểu về bản chất giao tiếp và tương tác</h3>
-                    <p><strong>Giao tiếp và tương tác là nền tảng của mọi mối quan hệ con người.</strong> Đối với trẻ em, việc phát triển những kỹ năng này là chìa khóa để hòa nhập và thành công trong cuộc sống.</p>
-                </div>
-
-                <div class="content-section">
-                    <h3><i class="fas fa-lightbulb"></i> 1. Giao tiếp là gì?</h3>
-                    <div class="definition-box">
-                        <p><strong>Giao tiếp</strong> là quá trình trao đổi thông tin, ý tưởng, cảm xúc giữa hai hay nhiều người thông qua ngôn ngữ (nói, viết) và phi ngôn ngữ (cử chỉ, biểu cảm, âm điệu).</p>
-                    </div>
-                    
-                    <div class="communication-types">
-                        <h4><i class="fas fa-comments"></i> Các hình thức giao tiếp:</h4>
-                        <div class="type-grid">
-                            <div class="type-card">
-                                <h5><i class="fas fa-microphone"></i> Giao tiếp bằng lời (Verbal)</h5>
-                                <ul>
-                                    <li>Nói chuyện trực tiếp</li>
-                                    <li>Điện thoại, video call</li>
-                                    <li>Thuyết trình, báo cáo</li>
-                                    <li>Hát, kể chuyện</li>
-                                </ul>
-                            </div>
-                            <div class="type-card">
-                                <h5><i class="fas fa-hand-paper"></i> Giao tiếp phi ngôn ngữ (Non-verbal)</h5>
-                                <ul>
-                                    <li>Cử chỉ tay, chỉ tay</li>
-                                    <li>Biểu cảm khuôn mặt</li>
-                                    <li>Tư thế cơ thể</li>
-                                    <li>Khoảng cách vật lý</li>
-                                </ul>
-                            </div>
-                            <div class="type-card">
-                                <h5><i class="fas fa-pen"></i> Giao tiếp bằng văn bản (Written)</h5>
-                                <ul>
-                                    <li>Viết thư, email</li>
-                                    <li>Tin nhắn, chat</li>
-                                    <li>Biển báo, ký hiệu</li>
-                                    <li>Hình vẽ, sơ đồ</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content-section">
-                    <h3><i class="fas fa-users"></i> 2. Tương tác là gì?</h3>
-                    <div class="definition-box">
-                        <p><strong>Tương tác</strong> là quá trình hai chiều, trong đó các bên không chỉ truyền đạt thông tin mà còn phản hồi, trao đổi và ảnh hưởng lẫn nhau.</p>
-                    </div>
-                    
-                    <div class="interaction-elements">
-                        <h4><i class="fas fa-puzzle-piece"></i> Các yếu tố của tương tác hiệu quả:</h4>
-                        <div class="element-list">
-                            <div class="element-item">
-                                <h5><i class="fas fa-eye"></i> Chú ý chung (Joint Attention)</h5>
-                                <p>Khả năng cùng tập trung vào một đối tượng hoặc sự kiện với người khác</p>
-                                <p><strong>Ví dụ:</strong> Trẻ và mẹ cùng nhìn con chó đang chạy</p>
-                            </div>
-                            <div class="element-item">
-                                <h5><i class="fas fa-exchange-alt"></i> Lượt giao tiếp (Turn-taking)</h5>
-                                <p>Khả năng lắng nghe, chờ đợi và đáp lại trong cuộc trò chuyện</p>
-                                <p><strong>Ví dụ:</strong> A nói, B lắng nghe, rồi B phản hồi, A lắng nghe</p>
-                            </div>
-                            <div class="element-item">
-                                <h5><i class="fas fa-heart"></i> Cộng hưởng cảm xúc (Emotional Resonance)</h5>
-                                <p>Khả năng cảm nhận và chia sẻ cảm xúc với người khác</p>
-                                <p><strong>Ví dụ:</strong> Thấy bạn vui thì mình cũng vui</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content-section">
-                    <h3><i class="fas fa-seedling"></i> 3. 4 Giai đoạn phát triển giao tiếp (Theo chương trình Hanen)</h3>
-                    
-                    <div class="phase-detailed">
-                        <div class="phase-item">
-                            <div class="phase-header">
-                                <h4><i class="fas fa-baby"></i> Giai đoạn 1: Người giao tiếp mới bắt đầu (0-8 tháng)</h4>
-                                <span class="phase-badge">Pre-intentional</span>
-                            </div>
-                            <div class="phase-content">
-                                <p><strong>Đặc điểm chính:</strong> Trẻ chưa có ý thức về việc giao tiếp, nhưng hành vi của trẻ có thể được người lớn hiểu là giao tiếp.</p>
-                                
-                                <div class="skill-category">
-                                    <h5><i class="fas fa-list"></i> Kỹ năng cần quan sát:</h5>
-                                    <ul>
-                                        <li><strong>Tiếp xúc mắt:</strong> Nhìn vào mặt người chăm sóc</li>
-                                        <li><strong>Âm thanh:</strong> Khóc, cười, bập bẹ</li>
-                                        <li><strong>Cử chỉ tự nhiên:</strong> Vươn tay về phía đồ vật</li>
-                                        <li><strong>Phản ứng:</strong> Nhận biết giọng nói quen thuộc</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="support-strategies">
-                                    <h5><i class="fas fa-hands-helping"></i> Cách hỗ trợ:</h5>
-                                    <ul>
-                                        <li>Phản hồi mọi âm thanh của trẻ như thể có ý nghĩa</li>
-                                        <li>Mô tả hành động đang làm cho trẻ</li>
-                                        <li>Sử dụng giọng điệu sinh động, biểu cảm phong phú</li>
-                                        <li>Tạo cơ hội tiếp xúc mắt qua trò chơi</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="phase-item">
-                            <div class="phase-header">
-                                <h4><i class="fas fa-hand-point-right"></i> Giai đoạn 2: Người giao tiếp có chủ đích (8-13 tháng)</h4>
-                                <span class="phase-badge">Intentional</span>
-                            </div>
-                            <div class="phase-content">
-                                <p><strong>Đặc điểm chính:</strong> Trẻ bắt đầu có ý thức về việc giao tiếp, sử dụng cử chỉ và âm thanh có mục đích.</p>
-                                
-                                <div class="skill-category">
-                                    <h5><i class="fas fa-list"></i> Kỹ năng cần quan sát:</h5>
-                                    <ul>
-                                        <li><strong>Chỉ tay:</strong> Chỉ vào đồ vật muốn có</li>
-                                        <li><strong>Đưa tay:</strong> Đưa đồ vật cho người khác</li>
-                                        <li><strong>Vẫy tay:</strong> Chào tạm biệt</li>
-                                        <li><strong>Bắt chước:</strong> Các âm thanh và hành động đơn giản</li>
-                                        <li><strong>Hiểu từ đầu tiên:</strong> "Không", "Tạm biệt", tên mình</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="support-strategies">
-                                    <h5><i class="fas fa-hands-helping"></i> Cách hỗ trợ:</h5>
-                                    <ul>
-                                        <li>Đáp ứng ngay lập tức các cố gắng giao tiếp của trẻ</li>
-                                        <li>Mở rộng cử chỉ của trẻ bằng lời nói</li>
-                                        <li>Tạo cơ hội cho trẻ thực hành chỉ tay, đưa đồ</li>
-                                        <li>Chơi các trò "Cù lét", "Tìm đồ vật"</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="phase-item">
-                            <div class="phase-header">
-                                <h4><i class="fas fa-comment"></i> Giai đoạn 3: Người nói từ đầu tiên (12-24 tháng)</h4>
-                                <span class="phase-badge">First Words</span>
-                            </div>
-                            <div class="phase-content">
-                                <p><strong>Đặc điểm chính:</strong> Trẻ bắt đầu sử dụng từ ngữ thật sự, kết hợp cử chỉ và lời nói để giao tiếp.</p>
-                                
-                                <div class="skill-category">
-                                    <h5><i class="fas fa-list"></i> Kỹ năng cần quan sát:</h5>
-                                    <ul>
-                                        <li><strong>Từ đầu tiên:</strong> "Mama", "Papa", "Nước"</li>
-                                        <li><strong>Từ vựng tăng dần:</strong> Từ 5-50 từ</li>
-                                        <li><strong>Hiểu nhiều hơn nói:</strong> Hiểu 200-300 từ</li>
-                                        <li><strong>Bắt chước lời nói:</strong> Lặp lại từ ngữ mới nghe</li>
-                                        <li><strong>Gọi tên:</strong> Gọi tên người quen</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="support-strategies">
-                                    <h5><i class="fas fa-hands-helping"></i> Cách hỗ trợ:</h5>
-                                    <ul>
-                                        <li>Lặp lại và mở rộng từ ngữ của trẻ</li>
-                                        <li>Đặt tên cho mọi thứ trẻ quan tâm</li>
-                                        <li>Đọc sách cùng trẻ hàng ngày</li>
-                                        <li>Hát và chơi nhạc với trẻ</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="phase-item">
-                            <div class="phase-header">
-                                <h4><i class="fas fa-comments"></i> Giai đoạn 4: Người nói câu (24+ tháng)</h4>
-                                <span class="phase-badge">Word Combinations</span>
-                            </div>
-                            <div class="phase-content">
-                                <p><strong>Đặc điểm chính:</strong> Trẻ bắt đầu kết hợp từ ngữ thành câu, phát triển ngữ pháp và khả năng hội thoại.</p>
-                                
-                                <div class="skill-category">
-                                    <h5><i class="fas fa-list"></i> Kỹ năng cần quan sát:</h5>
-                                    <ul>
-                                        <li><strong>Câu 2 từ:</strong> "Muốn nước", "Bố đi"</li>
-                                        <li><strong>Câu hỏi đơn giản:</strong> "Cái gì?", "Đâu rồi?"</li>
-                                        <li><strong>Ngữ pháp cơ bản:</strong> Sử dụng động từ, tính từ</li>
-                                        <li><strong>Kể chuyện đơn giản:</strong> Mô tả sự kiện đã xảy ra</li>
-                                        <li><strong>Hội thoại:</strong> Trao đổi qua lại với người khác</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="support-strategies">
-                                    <h5><i class="fas fa-hands-helping"></i> Cách hỗ trợ:</h5>
-                                    <ul>
-                                        <li>Mở rộng câu nói của trẻ thêm 1-2 từ</li>
-                                        <li>Đặt câu hỏi mở để khuyến khích trẻ nói nhiều hơn</li>
-                                        <li>Tạo cơ hội trò chuyện trong sinh hoạt hàng ngày</li>
-                                        <li>Kiên nhẫn lắng nghe và cho trẻ thời gian suy nghĩ</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content-section">
-                    <h3><i class="fas fa-exclamation-triangle"></i> 4. Dấu hiệu cần lưu ý</h3>
-                    <div class="warning-signs">
-                        <h4><i class="fas fa-flag"></i> Các dấu hiệu có thể cần can thiệp:</h4>
-                        <div class="age-warnings">
-                            <div class="warning-group">
-                                <h5>12 tháng tuổi:</h5>
-                                <ul>
-                                    <li>Không chỉ tay, vẫy tay chào</li>
-                                    <li>Không phản hồi khi gọi tên</li>
-                                    <li>Không hiểu từ "không"</li>
-                                </ul>
-                            </div>
-                            <div class="warning-group">
-                                <h5>18 tháng tuổi:</h5>
-                                <ul>
-                                    <li>Không nói được ít nhất 6 từ</li>
-                                    <li>Không hiểu các câu lệnh đơn giản</li>
-                                    <li>Không quan tâm đến trẻ em khác</li>
-                                </ul>
-                            </div>
-                            <div class="warning-group">
-                                <h5>24 tháng tuổi:</h5>
-                                <ul>
-                                    <li>Không nói được câu 2 từ</li>
-                                    <li>Không bắt chước hành động</li>
-                                    <li>Mất kỹ năng ngôn ngữ đã có</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content-section">
-                    <h3><i class="fas fa-heart"></i> 5. Vai trò của gia đình</h3>
-                    <div class="family-support">
-                        <div class="support-principles">
-                            <h4><i class="fas fa-star"></i> Nguyên tắc hỗ trợ tại gia:</h4>
-                            <ul>
-                                <li><strong>Tạo môi trường phong phú ngôn ngữ:</strong> Nói chuyện, hát, đọc sách thường xuyên</li>
-                                <li><strong>Theo dõi sở thích của trẻ:</strong> Sử dụng điều trẻ quan tâm làm cầu nối giao tiếp</li>
-                                <li><strong>Kiên nhẫn và tích cực:</strong> Không ép buộc, tạo áp lực cho trẻ</li>
-                                <li><strong>Tạo cơ hội giao tiếp:</strong> Trong mọi hoạt động hàng ngày</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="daily-activities">
-                            <h4><i class="fas fa-calendar-day"></i> Hoạt động hàng ngày hỗ trợ giao tiếp:</h4>
-                            <ul>
-                                <li><strong>Bữa ăn:</strong> Nói về màu sắc, vị, nhiệt độ thức ăn</li>
-                                <li><strong>Tắm rửa:</strong> Mô tả các bộ phận cơ thể, cảm giác</li>
-                                <li><strong>Chơi đùa:</strong> Trao đổi, chia sẻ đồ chơi</li>
-                                <li><strong>Đi dạo:</strong> Quan sát và nói về môi trường xung quanh</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="conclusion-section">
-                    <div class="conclusion-highlight">
-                        <h3><i class="fas fa-lightbulb"></i> Thông điệp chính</h3>
-                        <p><strong>Giao tiếp và tương tác là quá trình phát triển tự nhiên và liên tục.</strong> Mỗi trẻ có tốc độ riêng, nhưng với sự hỗ trợ phù hợp từ gia đình và chuyên gia, mọi trẻ đều có thể phát triển những kỹ năng quan trọng này.</p>
-                    </div>
-                    
-                    <div class="key-takeaways">
-                        <h4><i class="fas fa-key"></i> Điểm quan trọng cần nhớ:</h4>
-                        <ul>
-                            <li>Giao tiếp bắt đầu từ những tương tác đầu tiên</li>
-                            <li>Mỗi giai đoạn có những đặc điểm và nhu cầu riêng</li>
-                            <li>Gia đình là môi trường học tập tự nhiên nhất</li>
-                            <li>Can thiệp sớm mang lại hiệu quả cao nhất</li>
-                            <li>Kiên nhẫn và tích cực là chìa khóa thành công</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal-footer-pointing">
-            <button onclick="closeCommunicationInteractionModal()" class="btn-close">Đóng</button>
-            <button onclick="shareCommunicationInteractionDocument()" class="btn-share" style="border-color: #4caf50; color: #4caf50;">
-                <i class="fas fa-share"></i> Chia sẻ
-            </button>
-        </div>
-    </div>
-</div>
-
-<!-- Food Structure Modal -->
-<div id="foodStructureModal" class="pointing-modal" style="display: none;">
-    <div class="modal-content-pointing">
-        <div class="modal-header-pointing" style="background: linear-gradient(135deg, #fff8e1 0%, #ffcc02 30%);">
-            <h2 style="color: #f57c00;">Nhai và cấu trúc thức ăn</h2>
-            <span class="close-pointing" onclick="closeFoodStructureModal()">&times;</span>
-        </div>
-        <div class="modal-body-pointing">
-            <div class="document-images">
-                <div class="main-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/42.png" 
-                         alt="Cấu trúc thức ăn theo độ tuổi"
-                         style="width: 100%; height: auto; border-radius: 15px; object-fit: cover;">
-                </div>
-            </div>
-            <div class="document-content-detailed">
-                <div class="intro-section">
-                    <h3><i class="fas fa-utensils"></i> Hiểu về tầm quan trọng của cấu trúc thức ăn</h3>
-                    <p><strong>Cấu trúc thức ăn không chỉ ảnh hưởng đến dinh dưỡng mà còn là yếu tố then chốt trong việc phát triển kỹ năng ăn uống và ngôn ngữ của trẻ.</strong> Việc tiến triển đúng cách qua các cấu trúc thức ăn giúp trẻ phát triển cơ miệng, kỹ năng nhai nuốt và khả năng phát âm.</p>
-                </div>
-
-                <div class="content-section">
-                    <h3><i class="fas fa-brain"></i> 1. Mối liên hệ giữa ăn uống và phát triển ngôn ngữ</h3>
-                    <div class="connection-explanation">
-                        <p><strong>Cơ quan phát âm và ăn uống dùng chung hệ thống cơ:</strong></p>
-                        <ul>
-                            <li><strong>Lưỡi:</strong> Dùng để nhai, nuốt và phát âm các âm tiết</li>
-                            <li><strong>Môi:</strong> Kiểm soát thức ăn và tạo âm môi (p, b, m)</li>
-                            <li><strong>Hàm:</strong> Nhai thức ăn và điều chỉnh độ mở miệng khi nói</li>
-                            <li><strong>Họng:</strong> Nuốt an toàn và tạo âm thanh</li>
-                        </ul>
-                        
-                        <div class="research-highlight">
-                            <p><i class="fas fa-microscope"></i> <strong>Nghiên cứu khoa học:</strong> Trẻ em gặp khó khăn trong ăn uống thường có nguy cơ cao gặp vấn đề về phát âm và ngôn ngữ (Morris & Klein, 2000).</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content-section">
-                    <h3><i class="fas fa-chart-line"></i> 2. Các giai đoạn phát triển kỹ năng ăn uống</h3>
-                    
-                    <div class="feeding-timeline">
-                        <div class="timeline-stage">
-                            <div class="stage-header">
-                                <h4><i class="fas fa-baby"></i> Sơ sinh - 4 tháng: Giai đoạn bú mút</h4>
-                                <span class="age-badge">0-4 tháng</span>
-                            </div>
-                            <div class="stage-details">
-                                <div class="skill-development">
-                                    <h5><i class="fas fa-cogs"></i> Kỹ năng phát triển:</h5>
-                                    <ul>
-                                        <li><strong>Phản xạ bú mút:</strong> Chuyển động lưỡi tự nhiên để bú sữa</li>
-                                        <li><strong>Phản xạ nuốt:</strong> Nuốt chất lỏng một cách tự động</li>
-                                        <li><strong>Phối hợp hô hấp:</strong> Bú - thở - nuốt có nhịp điệu</li>
-                                        <li><strong>Tạo chân không:</strong> Môi khép kín để tạo áp suất</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="food-characteristics">
-                                    <h5><i class="fas fa-milk"></i> Đặc điểm thức ăn phù hợp:</h5>
-                                    <ul>
-                                        <li>Sữa mẹ hoặc sữa công thức</li>
-                                        <li>Chất lỏng có nhiệt độ cơ thể</li>
-                                        <li>Độ đặc vừa phải, dễ chảy</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="warning-signs">
-                                    <h5><i class="fas fa-exclamation-triangle"></i> Dấu hiệu cần lưu ý:</h5>
-                                    <ul>
-                                        <li>Khó bú, hay bỏ ti</li>
-                                        <li>Sặc sữa thường xuyên</li>
-                                        <li>Không tăng cân</li>
-                                        <li>Thời gian bú quá lâu (>30 phút)</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="timeline-stage">
-                            <div class="stage-header">
-                                <h4><i class="fas fa-spoon"></i> 4-6 tháng: Chuyển tiếp sang thức ăn đặc</h4>
-                                <span class="age-badge">4-6 tháng</span>
-                            </div>
-                            <div class="stage-details">
-                                <div class="skill-development">
-                                    <h5><i class="fas fa-cogs"></i> Kỹ năng phát triển:</h5>
-                                    <ul>
-                                        <li><strong>Kiểm soát đầu và cổ:</strong> Ngồi được với hỗ trợ</li>
-                                        <li><strong>Mất phản xạ đẩy lưỡi:</strong> Không đẩy thức ăn ra ngoài</li>
-                                        <li><strong>Học ăn thìa:</strong> Hiểu cách lấy thức ăn từ thìa</li>
-                                        <li><strong>Khép môi:</strong> Lấy thức ăn từ thìa</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="food-characteristics">
-                                    <h5><i class="fas fa-bowl"></i> Đặc điểm thức ăn phù hợp:</h5>
-                                    <ul>
-                                        <li><strong>Cháo loãng:</strong> Độ đặc như sữa chua</li>
-                                        <li><strong>Rau củ nghiền mịn:</strong> Không có cục, sợi</li>
-                                        <li><strong>Trái cây nghiền:</strong> Chuối, táo luộc nghiền</li>
-                                        <li><strong>Nhiệt độ:</strong> Âm ấm, không nóng</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="feeding-tips">
-                                    <h5><i class="fas fa-lightbulb"></i> Mẹo cho ăn hiệu quả:</h5>
-                                    <ul>
-                                        <li>Bắt đầu với 1-2 thìa nhỏ</li>
-                                        <li>Cho trẻ ngồi thẳng khi ăn</li>
-                                        <li>Kiên nhẫn, không ép buộc</li>
-                                        <li>Quan sát phản ứng của trẻ</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="timeline-stage">
-                            <div class="stage-header">
-                                <h4><i class="fas fa-cookie-bite"></i> 6-9 tháng: Thức ăn có cấu trúc</h4>
-                                <span class="age-badge">6-9 tháng</span>
-                            </div>
-                            <div class="stage-details">
-                                <div class="skill-development">
-                                    <h5><i class="fas fa-cogs"></i> Kỹ năng phát triển:</h5>
-                                    <ul>
-                                        <li><strong>Chuyển động lưỡi ngang:</strong> Đẩy thức ăn sang hai bên</li>
-                                        <li><strong>Nhai bằng nướu:</strong> Nghiền thức ăn mềm</li>
-                                        <li><strong>Cầm nắm tốt hơn:</strong> Bắt đầu tự ăn bằng tay</li>
-                                        <li><strong>Uống từ cốc:</strong> Với sự hỗ trợ</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="food-characteristics">
-                                    <h5><i class="fas fa-utensils"></i> Đặc điểm thức ăn phù hợp:</h5>
-                                    <ul>
-                                        <li><strong>Cháo có cục nhỏ mềm:</strong> Kích thước 2-4mm</li>
-                                        <li><strong>Thức ăn finger food:</strong> Chuối chín, bánh quy tan</li>
-                                        <li><strong>Rau củ luộc mềm:</strong> Cắt miếng vừa ăn</li>
-                                        <li><strong>Thịt xay nhuyễn:</strong> Trộn trong cháo</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="development-support">
-                                    <h5><i class="fas fa-hands-helping"></i> Hỗ trợ phát triển:</h5>
-                                    <ul>
-                                        <li>Để trẻ tự khám phá thức ăn</li>
-                                        <li>Cung cấp thức ăn có nhiều kết cấu</li>
-                                        <li>Khuyến khích nhai kỹ</li>
-                                        <li>Tạo môi trường ăn uống thoải mái</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="timeline-stage">
-                            <div class="stage-header">
-                                <h4><i class="fas fa-hamburger"></i> 9-12 tháng: Thức ăn cắt miếng</h4>
-                                <span class="age-badge">9-12 tháng</span>
-                            </div>
-                            <div class="stage-details">
-                                <div class="skill-development">
-                                    <h5><i class="fas fa-cogs"></i> Kỹ năng phát triển:</h5>
-                                    <ul>
-                                        <li><strong>Nhai xoay:</strong> Chuyển động tròn của hàm</li>
-                                        <li><strong>Gắp nhỏ:</strong> Dùng ngón cái và ngón trỏ</li>
-                                        <li><strong>Tự cầm cốc:</strong> Uống độc lập</li>
-                                        <li><strong>Ăn tự lập:</strong> Dùng tay hiệu quả</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="food-characteristics">
-                                    <h5><i class="fas fa-apple-alt"></i> Đặc điểm thức ăn phù hợp:</h5>
-                                    <ul>
-                                        <li><strong>Cơm nát:</strong> Hạt cơm rời rạc</li>
-                                        <li><strong>Thức ăn cắt miếng:</strong> Kích thước 8-10mm</li>
-                                        <li><strong>Thịt cá cắt lát mỏng:</strong> Dễ nhai</li>
-                                        <li><strong>Rau xanh:</strong> Cắt nhỏ, nấu mềm</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="timeline-stage">
-                            <div class="stage-header">
-                                <h4><i class="fas fa-pizza-slice"></i> 12+ tháng: Thức ăn gia đình</h4>
-                                <span class="age-badge">12+ tháng</span>
-                            </div>
-                            <div class="stage-details">
-                                <div class="skill-development">
-                                    <h5><i class="fas fa-cogs"></i> Kỹ năng phát triển:</h5>
-                                    <ul>
-                                        <li><strong>Nhai hoàn thiện:</strong> Xử lý mọi loại thức ăn</li>
-                                        <li><strong>Sử dụng dụng cụ:</strong> Thìa, dĩa, đũa</li>
-                                        <li><strong>Ăn xã hội:</strong> Tham gia bữa ăn gia đình</li>
-                                        <li><strong>Tự phục vụ:</strong> Độc lập trong bữa ăn</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="food-characteristics">
-                                    <h5><i class="fas fa-home"></i> Đặc điểm thức ăn phù hợp:</h5>
-                                    <ul>
-                                        <li><strong>Thức ăn gia đình:</strong> Điều chỉnh độ mặn, cay</li>
-                                        <li><strong>Kết cấu đa dạng:</strong> Giòn, mềm, dai vừa</li>
-                                        <li><strong>Kích thước lớn hơn:</strong> Theo khả năng nhai</li>
-                                        <li><strong>Đồ ăn phức hợp:</strong> Sandwich, pizza</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content-section">
-                    <h3><i class="fas fa-exclamation-circle"></i> 3. Trẻ bỏ lỡ giai đoạn phát triển - Làm thế nào?</h3>
-                    
-                    <div class="missed-stages">
-                        <div class="problem-explanation">
-                            <h4><i class="fas fa-question-circle"></i> Tại sao trẻ bỏ lỡ giai đoạn?</h4>
-                            <ul>
-                                <li><strong>Bệnh lý:</strong> Sinh non, bệnh tim, khó thở</li>
-                                <li><strong>Ăn qua ống:</strong> Thời gian dài không ăn bằng miệng</li>
-                                <li><strong>Phẫu thuật:</strong> Các ca mổ ảnh hưởng đến miệng họng</li>
-                                <li><strong>Tâm lý:</strong> Sợ hãi, trải nghiệm tiêu cực với thức ăn</li>
-                                <li><strong>Môi trường:</strong> Chỉ cho ăn thức ăn mềm quá lâu</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="catch-up-strategies">
-                            <h4><i class="fas fa-redo"></i> Chiến lược "bắt kịp" giai đoạn:</h4>
-                            
-                            <div class="strategy-group">
-                                <h5><i class="fas fa-search"></i> 1. Đánh giá hiện trạng</h5>
-                                <ul>
-                                    <li>Khả năng nhai nuốt hiện tại</li>
-                                    <li>Loại thức ăn trẻ có thể ăn an toàn</li>
-                                    <li>Phản ứng với kết cấu khác nhau</li>
-                                    <li>Kỹ năng tự phục vụ</li>
-                                </ul>
-                            </div>
-                            
-                            <div class="strategy-group">
-                                <h5><i class="fas fa-stairs"></i> 2. Tiến triển từng bước nhỏ</h5>
-                                <ul>
-                                    <li><strong>Từ mịn đến thô:</strong> Tăng dần kích thước cục</li>
-                                    <li><strong>Trộn lẫn:</strong> Thức ăn mới + thức ăn quen</li>
-                                    <li><strong>Thời gian ngắn:</strong> 5-10 phút mỗi lần thử</li>
-                                    <li><strong>Không áp lực:</strong> Tạo trải nghiệm tích cực</li>
-                                </ul>
-                            </div>
-                            
-                            <div class="strategy-group">
-                                <h5><i class="fas fa-gamepad"></i> 3. Kỹ thuật đặc biệt</h5>
-                                <ul>
-                                    <li><strong>Liệu pháp cảm giác miệng:</strong> Massage nướu, lưỡi</li>
-                                    <li><strong>Chơi với thức ăn:</strong> Khám phá bằng tay trước</li>
-                                    <li><strong>Mô phỏng:</strong> Người lớn ăn cùng, làm mẫu</li>
-                                    <li><strong>Dụng cụ hỗ trợ:</strong> Thìa có kết cấu, cốc tập uống</li>
-                                </ul>
-                            </div>
-                        </div>
-                        
-                        <div class="age-specific-guidance">
-                            <h4><i class="fas fa-child"></i> Hướng dẫn theo độ tuổi cụ thể:</h4>
-                            
-                            <div class="age-guidance">
-                                <h5>Trẻ 2-3 tuổi chỉ ăn cháo:</h5>
-                                <div class="progression-plan">
-                                    <p><strong>Tuần 1-2:</strong> Cháo có cục nhỏ mềm (kích thước hạt ngô)</p>
-                                    <p><strong>Tuần 3-4:</strong> Cháo có miếng thịt, rau nhỏ</p>
-                                    <p><strong>Tuần 5-6:</strong> Cơm nát + canh đặc</p>
-                                    <p><strong>Tuần 7-8:</strong> Cơm thường + thức ăn gia đình</p>
-                                </div>
-                            </div>
-                            
-                            <div class="age-guidance">
-                                <h5>Trẻ 4-5 tuổi ngại thức ăn cứng:</h5>
-                                <div class="progression-plan">
-                                    <p><strong>Bước 1:</strong> Cho chạm, ngửi thức ăn cứng</p>
-                                    <p><strong>Bước 2:</strong> Dùng răng cắn nhỏ</p>
-                                    <p><strong>Bước 3:</strong> Nhai và nuốt từng chút</p>
-                                    <p><strong>Bước 4:</strong> Ăn bình thường</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content-section">
-                    <h3><i class="fas fa-shield-alt"></i> 4. An toàn khi ăn uống</h3>
-                    
-                    <div class="safety-guidelines">
-                        <div class="choking-prevention">
-                            <h4><i class="fas fa-exclamation-triangle"></i> Phòng ngừa hóc nghẹn:</h4>
-                            <ul>
-                                <li><strong>Tư thế ngồi thẳng:</strong> Không nằm khi ăn</li>
-                                <li><strong>Giám sát liên tục:</strong> Có người lớn quan sát</li>
-                                <li><strong>Kích thước phù hợp:</strong> Không lớn hơn móng tay trẻ</li>
-                                <li><strong>Tránh thức ăn nguy hiểm:</strong> Hạt, kẹo cứng, nho nguyên quả</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="safe-foods">
-                            <h4><i class="fas fa-check-circle"></i> Thức ăn an toàn theo độ tuổi:</h4>
-                            
-                            <div class="safety-chart">
-                                <div class="safe-column">
-                                    <h5 style="color: #4caf50;"><i class="fas fa-thumbs-up"></i> AN TOÀN</h5>
-                                    <ul>
-                                        <li><strong>6-9 tháng:</strong> Chuối chín, bánh quy tan</li>
-                                        <li><strong>9-12 tháng:</strong> Mì ống nhỏ, phô mai mềm</li>
-                                        <li><strong>12+ tháng:</strong> Thức ăn cắt miếng vừa</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="danger-column">
-                                    <h5 style="color: #f44336;"><i class="fas fa-exclamation-triangle"></i> NGUY HIỂM</h5>
-                                    <ul>
-                                        <li><strong>Dưới 4 tuổi:</strong> Hạt, nho tròn, kẹo cứng</li>
-                                        <li><strong>Luôn luôn:</strong> Xương cá, thức ăn quá nóng</li>
-                                        <li><strong>Đặc biệt:</strong> Bỏng ngô, gum, thức ăn dính</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content-section">
-                    <h3><i class="fas fa-stethoscope"></i> 5. Khi nào cần can thiệp chuyên nghiệp?</h3>
-                    
-                    <div class="intervention-signs">
-                        <div class="urgent-signs">
-                            <h4><i class="fas fa-ambulance"></i> Cần can thiệp GẤP:</h4>
-                            <ul>
-                                <li>Sặc nghẹn thường xuyên khi ăn uống</li>
-                                <li>Ho, khàn tiếng sau bữa ăn</li>
-                                <li>Từ chối hoàn toàn thức ăn đặc</li>
-                                <li>Sụt cân, không tăng trọng</li>
-                                <li>Nôn mửa liên tục</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="specialist-referral">
-                            <h4><i class="fas fa-user-md"></i> Các chuyên gia có thể cần:</h4>
-                            <ul>
-                                <li><strong>Bác sĩ Tai Mũi Họng:</strong> Đánh giá cấu trúc miệng họng</li>
-                                <li><strong>Chuyên gia ngôn ngữ trị liệu:</strong> Đánh giá và can thiệp kỹ năng ăn</li>
-                                <li><strong>Bác sĩ dinh dưỡng:</strong> Đảm bảo nhu cầu dinh dưỡng</li>
-                                <li><strong>Bác sĩ nhi khoa:</strong> Theo dõi tăng trưởng tổng thể</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content-section">
-                    <h3><i class="fas fa-home"></i> 6. Tạo môi trường ăn uống tích cực</h3>
-                    
-                    <div class="positive-environment">
-                        <div class="environment-factors">
-                            <h4><i class="fas fa-heart"></i> Các yếu tố quan trọng:</h4>
-                            <ul>
-                                <li><strong>Không áp lực:</strong> Tôn trọng tín hiệu đói no của trẻ</li>
-                                <li><strong>Bữa ăn gia đình:</strong> Ăn cùng nhau, tạo mẫu tích cực</li>
-                                <li><strong>Thời gian cố định:</strong> Giữ nhịp sinh học ổn định</li>
-                                <li><strong>Môi trường thoải mái:</strong> Không màn hình, tiếng ồn</li>
-                                <li><strong>Khen ngợi phù hợp:</strong> Khen khi trẻ cố gắng thử</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="family-strategies">
-                            <h4><i class="fas fa-users"></i> Chiến lược cho gia đình:</h4>
-                            <ul>
-                                <li>Chuẩn bị tâm lý: Quá trình có thể mất nhiều tháng</li>
-                                <li>Kiên nhẫn: Trẻ có thể cần thử 10-15 lần mới chấp nhận thức ăn mới</li>
-                                <li>Thống nhất: Tất cả thành viên gia đình cùng cách tiếp cận</li>
-                                <li>Ghi chép: Theo dõi tiến triển để điều chỉnh kịp thời</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="conclusion-section">
-                    <div class="conclusion-highlight">
-                        <h3><i class="fas fa-star"></i> Thông điệp chính</h3>
-                        <p><strong>Phát triển kỹ năng ăn uống là một hành trình, không phải đích đến.</strong> Mỗi trẻ có tốc độ riêng, và với sự hỗ trợ phù hợp, kiên nhẫn từ gia đình, mọi trẻ đều có thể học cách ăn uống an toàn và thích thú.</p>
-                    </div>
-                    
-                    <div class="key-takeaways">
-                        <h4><i class="fas fa-key"></i> Điểm quan trọng cần nhớ:</h4>
-                        <ul>
-                            <li>Cấu trúc thức ăn ảnh hưởng trực tiếp đến phát triển ngôn ngữ</li>
-                            <li>Tiến triển từng bước nhỏ, phù hợp với khả năng của trẻ</li>
-                            <li>An toàn luôn là ưu tiên hàng đầu</li>
-                            <li>Môi trường tích cực quan trọng hơn ép buộc</li>
-                            <li>Can thiệp sớm mang lại kết quả tốt nhất</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal-footer-pointing">
-            <button onclick="closeFoodStructureModal()" class="btn-close">Đóng</button>
-            <button onclick="shareFoodStructureDocument()" class="btn-share" style="border-color: #ff9800; color: #ff9800;">
-                <i class="fas fa-share"></i> Chia sẻ
-            </button>
-        </div>
-    </div>
-</div>
-
-<!-- Intensive Interaction Modal -->
-<div id="intensiveInteractionModal" class="pointing-modal" style="display: none;">
-    <div class="modal-content-pointing">
-        <div class="modal-header-pointing" style="background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%);">
-            <h2 style="color: #7b1fa2;">Chiến lược giao tiếp chuyên sâu (Intensive Interaction)</h2>
-            <span class="close-pointing" onclick="closeIntensiveInteractionModal()">&times;</span>
-        </div>
-        <div class="modal-body-pointing">
-            <div class="document-images">
-                <div class="main-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/44.png" 
-                         alt="Intensive Interaction"
-                         style="width: 100%; height: auto; border-radius: 15px; object-fit: cover;">
-                </div>
-            </div>
-            <div class="document-content-detailed">
-                <div class="intro-section">
-                    <h3><i class="fas fa-heart"></i> Hiểu về Intensive Interaction - Phương pháp giao tiếp chuyên sâu</h3>
-                    <p><strong>Intensive Interaction là phương pháp can thiệp giao tiếp đặc biệt được phát triển bởi Dave Hewett và Melanie Nind tại Harperbury Hospital, Anh quốc.</strong> Đây là phương pháp được thiết kế dành riêng cho những người gặp khó khăn nghiêm trọng trong giao tiếp và học tập, đặc biệt hiệu quả với trẻ tự kỷ mức độ nặng và trẻ khuyết tật trí tuệ.</p>
-                </div>
-
-                <div class="content-section">
-                    <h3><i class="fas fa-lightbulb"></i> 1. Intensive Interaction là gì?</h3>
-                    <div class="definition-box">
-                        <p><strong>Intensive Interaction</strong> là một phương pháp tự nhiên, dựa trên cách các bé học giao tiếp từ mẹ và người chăm sóc trong những tháng đầu đời. Phương pháp này tập trung vào việc xây dựng "cuộc trò chuyện" phi ngôn ngữ trước khi phát triển ngôn ngữ.</p>
-                    </div>
-                    
-                    <div class="core-principles">
-                        <h4><i class="fas fa-star"></i> Nguyên tắc cốt lõi của phương pháp:</h4>
-                        <div class="principle-grid">
-                            <div class="principle-card">
-                                <h5><i class="fas fa-handshake"></i> Quan hệ đối tác bình đẳng</h5>
-                                <p>Không phải "dạy" mà là "tương tác" - cả hai bên đều có thể dẫn dắt cuộc trò chuyện</p>
-                            </div>
-                            <div class="principle-card">
-                                <h5><i class="fas fa-heart-pulse"></i> Theo nhịp điệu của người học</h5>
-                                <p>Tôn trọng tốc độ, sở thích và phong cách giao tiếp của từng cá nhân</p>
-                            </div>
-                            <div class="principle-card">
-                                <h5><i class="fas fa-shield-halved"></i> Môi trường an toàn</h5>
-                                <p>Không đánh giá, không áp lực thành tích, tạo không gian thoải mái khám phá</p>
-                            </div>
-                            <div class="principle-card">
-                                <h5><i class="fas fa-infinity"></i> Tương tác có nghĩa</h5>
-                                <p>Mọi hành vi đều được coi là có ý nghĩa giao tiếp, dù nhỏ nhất</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content-section">
-                    <h3><i class="fas fa-users"></i> 2. Ai phù hợp với Intensive Interaction?</h3>
-                    
-                    <div class="target-groups">
-                        <div class="primary-group">
-                            <h4><i class="fas fa-bullseye"></i> Nhóm chính:</h4>
-                            <ul>
-                                <li><strong>Trẻ tự kỷ mức độ nặng:</strong> Ít hoặc không có ngôn ngữ, hạn chế tương tác xã hội</li>
-                                <li><strong>Trẻ khuyết tật trí tuệ sâu:</strong> Khó khăn trong hiểu biết và giao tiếp</li>
-                                <li><strong>Trẻ đa khuyết tật:</strong> Kết hợp nhiều loại khuyết tật</li>
-                                <li><strong>Trẻ khuyết tật vận động não:</strong> Ảnh hưởng đến khả năng giao tiếp</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="secondary-group">
-                            <h4><i class="fas fa-plus-circle"></i> Nhóm mở rộng:</h4>
-                            <ul>
-                                <li>Trẻ chậm phát triển ngôn ngữ nghiêm trọng</li>
-                                <li>Người lớn có khuyết tật từ nhỏ</li>
-                                <li>Trẻ có hội chứng Down kèm tự kỷ</li>
-                                <li>Trẻ có rối loạn cảm giác</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="benefit-indicators">
-                            <h4><i class="fas fa-check-double"></i> Dấu hiệu trẻ sẽ có lợi từ phương pháp:</h4>
-                            <ul>
-                                <li>Không có hoặc rất ít ngôn ngữ sau 3 tuổi</li>
-                                <li>Tránh tiếp xúc mắt hoặc tương tác xã hội</li>
-                                <li>Có hành vi lặp đi lặp lại (stimming)</li>
-                                <li>Khó tập trung vào hoạt động có cấu trúc</li>
-                                <li>Thích thú với âm thanh, nhịp điệu, cảm giác</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content-section">
-                    <h3><i class="fas fa-road"></i> 3. Hai giai đoạn của Intensive Interaction</h3>
-                    
-                    <div class="stages-detailed">
-                        <div class="stage-one">
-                            <div class="stage-header">
-                                <h4><i class="fas fa-heart"></i> Giai đoạn 1: Xây dựng mối liên kết cơ bản (Building Rapport)</h4>
-                                <span class="stage-duration">Thời gian: 2-6 tháng</span>
-                            </div>
-                            
-                            <div class="stage-content">
-                                <div class="objective">
-                                    <h5><i class="fas fa-target"></i> Mục tiêu chính:</h5>
-                                    <ul>
-                                        <li>Tạo cảm giác an toàn và thoải mái</li>
-                                        <li>Xây dựng mối liên kết tình cảm</li>
-                                        <li>Nhận biết và phản hồi các tín hiệu của trẻ</li>
-                                        <li>Thiết lập nhịp điệu tương tác cơ bản</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="techniques">
-                                    <h5><i class="fas fa-tools"></i> Kỹ thuật thực hiện:</h5>
-                                    
-                                    <div class="technique-item">
-                                        <h6><i class="fas fa-copy"></i> 1. Bắt chước (Mirroring)</h6>
-                                        <ul>
-                                            <li><strong>Âm thanh:</strong> Lặp lại âm thanh mà trẻ phát ra</li>
-                                            <li><strong>Chuyển động:</strong> Bắt chước cử chỉ, tư thế của trẻ</li>
-                                            <li><strong>Nhịp điệu:</strong> Theo đúng tốc độ và cường độ của trẻ</li>
-                                        </ul>
-                                        <p><strong>Ví dụ:</strong> Trẻ vỗ tay 3 lần, người lớn cũng vỗ tay 3 lần với cùng nhịp độ</p>
-                                    </div>
-                                    
-                                    <div class="technique-item">
-                                        <h6><i class="fas fa-redo"></i> 2. Lặp lại có biến tấu (Repetition with Variation)</h6>
-                                        <ul>
-                                            <li>Lặp lại hành vi của trẻ nhưng có chút khác biệt nhỏ</li>
-                                            <li>Tạo sự bất ngờ thú vị để thu hút sự chú ý</li>
-                                            <li>Khuyến khích trẻ quan sát và phản hồi</li>
-                                        </ul>
-                                        <p><strong>Ví dụ:</strong> Trẻ nói "aaa", người lớn nói "aaa" rồi "ooo"</p>
-                                    </div>
-                                    
-                                    <div class="technique-item">
-                                        <h6><i class="fas fa-pause-circle"></i> 3. Tạm dừng có chủ đích (Intentional Pausing)</h6>
-                                        <ul>
-                                            <li>Tạm dừng trong tương tác để chờ phản hồi</li>
-                                            <li>Cho trẻ thời gian xử lý và phản ứng</li>
-                                            <li>Tạo cơ hội cho trẻ chủ động giao tiếp</li>
-                                        </ul>
-                                        <p><strong>Ví dụ:</strong> Hát bài hát đến chỗ quen thuộc rồi dừng, chờ trẻ phản ứng</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="success-indicators">
-                                    <h5><i class="fas fa-flag-checkered"></i> Dấu hiệu thành công giai đoạn 1:</h5>
-                                    <ul>
-                                        <li>Trẻ bắt đầu có tiếp xúc mắt dù ngắn</li>
-                                        <li>Tỏ ra thoải mái khi có người lớn gần</li>
-                                        <li>Có phản ứng khi người lớn bắt chước mình</li>
-                                        <li>Bắt đầu "chờ đợi" phản hồi từ người lớn</li>
-                                        <li>Thời gian tương tác kéo dài hơn</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="stage-two">
-                            <div class="stage-header">
-                                <h4><i class="fas fa-rocket"></i> Giai đoạn 2: Phát triển tương tác phức tạp (Developing Interactions)</h4>
-                                <span class="stage-duration">Thời gian: 6 tháng - vài năm</span>
-                            </div>
-                            
-                            <div class="stage-content">
-                                <div class="objective">
-                                    <h5><i class="fas fa-target"></i> Mục tiêu chính:</h5>
-                                    <ul>
-                                        <li>Mở rộng thời gian tương tác</li>
-                                        <li>Phát triển kỹ năng lượt giao tiếp</li>
-                                        <li>Giới thiệu các yếu tố giao tiếp mới</li>
-                                        <li>Chuẩn bị cho giao tiếp bằng lời</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="advanced-techniques">
-                                    <h5><i class="fas fa-cog"></i> Kỹ thuật nâng cao:</h5>
-                                    
-                                    <div class="technique-item">
-                                        <h6><i class="fas fa-exchange-alt"></i> 1. Phát triển lượt giao tiếp</h6>
-                                        <ul>
-                                            <li><strong>Bắt đầu-dừng:</strong> Tạo nhịp điệu trao đổi rõ ràng</li>
-                                            <li><strong>Chờ đợi:</strong> Tăng thời gian chờ để khuyến khích trẻ chủ động</li>
-                                            <li><strong>Phản hồi:</strong> Đáp lại ngay lập tức mọi cố gắng của trẻ</li>
-                                        </ul>
-                                        <p><strong>Hoạt động:</strong> Trò chơi "Peek-a-boo" với nhịp điệu rõ ràng</p>
-                                    </div>
-                                    
-                                    <div class="technique-item">
-                                        <h6><i class="fas fa-plus"></i> 2. Mở rộng từ vựng cử chỉ</h6>
-                                        <ul>
-                                            <li>Giới thiệu từ từ các cử chỉ mới</li>
-                                            <li>Kết hợp âm thanh với chuyển động</li>
-                                            <li>Tạo "từ điển" cử chỉ riêng cho mỗi trẻ</li>
-                                        </ul>
-                                        <p><strong>Ví dụ:</strong> Vẫy tay = chào, gật đầu = đồng ý, lắc đầu = không</p>
-                                    </div>
-                                    
-                                    <div class="technique-item">
-                                        <h6><i class="fas fa-puzzle-piece"></i> 3. Kết hợp các yếu tố giao tiếp</h6>
-                                        <ul>
-                                            <li><strong>Âm thanh + cử chỉ:</strong> Kết hợp nhiều kênh giao tiếp</li>
-                                            <li><strong>Biểu cảm khuôn mặt:</strong> Thêm yếu tố cảm xúc</li>
-                                            <li><strong>Đạo cụ đơn giản:</strong> Bong bóng, khăn, đồ chơi âm thanh</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                
-                                <div class="success-indicators">
-                                    <h5><i class="fas fa-medal"></i> Dấu hiệu thành công giai đoạn 2:</h5>
-                                    <ul>
-                                        <li>Trẻ chủ động bắt đầu tương tác</li>
-                                        <li>Hiểu và sử dụng lượt giao tiếp</li>
-                                        <li>Có repertoire cử chỉ/âm thanh để giao tiếp</li>
-                                        <li>Thời gian tập trung kéo dài (5-15 phút)</li>
-                                        <li>Tỏ ra vui vẻ và thoải mái trong tương tác</li>
-                                        <li>Bắt đầu sử dụng âm thanh có chủ đích</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content-section">
-                    <h3><i class="fas fa-clipboard-list"></i> 4. Hướng dẫn thực hành cho gia đình</h3>
-                    
-                    <div class="practical-guide">
-                        <div class="environment-setup">
-                            <h4><i class="fas fa-home"></i> Thiết lập môi trường:</h4>
-                            <ul>
-                                <li><strong>Không gian yên tĩnh:</strong> Tắt TV, điện thoại, giảm thiểu phân tâm</li>
-                                <li><strong>Ánh sáng mềm:</strong> Tránh ánh sáng chói hoặc nhấp nháy</li>
-                                <li><strong>Thoải mái vật lý:</strong> Ngồi thoải mái, ở tầm mắt với trẻ</li>
-                                <li><strong>Thời gian linh hoạt:</strong> Khi trẻ có tâm trạng tốt, không đói hay mệt</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="session-structure">
-                            <h4><i class="fas fa-clock"></i> Cấu trúc buổi tương tác:</h4>
-                            
-                            <div class="session-phases">
-                                <div class="phase">
-                                    <h5>Khởi động (2-3 phút):</h5>
-                                    <ul>
-                                        <li>Ngồi yên tĩnh, quan sát trẻ</li>
-                                        <li>Để trẻ làm quen với sự hiện diện</li>
-                                        <li>Không áp lực, không yêu cầu gì</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="phase">
-                                    <h5>Tương tác chính (10-20 phút):</h5>
-                                    <ul>
-                                        <li>Bắt chước hành vi của trẻ</li>
-                                        <li>Tạm dừng và chờ phản hồi</li>
-                                        <li>Thêm biến tấu nhỏ vào tương tác</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="phase">
-                                    <h5>Kết thúc (2-3 phút):</h5>
-                                    <ul>
-                                        <li>Từ từ giảm cường độ tương tác</li>
-                                        <li>Báo hiệu kết thúc bằng cử chỉ nhất quán</li>
-                                        <li>Khen ngợi và động viên trẻ</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="daily-activities">
-                            <h4><i class="fas fa-calendar-day"></i> Tích hợp vào sinh hoạt hàng ngày:</h4>
-                            
-                            <div class="activity-examples">
-                                <div class="activity">
-                                    <h5><i class="fas fa-bath"></i> Khi tắm:</h5>
-                                    <ul>
-                                        <li>Bắt chước âm thanh trẻ tạo ra với nước</li>
-                                        <li>Chơi trò đổ nước theo nhịp điệu</li>
-                                        <li>Sử dụng bong bóng để tương tác</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="activity">
-                                    <h5><i class="fas fa-utensils"></i> Khi ăn:</h5>
-                                    <ul>
-                                        <li>Bắt chước âm thanh nhai, nuốt</li>
-                                        <li>Tạo nhịp điệu khi đưa thìa</li>
-                                        <li>Sử dụng biểu cảm khuôn mặt phong phú</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="activity">
-                                    <h5><i class="fas fa-bed"></i> Trước khi ngủ:</h5>
-                                    <ul>
-                                        <li>Massage nhẹ nhàng với âm thanh</li>
-                                        <li>Hát ru với tốc độ chậm</li>
-                                        <li>Tương tác mắt trong bóng tối</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content-section">
-                    <h3><i class="fas fa-chart-line"></i> 5. Theo dõi và đánh giá tiến triển</h3>
-                    
-                    <div class="progress-tracking">
-                        <div class="observation-points">
-                            <h4><i class="fas fa-eye"></i> Những gì cần quan sát:</h4>
-                            
-                            <div class="tracking-categories">
-                                <div class="category">
-                                    <h5><i class="fas fa-heart"></i> Khía cạnh cảm xúc - xã hội:</h5>
-                                    <ul>
-                                        <li>Thời gian duy trì tiếp xúc mắt</li>
-                                        <li>Biểu hiện vui vẻ, thoải mái</li>
-                                        <li>Chủ động tìm kiếm tương tác</li>
-                                        <li>Phản ứng với tên mình</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="category">
-                                    <h5><i class="fas fa-comments"></i> Khía cạnh giao tiếp:</h5>
-                                    <ul>
-                                        <li>Tần suất và đa dạng âm thanh</li>
-                                        <li>Sử dụng cử chỉ có chủ đích</li>
-                                        <li>Hiểu và sử dụng lượt giao tiếp</li>
-                                        <li>Bắt chước hành vi của người khác</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="category">
-                                    <h5><i class="fas fa-brain"></i> Khía cạnh nhận thức:</h5>
-                                    <ul>
-                                        <li>Thời gian tập trung</li>
-                                        <li>Khả năng dự đoán hoạt động</li>
-                                        <li>Phản ứng với thay đổi</li>
-                                        <li>Ghi nhớ người quen</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="recording-methods">
-                            <h4><i class="fas fa-clipboard"></i> Phương pháp ghi chép:</h4>
-                            <ul>
-                                <li><strong>Nhật ký hàng ngày:</strong> Ghi lại những khoảnh khắc đặc biệt</li>
-                                <li><strong>Video ngắn:</strong> Quay 2-3 phút để xem lại tiến triển</li>
-                                <li><strong>Biểu đồ tần suất:</strong> Đếm số lần trẻ chủ động giao tiếp</li>
-                                <li><strong>Ảnh chụp:</strong> Ghi lại biểu cảm và cử chỉ mới</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content-section">
-                    <h3><i class="fas fa-exclamation-triangle"></i> 6. Những lưu ý quan trọng</h3>
-                    
-                    <div class="important-notes">
-                        <div class="dos-donts">
-                            <div class="dos">
-                                <h4 style="color: #4caf50;"><i class="fas fa-check"></i> NÊN LÀM:</h4>
-                                <ul>
-                                    <li>Kiên nhẫn và nhất quán</li>
-                                    <li>Theo nhịp điệu của trẻ</li>
-                                    <li>Tôn trọng mọi cố gắng giao tiếp</li>
-                                    <li>Tạo môi trường vui vẻ, không áp lực</li>
-                                    <li>Chia sẻ với gia đình về tiến triển</li>
-                                </ul>
-                            </div>
-                            
-                            <div class="donts">
-                                <h4 style="color: #f44336;"><i class="fas fa-times"></i> KHÔNG NÊN:</h4>
-                                <ul>
-                                    <li>Ép buộc trẻ tham gia khi không muốn</li>
-                                    <li>So sánh tiến triển với trẻ khác</li>
-                                    <li>Thất vọng khi không thấy tiến triển ngay</li>
-                                    <li>Thay đổi phương pháp liên tục</li>
-                                    <li>Đặt kỳ vọng quá cao quá nhanh</li>
-                                </ul>
-                            </div>
-                        </div>
-                        
-                        <div class="challenges">
-                            <h4><i class="fas fa-mountain"></i> Thử thách thường gặp:</h4>
-                            <ul>
-                                <li><strong>Trẻ tránh tương tác:</strong> Bắt đầu từ khoảng cách xa, giảm dần</li>
-                                <li><strong>Hành vi tự kích thích mạnh:</strong> Tạm thời bắt chước, rồi từ từ thay đổi</li>
-                                <li><strong>Không có phản hồi:</strong> Kiên nhẫn quan sát, tìm những dấu hiệu nhỏ nhất</li>
-                                <li><strong>Gia đình nghi ngờ hiệu quả:</strong> Giải thích rõ mục tiêu dài hạn</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="content-section">
-                    <h3><i class="fas fa-users"></i> 7. Kết hợp với gia đình và trường học</h3>
-                    
-                    <div class="collaboration">
-                        <div class="family-training">
-                            <h4><i class="fas fa-home"></i> Đào tạo gia đình:</h4>
-                            <ul>
-                                <li><strong>Workshop thực hành:</strong> Hướng dẫn trực tiếp các kỹ thuật</li>
-                                <li><strong>Mô phỏng:</strong> Gia đình thực hành với chuyên gia quan sát</li>
-                                <li><strong>Video hướng dẫn:</strong> Cung cấp tài liệu tham khảo tại nhà</li>
-                                <li><strong>Hỗ trợ định kỳ:</strong> Gặp gỡ thường xuyên để điều chỉnh</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="school-integration">
-                            <h4><i class="fas fa-school"></i> Tích hợp vào môi trường học:</h4>
-                            <ul>
-                                <li><strong>Đào tạo giáo viên:</strong> Hướng dẫn áp dụng trong lớp học</li>
-                                <li><strong>Thời gian riêng:</strong> Dành 15-30 phút mỗi ngày cho Intensive Interaction</li>
-                                <li><strong>Đồng bộ phương pháp:</strong> Nhất quán giữa nhà và trường</li>
-                                <li><strong>Chia sẻ tiến triển:</strong> Báo cáo định kỳ giữa các bên</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="conclusion-section">
-                    <div class="conclusion-highlight">
-                        <h3><i class="fas fa-star"></i> Thông điệp chính</h3>
-                        <p><strong>Intensive Interaction không phải là một "liệu pháp" mà là cách sống và giao tiếp tự nhiên.</strong> Đây là phương pháp giúp chúng ta hiểu rằng mỗi người, dù khuyết tật nặng đến đâu, đều có quyền và khả năng giao tiếp theo cách riêng của mình.</p>
-                    </div>
-                    
-                    <div class="key-takeaways">
-                        <h4><i class="fas fa-key"></i> Điểm quan trọng cần nhớ:</h4>
-                        <ul>
-                            <li>Mọi hành vi đều có thể là giao tiếp</li>
-                            <li>Mối quan hệ là nền tảng của mọi học tập</li>
-                            <li>Kiên nhẫn và nhất quán là chìa khóa thành công</li>
-                            <li>Tiến triển có thể chậm nhưng rất có ý nghĩa</li>
-                            <li>Gia đình là đối tác quan trọng nhất</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="modal-footer-pointing">
-            <button onclick="closeIntensiveInteractionModal()" class="btn-close">Đóng</button>
-            <button onclick="shareIntensiveInteractionDocument()" class="btn-share" style="border-color: #9c27b0; color: #9c27b0;">
-                <i class="fas fa-share"></i> Chia sẻ
-            </button>
-        </div>
-    </div>
-</div>
-
 <!-- Kindergarten vs Intervention Center Document Modal -->
 <div id="kindergartenCenterModal" class="pointing-modal" style="display: none;">
     <div class="modal-content-pointing">
@@ -4785,6 +3155,1905 @@ get_header(); ?>
 
             <button onclick="shareRLPTKQADocument()" class="btn-share" style="border-color: #673ab7; color: #673ab7;">
                 <i class="fas fa-share"></i> Chia sẻ
+            </button>
+        </div>
+    </div>
+</div>
+
+
+
+                            <div class="science-points">
+                                <div class="science-point">
+                                    <div class="point-icon">🔆</div>
+                                    <div class="point-content">
+                                        <strong>Ánh sáng xanh bắt chước ánh sáng ban ngày</strong>
+                                        <p>Ức chế melatonin - hormone tự nhiên điều chỉnh giấc ngủ</p>
+                                    </div>
+                                </div>
+                                <div class="science-point">
+                                    <div class="point-icon">⏰</div>
+                                    <div class="point-content">
+                                        <strong>Chỉ vài phút kích thích màn hình</strong>
+                                        <p>Có thể trì hoãn giải phóng melatonin trong vài giờ</p>
+                                    </div>
+                                </div>
+                                <div class="science-point">
+                                    <div class="point-icon">🔄</div>
+                                    <div class="point-content">
+                                        <strong>Đồng hồ sinh học bị gián đoạn</strong>
+                                        <p>Gây mất cân bằng hormone và viêm não</p>
+                                    </div>
+                                </div>
+                                <div class="science-point">
+                                    <div class="point-icon">😴</div>
+                                    <div class="point-content">
+                                        <strong>Không thể ngủ sâu</strong>
+                                        <p>Giấc ngủ sâu là cách cơ thể chữa lành và phục hồi</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Effect 2: Dopamine Desensitization -->
+                <div class="effect-item" id="effect-2">
+                    <div class="effect-header">
+                        <div class="effect-number">2</div>
+                        <h4>Làm giảm sự nhạy cảm hệ thống khen thưởng của não</h4>
+                    </div>
+                    <div class="effect-content">
+                        <div class="main-explanation">
+                            <p><strong>Tác động chính:</strong> Thời gian sử dụng màn hình làm giảm sự nhạy cảm hệ thống khen thưởng thông ken thường của não.</p>
+                        </div>
+                        
+                        <div class="addiction-comparison">
+                            <h5><i class="fas fa-exclamation-triangle"></i> So sánh với chất gây nghiện:</h5>
+                            <div class="comparison-box">
+                                <div class="comparison-item">
+                                    <i class="fas fa-gamepad"></i>
+                                    <span>Trò chơi điện tử</span>
+                                </div>
+                                <div class="comparison-arrow">≈</div>
+                                <div class="comparison-item">
+                                    <i class="fas fa-pills"></i>
+                                    <span>Cocaine (trên hình ảnh quét não)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="dopamine-effects">
+                            <h5><i class="fas fa-brain"></i> Tác động của Dopamine:</h5>
+                            <div class="dopamine-cycle">
+                                <div class="cycle-step">
+                                    <div class="step-number">1</div>
+                                    <p>Màn hình giải phóng <strong>dopamine</strong> - chất hóa học "tạo cảm giác dễ chịu"</p>
+                                </div>
+                                <div class="cycle-arrow">↓</div>
+                                <div class="cycle-step">
+                                    <div class="step-number">2</div>
+                                    <p>Con đường khen thưởng bị <strong>lạm dụng quá mức</strong></p>
+                                </div>
+                                <div class="cycle-arrow">↓</div>
+                                <div class="cycle-step">
+                                    <div class="step-number">3</div>
+                                    <p>Trở nên <strong>kém nhạy cảm</strong> hơn với dopamine</p>
+                                </div>
+                                <div class="cycle-arrow">↓</div>
+                                <div class="cycle-step">
+                                    <div class="step-number">4</div>
+                                    <p>Cần <strong>nhiều kích thích hơn</strong> để trải nghiệm niềm vui</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="consequences">
+                            <h5><i class="fas fa-exclamation-circle"></i> Hậu quả:</h5>
+                            <ul class="consequence-list">
+                                <li>Giảm khả năng tập trung</li>
+                                <li>Mất động lực với hoạt động thường ngày</li>
+                                <li>Tàn phá cảm giác và hoạt động của trẻ</li>
+                                <li>Khó cảm thấy hài lòng với những điều đơn giản</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Effect 3: Artificial Light at Night -->
+                <div class="effect-item" id="effect-3">
+                    <div class="effect-header">
+                        <div class="effect-number">3</div>
+                        <h4>Tạo ra "ánh sáng ban đêm" gây trầm cảm</h4>
+                    </div>
+                    <div class="effect-content">
+                        <div class="main-explanation">
+                            <p><strong>Tác động chính:</strong> Thiết bị điện tử tạo ra "ánh sáng ban đêm" có liên quan đến trầm cảm và nguy cơ tự tử.</p>
+                        </div>
+                        
+                        <div class="research-evidence">
+                            <h5><i class="fas fa-flask"></i> Bằng chứng nghiên cứu:</h5>
+                            <div class="evidence-grid">
+                                <div class="evidence-item human">
+                                    <h6><i class="fas fa-users"></i> Nghiên cứu trên người:</h6>
+                                    <ul>
+                                        <li>Liên quan đến trầm cảm</li>
+                                        <li>Tăng nguy cơ tự tử</li>
+                                        <li>Ảnh hưởng đến nhiều nghiên cứu</li>
+                                    </ul>
+                                </div>
+                                <div class="evidence-item animal">
+                                    <h6><i class="fas fa-paw"></i> Nghiên cứu trên động vật:</h6>
+                                    <ul>
+                                        <li>Ánh sáng màn hình trước/trong khi ngủ</li>
+                                        <li>Gây trầm cảm ngay cả khi không nhìn màn hình</li>
+                                        <li>Chứng minh tác động của ánh sáng đơn thuần</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="parent-concern">
+                            <h5><i class="fas fa-heart"></i> Lời khuyên cho cha mẹ:</h5>
+                            <div class="advice-box">
+                                <div class="concern">
+                                    <strong>Lo lắng của cha mẹ:</strong>
+                                    <p>"Ngăn cấm thiết bị trong phòng ngủ sẽ khiến con tuyệt vọng"</p>
+                                </div>
+                                <div class="solution">
+                                    <strong>Thực tế khoa học:</strong>
+                                    <p><span class="highlight">Loại bỏ ánh sáng ban đêm có tác dụng bảo vệ trẻ</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Effect 4: Stress Response -->
+                <div class="effect-item" id="effect-4">
+                    <div class="effect-header">
+                        <div class="effect-number">4</div>
+                        <h4>Gây ra phản ứng căng thẳng mãn tính</h4>
+                    </div>
+                    <div class="effect-content">
+                        <div class="main-explanation">
+                            <p><strong>Tác động chính:</strong> Thời gian ngồi trước màn hình gây ra phản ứng căng thẳng cấp tính và mãn tính.</p>
+                        </div>
+                        
+                        <div class="stress-types">
+                            <h5><i class="fas fa-bolt"></i> Hai loại căng thẳng:</h5>
+                            <div class="stress-comparison">
+                                <div class="stress-type acute">
+                                    <h6>Căng thẳng cấp tính</h6>
+                                    <p><span class="stress-mode">Chế độ "chiến đấu hoặc bỏ chạy"</span></p>
+                                    <ul>
+                                        <li>Phản ứng tức thời</li>
+                                        <li>Tăng hormone stress</li>
+                                        <li>Thay đổi hóa học não</li>
+                                    </ul>
+                                </div>
+                                <div class="stress-type chronic">
+                                    <h6>Căng thẳng mãn tính</h6>
+                                    <p><span class="stress-hormone">Cortisol cao</span></p>
+                                    <ul>
+                                        <li>Kéo dài liên tục</li>
+                                        <li>Tổn hại cấu trúc não</li>
+                                        <li>Vòng luẩn quẩn trầm cảm</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cortisol-cycle">
+                            <h5><i class="fas fa-recycle"></i> Vòng luẩn quẩn Cortisol:</h5>
+                            <div class="cycle-diagram">
+                                <div class="cycle-element">
+                                    <strong>Cortisol cao</strong>
+                                </div>
+                                <div class="cycle-arrow">↔</div>
+                                <div class="cycle-element">
+                                    <strong>Trầm cảm</strong>
+                                </div>
+                            </div>
+                            <p class="cycle-note">Cortisol vừa là nguyên nhân vừa là hậu quả của trầm cảm</p>
+                        </div>
+
+                        <div class="brain-impact">
+                            <h5><i class="fas fa-brain"></i> Tác động lên não:</h5>
+                            <div class="brain-areas">
+                                <div class="brain-area">
+                                    <i class="fas fa-ban"></i>
+                                    <div class="area-info">
+                                        <strong>Thùy trán bị ức chế</strong>
+                                        <p>Khu vực điều chỉnh tâm trạng bị ảnh hưởng</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Effect 5: Executive Function Damage -->
+                <div class="effect-item" id="effect-5">
+                    <div class="effect-header">
+                        <div class="effect-number">5</div>
+                        <h4>Làm quá tải hệ thống cảm giác và cạn kiệt dự trữ tinh thần</h4>
+                    </div>
+                    <div class="effect-content">
+                        <div class="main-explanation">
+                            <p><strong>Tác động chính:</strong> Sử dụng thiết bị điện tử làm quá tải hệ thống cảm giác, giảm sự chú ý và cạn kiệt nguồn dự trữ tinh thần.</p>
+                        </div>
+                        
+                        <div class="attention-impact">
+                            <h5><i class="fas fa-eye"></i> Tác động lên sự chú ý:</h5>
+                            <div class="attention-chain">
+                                <div class="chain-step">
+                                    <div class="step-icon">📱</div>
+                                    <p><strong>Đầu vào thị giác cao</strong></p>
+                                </div>
+                                <div class="chain-arrow">→</div>
+                                <div class="chain-step">
+                                    <div class="step-icon">🧠</div>
+                                    <p><strong>Quá tải nhận thức</strong></p>
+                                </div>
+                                <div class="chain-arrow">→</div>
+                                <div class="chain-step">
+                                    <div class="step-icon">⚠️</div>
+                                    <p><strong>Giảm khả năng tập trung</strong></p>
+                                </div>
+                                <div class="chain-arrow">→</div>
+                                <div class="chain-step">
+                                    <div class="step-icon">💥</div>
+                                    <p><strong>Hành vi bùng nổ</strong></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="processing-impact">
+                            <h5><i class="fas fa-cogs"></i> Khả năng xử lý thông tin:</h5>
+                            <div class="processing-breakdown">
+                                <div class="normal-state">
+                                    <h6>Trạng thái bình thường:</h6>
+                                    <ul>
+                                        <li>Xử lý môi trường bên ngoài tốt</li>
+                                        <li>Xử lý cảm xúc bên trong ổn định</li>
+                                        <li>Nhu cầu nhỏ được đáp ứng dễ dàng</li>
+                                    </ul>
+                                </div>
+                                <div class="overloaded-state">
+                                    <h6>Trạng thái quá tải:</h6>
+                                    <ul>
+                                        <li>Khó xử lý thông tin môi trường</li>
+                                        <li>Không kiểm soát được cảm xúc</li>
+                                        <li>Nhu cầu nhỏ trở thành nhu cầu lớn</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="energy-depletion">
+                            <h5><i class="fas fa-battery-empty"></i> Cạn kiệt năng lượng tinh thần:</h5>
+                            <div class="depletion-process">
+                                <div class="depletion-cause">
+                                    <strong>Nguyên nhân:</strong>
+                                    <p>Đầu vào thị giác và nhận thức cao từ màn hình</p>
+                                </div>
+                                <div class="depletion-result">
+                                    <strong>Kết quả:</strong>
+                                    <p>Nguồn dự trữ tinh thần bị cạn kiệt</p>
+                                </div>
+                                <div class="coping-mechanism">
+                                    <strong>Cơ chế đối phó:</strong>
+                                    <p><span class="anger-boost">Tức giận để "thúc đẩy" nguồn dự trữ</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tantrum-explanation">
+                            <h5><i class="fas fa-exclamation-triangle"></i> Tại sao trẻ ăn vạ/khủng hoảng?</h5>
+                            <div class="tantrum-box">
+                                <p><strong>Khủng hoảng/ăn vạ thực sự đã trở thành một cơ chế đối phó</strong></p>
+                                <p class="explanation">Khi năng lượng tinh thần cạn kiệt, tức giận tạm thời "boost" nguồn lực để đối phó với tình huống.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Effect 6: Reduced Nature Exposure -->
+                <div class="effect-item" id="effect-6">
+                    <div class="effect-header">
+                        <div class="effect-number">6</div>
+                        <h4>Giảm mức độ hoạt động thể chất và khả năng tiếp xúc với "thời gian xanh"</h4>
+                    </div>
+                    <div class="effect-content">
+                        <div class="main-explanation">
+                            <p><strong>Tác động chính:</strong> Thời gian sử dụng thiết bị điện tử làm giảm mức độ hoạt động thể chất và khả năng tiếp xúc với thiên nhiên.</p>
+                        </div>
+                        
+                        <div class="green-time-benefits">
+                            <h5><i class="fas fa-leaf"></i> Lợi ích của "Thời gian xanh":</h5>
+                            <div class="benefits-grid">
+                                <div class="benefit-item">
+                                    <i class="fas fa-focus"></i>
+                                    <div class="benefit-content">
+                                        <strong>Khôi phục sự chú ý</strong>
+                                        <p>Thiên nhiên giúp não bộ nghỉ ngơi và tái tạo năng lượng</p>
+                                    </div>
+                                </div>
+                                <div class="benefit-item">
+                                    <i class="fas fa-zen"></i>
+                                    <div class="benefit-content">
+                                        <strong>Giảm căng thẳng</strong>
+                                        <p>Môi trường tự nhiên làm giảm cortisol và hormone stress</p>
+                                    </div>
+                                </div>
+                                <div class="benefit-item">
+                                    <i class="fas fa-dove"></i>
+                                    <div class="benefit-content">
+                                        <strong>Giảm bớt sự hung hăng</strong>
+                                        <p>Tương tác với thiên nhiên làm dịu tâm trạng</p>
+                                    </div>
+                                </div>
+                                <div class="benefit-item">
+                                    <i class="fas fa-smile"></i>
+                                    <div class="benefit-content">
+                                        <strong>Cải thiện tâm trạng</strong>
+                                        <p>Chất cải thiện tâm trạng tự nhiên từ môi trường xanh</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="time-trade-off">
+                            <h5><i class="fas fa-balance-scale"></i> Sự đánh đổi thời gian:</h5>
+                            <div class="trade-off-comparison">
+                                <div class="time-lost">
+                                    <h6><i class="fas fa-minus-circle"></i> Thời gian mất đi:</h6>
+                                    <ul>
+                                        <li>Hoạt động ngoài trời</li>
+                                        <li>Vận động thể chất</li>
+                                        <li>Tương tác với thiên nhiên</li>
+                                        <li>Thời gian gia đình chất lượng</li>
+                                    </ul>
+                                </div>
+                                <div class="consequences">
+                                    <h6><i class="fas fa-arrow-right"></i> Hậu quả:</h6>
+                                    <ul>
+                                        <li>Giảm khả năng tiếp xúc với chất cải thiện tâm trạng</li>
+                                        <li>Thiếu kích thích tích cực cho não</li>
+                                        <li>Không có cơ hội phục hồi tự nhiên</li>
+                                        <li>Tăng nguy cơ các vấn đề tâm lý</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="research-support">
+                            <h5><i class="fas fa-chart-line"></i> Nghiên cứu hỗ trợ:</h5>
+                            <div class="research-findings">
+                                <p><strong>Nghiên cứu cho thấy:</strong> Thời gian ở ngoài trời, đặc biệt là tương tác với thiên nhiên, có những tác động tích cực được chứng minh:</p>
+                                <ul class="findings-list">
+                                    <li>Khôi phục khả năng chú ý bị suy giảm</li>
+                                    <li>Giảm mức độ căng thẳng đo được</li>
+                                    <li>Giảm bớt hành vi hung hăng và bùng nổ</li>
+                                    <li>Cải thiện tâm trạng tổng thể</li>
+                                    <li>Tăng cường sức khỏe tinh thần</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Practical Solutions -->
+            <div class="practical-solutions">
+                <h3><i class="fas fa-lightbulb"></i> Giải pháp thực tế cho gia đình</h3>
+                
+                <div class="solution-categories">
+                    <div class="solution-category">
+                        <h4><i class="fas fa-clock"></i> Quản lý thời gian màn hình</h4>
+                        <ul class="solution-list">
+                            <li>Thiết lập giờ "curfew" cho thiết bị (1-2 giờ trước giờ ngủ)</li>
+                            <li>Tạo "khu vực không có thiết bị" trong nhà</li>
+                            <li>Sử dụng timer để giới hạn thời gian sử dụng</li>
+                            <li>Mô hình hóa việc sử dụng thiết bị lành mạnh</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="solution-category">
+                        <h4><i class="fas fa-bed"></i> Cải thiện giấc ngủ</h4>
+                        <ul class="solution-list">
+                            <li>Loại bỏ tất cả thiết bị khỏi phòng ngủ</li>
+                            <li>Sử dụng đồng hồ báo thức thay vì điện thoại</li>
+                            <li>Tạo môi trường tối tuyệt đối khi ngủ</li>
+                            <li>Thiết lập thói quen đi ngủ thư giãn</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="solution-category">
+                        <h4><i class="fas fa-tree"></i> Tăng "thời gian xanh"</h4>
+                        <ul class="solution-list">
+                            <li>Lên kế hoạch hoạt động ngoài trời hàng ngày</li>
+                            <li>Khuyến khích chơi tự do trong tự nhiên</li>
+                            <li>Tham gia các hoạt động thể thao ngoài trời</li>
+                            <li>Làm vườn hoặc chăm sóc cây cối cùng con</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="solution-category">
+                        <h4><i class="fas fa-heart"></i> Hoạt động thay thế</h4>
+                        <ul class="solution-list">
+                            <li>Đọc sách cùng nhau</li>
+                            <li>Trò chơi board game gia đình</li>
+                            <li>Hoạt động nghệ thuật và thủ công</li>
+                            <li>Nấu ăn cùng con</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Expert Recommendations -->
+            <div class="expert-recommendations">
+                <h3><i class="fas fa-user-md"></i> Khuyến nghị từ chuyên gia</h3>
+                
+                <div class="age-based-recommendations">
+                    <div class="age-group-rec">
+                        <h4>👶 Dưới 2 tuổi</h4>
+                        <div class="rec-content">
+                            <p><strong>Khuyến nghị:</strong> Không màn hình (trừ video call với gia đình)</p>
+                            <ul>
+                                <li>Não đang phát triển nhanh chóng</li>
+                                <li>Cần tương tác thực tế để học hỏi</li>
+                                <li>Màn hình có thể gây chậm phát triển ngôn ngữ</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="age-group-rec">
+                        <h4>🧒 2-5 tuổi</h4>
+                        <div class="rec-content">
+                            <p><strong>Khuyến nghị:</strong> Tối đa 1 giờ/ngày nội dung chất lượng cao</p>
+                            <ul>
+                                <li>Xem cùng con và thảo luận nội dung</li>
+                                <li>Chọn chương trình giáo dục phù hợp</li>
+                                <li>Tránh nội dung có nhịp độ nhanh</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="age-group-rec">
+                        <h4>👦 6+ tuổi</h4>
+                        <div class="rec-content">
+                            <p><strong>Khuyến nghị:</strong> Giới hạn nhất quán và giám sát nội dung</p>
+                            <ul>
+                                <li>Thiết lập quy tắc rõ ràng về thời gian</li>
+                                <li>Ưu tiên bài tập, ngủ nghỉ và hoạt động thể chất</li>
+                                <li>Giám sát nội dung và tương tác online</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Warning Signs -->
+            <div class="warning-signs-section">
+                <h3><i class="fas fa-exclamation-triangle"></i> Dấu hiệu cảnh báo</h3>
+                
+                <div class="warning-categories">
+                    <div class="warning-category immediate">
+                        <h4>🚨 Cần can thiệp ngay</h4>
+                        <ul>
+                            <li>Cơn giận dữ khi bị tắt thiết bị</li>
+                            <li>Mất ngủ hoặc ác mông thường xuyên</li>
+                            <li>Từ chối tham gia hoạt động khác</li>
+                            <li>Thay đổi tính cách đột ngột</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="warning-category moderate">
+                        <h4>⚠️ Cần theo dõi</h4>
+                        <ul>
+                            <li>Giảm thành tích học tập</li>
+                            <li>Ít tương tác xã hội hơn</li>
+                            <li>Khó tập trung vào nhiệm vụ</li>
+                            <li>Tăng cảm xúc tiêu cực</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="conclusion-golden screen-time-conclusion">
+                <div class="conclusion-highlight">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Bảo vệ não bộ con trẻ</h3>
+                </div>
+                <div class="conclusion-content">
+                    <p>🧠 <strong>Não của trẻ đang phát triển rất nhạy cảm với tác động của màn hình!</strong></p>
+                    <p>⚡ <strong>Những thay đổi nhỏ trong thói quen có thể tạo ra tác động lớn đến sức khỏe tinh thần!</strong></p>
+                    <p>🌱 <strong>Đầu tư vào "thời gian xanh" và giấc ngủ chất lượng = Đầu tư vào tương lai con!</strong></p>
+                </div>
+                
+                <div class="call-to-action">
+                    <div class="cta-content">
+                        <h4><i class="fas fa-phone"></i> Cần hỗ trợ chuyên môn?</h4>
+                        <p>Hand in Hand Foundation cung cấp tư vấn về quản lý thời gian màn hình và phát triển não bộ lành mạnh cho trẻ em.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer-pointing">
+
+            <button onclick="shareScreenTimeBrainDocument()" class="btn-share" style="border-color: #e91e63; color: #e91e63;">
+                <i class="fas fa-share"></i> Chia sẻ
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Autism Communication Modal -->
+<div id="autismCommunicationModal" class="pointing-modal" style="display: none;">
+    <div class="pointing-modal-content">
+        <div class="pointing-modal-header">
+            <span class="close-pointing" onclick="closeAutismCommunicationModal()">&times;</span>
+            <h2 style="color: #673ab7;">
+                <i class="fas fa-comments"></i> Những cách mà người lớn có thể tác động đến việc giao tiếp của một trẻ tự kỷ
+            </h2>
+            <div class="modal-description">
+                <p>12 chiến lược hiệu quả giúp người lớn tác động tích cực đến kỹ năng giao tiếp của trẻ em có rối loạn phổ tự kỷ</p>
+            </div>
+        </div>
+        
+        <div class="pointing-modal-body">
+            <!-- Introduction -->
+            <div class="content-section">
+                <div class="intro-box">
+                    <h3><i class="fas fa-star"></i> Giới thiệu</h3>
+                    <p>12 chiến lược sau đây sẽ giúp bạn tác động một cách tích cực đến kỹ năng giao tiếp của một trẻ em có rối loạn phổ tự kỷ:</p>
+                </div>
+            </div>
+
+            <!-- Strategy 1: Support Role -->
+            <div class="strategy-item" id="strategy-1">
+                <div class="strategy-header">
+                    <div class="strategy-number">1</div>
+                    <h4>Đảm nhiệm vai trò của người hỗ trợ</h4>
+                </div>
+                <div class="strategy-content">
+                    <div class="main-principle">
+                        <p><strong>Nguyên tắc chính:</strong> Khi một đứa trẻ không thể giao tiếp nhu cầu của mình, bạn có xu hướng giúp trẻ bằng cách làm thay cho trẻ.</p>
+                    </div>
+                    
+                    <div class="problem-explanation">
+                        <h5><i class="fas fa-exclamation-circle"></i> Vấn đề:</h5>
+                        <p>Khi bạn làm những việc thay cho trẻ (ví dụ như mang giày/cột dây giày cho trẻ), cơ hội cho đứa trẻ thấy là trẻ có thể tự làm những việc đó bị giảm đi.</p>
+                    </div>
+                    
+                    <div class="solution-approach">
+                        <h5><i class="fas fa-lightbulb"></i> Cách thực hiện:</h5>
+                        <ol>
+                            <li>Hỏi xem trẻ có cần giúp không</li>
+                            <li>Chờ đợi và hỏi lại lần thứ hai trước khi giúp trẻ</li>
+                            <li>Khuyến khích trẻ hoàn thành bước cuối cùng của nhiệm vụ</li>
+                            <li>Khen ngợi: "con đã ...(vd. mang giày) giỏi lắm"</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="special-note">
+                        <p><strong>Lưu ý đặc biệt:</strong> Khi trẻ đang ở giai đoạn một mình (Own agenda), rất khó để đoán được nên làm giúp trẻ tới mức độ nào.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Strategy 2: Encourage Joint Activities -->
+            <div class="strategy-item" id="strategy-2">
+                <div class="strategy-header">
+                    <div class="strategy-number">2</div>
+                    <h4>Thay vì để trẻ tự làm việc của trẻ, khuyến khích trẻ làm cùng người khác</h4>
+                </div>
+                <div class="strategy-content">
+                    <div class="misconception">
+                        <h5><i class="fas fa-times-circle"></i> Quan niệm sai lầm:</h5>
+                        <p>Chúng ta thường nghĩ rằng trẻ đang chứng tỏ sự tự lập khi trẻ không có hứng thú tương tác với người lớn.</p>
+                    </div>
+                    
+                    <div class="correct-approach">
+                        <h5><i class="fas fa-check-circle"></i> Cách tiếp cận đúng:</h5>
+                        <ul>
+                            <li>Trẻ cần phải học cách tương tác và không bị bỏ mặc với những phương cách riêng của trẻ</li>
+                            <li>Người lớn phải kiên trì tham gia vào bất kỳ việc gì trẻ đang làm</li>
+                            <li>Cho dù là trẻ đang chơi với một sợi dây hay cầm món đồ chơi bỏ vào rồi lấy ra khỏi hộp</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="persistence-strategy">
+                        <h5><i class="fas fa-heart"></i> Về sự kiên trì:</h5>
+                        <div class="advice-box">
+                            <p><strong>Nếu đứa trẻ tức giận và bực bội khi bạn chen vào, hãy vẫn kiên trì.</strong></p>
+                            <p>Tức giận là một kiểu tương tác và nó tốt hơn là không có bất kỳ sự tương tác nào.</p>
+                            <p>Khi sự tương tác này được tiếp tục với trẻ, trẻ có thể bắt đầu dần dần nhận ra rằng tương tác với người khác có thể sẽ vui.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Strategy 3: Slow Down -->
+            <div class="strategy-item" id="strategy-3">
+                <div class="strategy-header">
+                    <div class="strategy-number">3</div>
+                    <h4>Chậm lại và cho trẻ cơ hội giao tiếp</h4>
+                </div>
+                <div class="strategy-content">
+                    <div class="reality-check">
+                        <h5><i class="fas fa-clock"></i> Thực tế:</h5>
+                        <p>Chăm sóc cho một đứa trẻ tự kỷ có thể vất vả và tốn nhiều thời gian. Chúng ta thường muốn hối thúc trẻ khi chúng đang thực hiện những sinh hoạt hàng ngày như ăn sáng hay mặc quần áo.</p>
+                    </div>
+                    
+                    <div class="better-approach">
+                        <h5><i class="fas fa-lightbulb"></i> Cách tốt hơn:</h5>
+                        <p>Việc cho một đứa trẻ tự kỷ có thêm vài phút khi thực hiện những sinh hoạt hàng ngày sẽ:</p>
+                        <ul>
+                            <li>Giúp trẻ hiểu chuyện gì đang xảy ra xung quanh</li>
+                            <li>Để trẻ suy nghĩ xem chúng có thể nói gì trong khi các hoạt động đó diễn ra</li>
+                            <li>Tốt hơn rất nhiều so với việc bạn hối thúc và làm thay mọi việc cho chúng</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Strategy 4: Be a Partner -->
+            <div class="strategy-item" id="strategy-4">
+                <div class="strategy-header">
+                    <div class="strategy-number">4</div>
+                    <h4>Khi chơi với trẻ, hãy là cộng sự của trẻ thay vì là lãnh đạo của trẻ</h4>
+                </div>
+                <div class="strategy-content">
+                    <div class="key-insight">
+                        <h5><i class="fas fa-key"></i> Điểm quan trọng:</h5>
+                        <p>Khi đứa trẻ có khả năng giao tiếp tốt hơn, trẻ cần ít sự hướng dẫn hơn.</p>
+                    </div>
+                    
+                    <div class="warning">
+                        <h5><i class="fas fa-warning"></i> Cảnh báo:</h5>
+                        <p>Nếu trẻ nhận được quá nhiều câu hỏi và gợi ý có thể sẽ khó cho trẻ để tự khởi xướng một cuộc hội thoại.</p>
+                    </div>
+                    
+                    <div class="principle">
+                        <h5><i class="fas fa-handshake"></i> Nguyên tắc:</h5>
+                        <p><strong>Điều quan trọng là phải theo sự dẫn dắt của trẻ và đáp ứng với những gì trẻ làm.</strong></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Strategy 5: Reward Through Feedback -->
+            <div class="strategy-item" id="strategy-5">
+                <div class="strategy-header">
+                    <div class="strategy-number">5</div>
+                    <h4>Thưởng cho trẻ thông qua các phản hồi</h4>
+                </div>
+                <div class="strategy-content">
+                    <div class="importance">
+                        <h5><i class="fas fa-star"></i> Tầm quan trọng:</h5>
+                        <p>Thưởng cho trẻ khi trẻ cố gắng hiểu và giao tiếp là điều quan trọng. Khi làm điều này bạn có thể tăng khả năng trẻ sẽ thử lại lần nữa.</p>
+                    </div>
+                    
+                    <div class="technique">
+                        <h5><i class="fas fa-comment"></i> Kỹ thuật:</h5>
+                        <p>Bằng cách dùng những lời khen miêu tả đơn giản nhận xét về những gì trẻ đã đạt được, trẻ có thể liên kết giữa hành động của trẻ và lời nói của bạn.</p>
+                    </div>
+                    
+                    <div class="example">
+                        <h5><i class="fas fa-lightbulb"></i> Ví dụ thực tế:</h5>
+                        <div class="example-box">
+                            <p><strong>Tình huống:</strong> Trẻ xếp 3 mảnh lego thành 1 hàng dài và nhìn về phía bạn</p>
+                            <p><strong>Phản hồi:</strong> "Ồ, con đã xếp được 1 đoàn tàu thật đẹp, xình xịch xình xịch"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Strategy 6: Create Communication Opportunities -->
+            <div class="strategy-item" id="strategy-6">
+                <div class="strategy-header">
+                    <div class="strategy-number">6</div>
+                    <h4>Cho trẻ tự kỷ một lý do để giao tiếp</h4>
+                </div>
+                <div class="strategy-content">
+                    <div class="principle">
+                        <h5><i class="fas fa-lightbulb"></i> Nguyên lý:</h5>
+                        <p>Nếu trẻ tự kỷ không gặp trở ngại gì mà vẫn đạt được những gì trẻ muốn, trẻ sẽ không có lý do để giao tiếp và tương tác.</p>
+                    </div>
+                    
+                    <div class="strategy-approach">
+                        <h5><i class="fas fa-cogs"></i> Cách thực hiện:</h5>
+                        <p>Trong tất cả các sinh hoạt hàng ngày, người lớn sẽ cần phải tạo ra tình huống để tạo lý do giao tiếp cho trẻ và khuyến khích trẻ tương tác.</p>
+                    </div>
+                    
+                    <div class="practical-example">
+                        <h5><i class="fas fa-glass-whiskey"></i> Ví dụ thực tế:</h5>
+                        <div class="example-scenario">
+                            <p><strong>Tình huống:</strong> Bạn biết trẻ đang muốn uống sữa</p>
+                            <div class="steps">
+                                <div class="step">
+                                    <span class="step-number">1</span>
+                                    <p>Thay vì đưa hộp sữa ngay cho trẻ</p>
+                                </div>
+                                <div class="step">
+                                    <span class="step-number">2</span>
+                                    <p>Giả vờ không hiểu để tập cho trẻ chỉ về phía hộp sữa</p>
+                                </div>
+                                <div class="step">
+                                    <span class="step-number">3</span>
+                                    <p>Cầm 2 tay 2 món (1 bên là hộp sữa - thứ mà trẻ muốn, bên kia là quả cam - thứ mà trẻ không muốn)</p>
+                                </div>
+                                <div class="step">
+                                    <span class="step-number">4</span>
+                                    <p>Hỏi "con muốn hộp sữa hay quả cam?"</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Strategy 7: Out of Reach Strategy -->
+            <div class="strategy-item" id="strategy-7">
+                <div class="strategy-header">
+                    <div class="strategy-number">7</div>
+                    <h4>Khuyến khích trẻ đưa ra yêu cầu</h4>
+                </div>
+                <div class="strategy-content">
+                    <div class="technique-name">
+                        <h5><i class="fas fa-hand-paper"></i> Chiến lược "trong tầm nhìn, ngoài tầm với":</h5>
+                    </div>
+                    
+                    <div class="implementation">
+                        <h5><i class="fas fa-tools"></i> Cách thực hiện:</h5>
+                        <ul>
+                            <li>Đặt những đồ chơi/thức ăn/video mà trẻ thích nhất ở nơi mà trẻ có thể nhìn thấy nhưng không thể với tới được</li>
+                            <li>Ví dụ: trên một cái kệ cao</li>
+                            <li>Hoặc đặt đồ vật trẻ thích nhất trong một cái lọ/hộp trong suốt, mà trẻ khó mở được</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="expected-outcome">
+                        <h5><i class="fas fa-target"></i> Kết quả mong đợi:</h5>
+                        <p>Việc này sẽ khuyến khích trẻ yêu cầu giúp đỡ và kết quả là sẽ xảy ra một tương tác giữa người lớn và trẻ.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Strategy 8: Difficult Toys -->
+            <div class="strategy-item" id="strategy-8">
+                <div class="strategy-header">
+                    <div class="strategy-number">8</div>
+                    <h4>Đưa cho trẻ một món đồ chơi khó sử dụng</h4>
+                </div>
+                <div class="strategy-content">
+                    <div class="toy-types">
+                        <h5><i class="fas fa-toys"></i> Loại đồ chơi phù hợp:</h5>
+                        <p>Những đồ chơi lên dây cót và những trò chơi mà cần phải xoắn vặn để sử dụng sẽ khó để trẻ tự chơi nhưng trẻ sẽ thích chúng.</p>
+                    </div>
+                    
+                    <div class="process">
+                        <h5><i class="fas fa-play"></i> Quy trình:</h5>
+                        <ol>
+                            <li>Chơi mẫu trước</li>
+                            <li>Đưa những đồ chơi này cho trẻ</li>
+                            <li>Cho trẻ thời gian để tìm cách sử dụng nó</li>
+                            <li>Khi trẻ bực bội vì không chơi được đồ chơi, người lớn có thể đề nghị giúp đỡ</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="toy-examples">
+                        <h5><i class="fas fa-list"></i> Ví dụ các loại đồ chơi:</h5>
+                        <ul>
+                            <li>Hộp âm nhạc</li>
+                            <li>Đồ chơi dây cót</li>
+                            <li>Trái banh xoay tròn phát nhạc</li>
+                            <li>Hộp bật mở</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Strategy 9: Universal Appeal Toys -->
+            <div class="strategy-item" id="strategy-9">
+                <div class="strategy-header">
+                    <div class="strategy-number">9</div>
+                    <h4>Cho trẻ một đồ chơi mà hầu như 'trẻ nào cũng thích'</h4>
+                </div>
+                <div class="strategy-content">
+                    <div class="universal-toys">
+                        <h5><i class="fas fa-heart"></i> Đồ chơi phổ biến:</h5>
+                        <p>Bóng bay và bong bóng xà phòng là những đồ chơi mà hầu như trẻ nào cũng thích và có thể dễ dàng điều chỉnh để hai người cùng chơi.</p>
+                    </div>
+                    
+                    <div class="balloon-activities">
+                        <h5><i class="fas fa-balloon"></i> Hoạt động với bóng bay:</h5>
+                        <div class="activity-example">
+                            <p><strong>Trò chơi đơn giản:</strong> Thổi bóng bay và sau đó thả ra để nó bay lên không trung có thể sẽ làm trẻ thích thú.</p>
+                            <p><strong>Kỹ thuật tương tác:</strong> Thổi một nửa quả bóng bay và chờ đợi phản ứng từ trẻ trước khi thổi quả bóng to hết cỡ là một cách thông minh để tăng tương tác giữa người lớn và trẻ.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bubble-activities">
+                        <h5><i class="fas fa-circle"></i> Hoạt động với bong bóng xà phòng:</h5>
+                        <div class="bubble-technique">
+                            <ol>
+                                <li>Thổi một ít bong bóng về phía trẻ</li>
+                                <li>Khi trẻ đã chú ý, đóng lọ xà phòng lại</li>
+                                <li>Chờ đợi phản ứng từ trẻ trước khi bạn thổi thêm</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Strategy 10: Portion Control -->
+            <div class="strategy-item" id="strategy-10">
+                <div class="strategy-header">
+                    <div class="strategy-number">10</div>
+                    <h4>Cho trẻ mọi thứ một cách từ từ</h4>
+                </div>
+                <div class="strategy-content">
+                    <div class="principle">
+                        <h5><i class="fas fa-balance-scale"></i> Nguyên lý:</h5>
+                        <p>Nếu trẻ muốn gì được nấy thì trẻ không có lí do gì để yêu cầu bất kỳ điều gì cả.</p>
+                    </div>
+                    
+                    <div class="control-strategy">
+                        <h5><i class="fas fa-hand-holding"></i> Chiến lược kiểm soát:</h5>
+                        <p>Bằng cách kiểm soát lượng thức ăn/đồ chơi mà bạn cho trẻ, trẻ sẽ có cơ hội tương tác bằng cách thể hiện những gì trẻ muốn và cần.</p>
+                    </div>
+                    
+                    <div class="practical-example">
+                        <h5><i class="fas fa-cookie"></i> Ví dụ thực tế:</h5>
+                        <div class="example-scenario">
+                            <p><strong>Tình huống:</strong> Trẻ muốn một cái bánh quy</p>
+                            <div class="steps">
+                                <div class="step">
+                                    <span class="step-number">1</span>
+                                    <p>Bẻ bánh quy thành nhiều miếng nhỏ</p>
+                                </div>
+                                <div class="step">
+                                    <span class="step-number">2</span>
+                                    <p>Ban đầu cho trẻ một miếng</p>
+                                </div>
+                                <div class="step">
+                                    <span class="step-number">3</span>
+                                    <p>Dần dần cho trẻ thêm khi trẻ thể hiện yêu cầu muốn xin bánh</p>
+                                </div>
+                            </div>
+                            <div class="communication-examples">
+                                <h6>Các cách trẻ có thể thể hiện yêu cầu:</h6>
+                                <ul>
+                                    <li>Chỉ bánh</li>
+                                    <li>Lấy hình để bánh</li>
+                                    <li>Nói "baba"</li>
+                                    <li>Nói "bánh"</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Strategy 11: Let Child Control Endings -->
+            <div class="strategy-item" id="strategy-11">
+                <div class="strategy-header">
+                    <div class="strategy-number">11</div>
+                    <h4>Để trẻ quyết định khi nào kết thúc một hoạt động</h4>
+                </div>
+                <div class="strategy-content">
+                    <div class="continuation-principle">
+                        <h5><i class="fas fa-clock"></i> Nguyên tắc tiếp tục:</h5>
+                        <p>Một khi trẻ đã tham gia vào một hoạt động với người lớn, tiếp tục hoạt động đó cho tới khi trẻ thể hiện dấu hiệu không muốn tiếp tục nữa.</p>
+                    </div>
+                    
+                    <div class="observation-signs">
+                        <h5><i class="fas fa-eye"></i> Dấu hiệu cần quan sát:</h5>
+                        <ul>
+                            <li>Trẻ có nhăn mặt không?</li>
+                            <li>Trẻ có đẩy đồ chơi ra không?</li>
+                            <li>Các biểu hiện khác cho thấy trẻ muốn dừng</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="communication-goal">
+                        <h5><i class="fas fa-comments"></i> Mục tiêu giao tiếp:</h5>
+                        <p>Theo cách này, trẻ buộc phải giao tiếp rằng trẻ đã sẵn sàng để kết thúc một hoạt động.</p>
+                    </div>
+                    
+                    <div class="language-development">
+                        <h5><i class="fas fa-language"></i> Phát triển ngôn ngữ:</h5>
+                        <div class="language-strategy">
+                            <p><strong>Nếu trẻ không sử dụng ngôn ngữ để chỉ ra là trẻ muốn kết thúc:</strong></p>
+                            <p>Hãy kết nối cách mà trẻ đang giao tiếp với các từ như:</p>
+                            <ul>
+                                <li>"xong rồi"</li>
+                                <li>"đủ rồi"</li>
+                                <li>"dừng lại"</li>
+                            </ul>
+                            <p>để khuyến khích phát triển ngôn ngữ cho trẻ.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Strategy 12: Follow Child's Lead -->
+            <div class="strategy-item" id="strategy-12">
+                <div class="strategy-header">
+                    <div class="strategy-number">12</div>
+                    <h4>Tăng tương tác bằng cách theo sự dẫn dắt của trẻ</h4>
+                </div>
+                <div class="strategy-content">
+                    <div class="core-principle">
+                        <h5><i class="fas fa-handshake"></i> Nguyên tắc cốt lõi:</h5>
+                        <p><strong>Làm theo sự dẫn dắt của trẻ tốt hơn là hướng dẫn cho trẻ.</strong></p>
+                    </div>
+                    
+                    <div class="benefits">
+                        <h5><i class="fas fa-star"></i> Lợi ích của chiến lược này:</h5>
+                        <ul>
+                            <li>Cho phép trẻ học cách giao tiếp khi chơi/làm việc với người khác</li>
+                            <li>Tăng sự tương tác của trẻ</li>
+                            <li>Trẻ khi trong vai trò dẫn dắt sẽ chú ý vào hoạt động hơn</li>
+                            <li>Tập trung hơn vào cùng một thứ với người lớn</li>
+                            <li>Học được cách tự lựa chọn</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="positioning">
+                        <h5><i class="fas fa-user-friends"></i> Vị trí của người lớn:</h5>
+                        <div class="positioning-guide">
+                            <p><strong>Cần ở vị trí mặt đối mặt với trẻ</strong></p>
+                            <div class="positioning-benefits">
+                                <ul>
+                                    <li>Người lớn sẽ dễ dàng quan sát xem đứa trẻ đang hứng thú với cái gì</li>
+                                    <li>Giúp trẻ tương tác mắt - một việc thường khó khăn với trẻ tự kỷ</li>
+                                    <li>Ở ngang tầm với trẻ giúp trẻ dễ dàng nhìn thấy biểu hiện nét mặt đa dạng</li>
+                                    <li>Trẻ tự kỷ thường khó hiểu những hành vi giao tiếp phi ngôn ngữ trong hội thoại</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="expected-progress">
+                        <h5><i class="fas fa-chart-line"></i> Tiến bộ mong đợi:</h5>
+                        <p>Trẻ sẽ dần dần quen với việc có người lớn chơi cùng ngang tầm với trẻ và sẽ bắt đầu đoán trước sự hiện diện của họ, tìm kiếm họ khi họ không có ở đó.</p>
+                    </div>
+                    
+                    <div class="mirroring-technique">
+                        <h5><i class="fas fa-mirror"></i> Kỹ thuật bắt chước:</h5>
+                        <div class="mirroring-explanation">
+                            <p><strong>Bắt trước hành động và lời nói của trẻ sẽ giúp trẻ tham gia vào những tương tác hai chiều.</strong></p>
+                            
+                            <div class="mirroring-examples">
+                                <h6>Ví dụ về bắt chước:</h6>
+                                <ul>
+                                    <li><strong>Hành động:</strong> Nếu trẻ đập cái muỗng, và người lớn cũng làm vậy, có thể trẻ sẽ chú ý đến người lớn</li>
+                                    <li><strong>Âm thanh:</strong> Bắt chước những âm thanh mà trẻ tạo ra</li>
+                                    <li><strong>Hành vi cảm giác:</strong> Bắt chước những hành vi như đập tay/xoay vòng vòng</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="progression">
+                                <p><strong>Tiến trình:</strong></p>
+                                <ol>
+                                    <li>Khi trẻ thấy người lớn bắt chước hành động của trẻ, trẻ có thể sẽ bắt chước lại</li>
+                                    <li>Điều này tạo ra cơ hội cho người lớn thêm điều gì đó mới mẻ vào cuộc trao đổi</li>
+                                    <li>Bắt đầu dạy trẻ biết bắt chước đối tác</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="unconventional-play">
+                        <h5><i class="fas fa-puzzle-piece"></i> Chơi không theo cách thông thường:</h5>
+                        <div class="unconventional-examples">
+                            <p><strong>Khi trẻ tự kỷ không thích chơi với đồ chơi đang có nữa, hoặc thích xếp đồ chơi thành hàng hơn là chơi với chúng, vẫn có cơ hội để giao tiếp và tương tác.</strong></p>
+                            
+                            <div class="play-examples">
+                                <div class="play-example">
+                                    <h6><i class="fas fa-car"></i> Ví dụ 1: Xếp ô tô thành hàng</h6>
+                                    <p><strong>Tình huống:</strong> Trẻ xếp các ô tô đồ chơi thành hàng</p>
+                                    <p><strong>Cách tham gia:</strong> Người lớn có thể tham gia hoạt động bằng cách đưa cho trẻ từng chiếc ô tô</p>
+                                    <p><strong>Kết quả:</strong> Người lớn đóng một phần trong trò chơi và đứa trẻ phải để họ tham gia vào những gì trẻ đang làm</p>
+                                </div>
+                                
+                                <div class="play-example">
+                                    <h6><i class="fas fa-basketball"></i> Ví dụ 2: Ném đồ chơi</h6>
+                                    <p><strong>Tình huống:</strong> Trẻ chỉ thích ném đồ chơi xuống sàn</p>
+                                    <p><strong>Cách tham gia:</strong> Người lớn có thể dùng một cái rổ để nhặt chúng trước khi đưa lại cho trẻ</p>
+                                    <p><strong>Kết quả:</strong> Thiết lập một kiểu tương tác và giao tiếp với trẻ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Key Takeaways -->
+            <div class="takeaways-section">
+                <h3><i class="fas fa-key"></i> Điểm quan trọng cần nhớ</h3>
+                <div class="takeaway-grid">
+                    <div class="takeaway-item">
+                        <i class="fas fa-clock"></i>
+                        <p><strong>Kiên nhẫn</strong><br>Cho trẻ thời gian để phản ứng và giao tiếp</p>
+                    </div>
+                    <div class="takeaway-item">
+                        <i class="fas fa-handshake"></i>
+                        <p><strong>Theo dẫn dắt của trẻ</strong><br>Làm cộng sự thay vì làm người lãnh đạo</p>
+                    </div>
+                    <div class="takeaway-item">
+                        <i class="fas fa-heart"></i>
+                        <p><strong>Kiên trì</strong><br>Tương tác tức giận vẫn tốt hơn không tương tác</p>
+                    </div>
+                    <div class="takeaway-item">
+                        <i class="fas fa-puzzle-piece"></i>
+                        <p><strong>Tạo cơ hội</strong><br>Thiết lập tình huống để trẻ cần giao tiếp</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="expert-section">
+                <div class="expert-info">
+                    <h3><i class="fas fa-user-md"></i> Thông tin chuyên gia</h3>
+                    <div class="expert-details">
+                        <p><strong>Nguồn:</strong> Philippa Pettitt, Trung Tâm Hand in Hand Foundation</p>
+                        <p><strong>Chuyên môn:</strong> Can thiệp và phát triển giao tiếp cho trẻ có rối loạn phổ tự kỷ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal-footer-pointing">
+
+            <button onclick="shareAutismCommunicationDocument()" class="btn-share" style="border-color: #673ab7; color: #673ab7;">
+                <i class="fas fa-share"></i> Chia sẻ
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Communication and Interaction Modal -->
+<div id="communicationInteractionModal" class="pointing-modal" style="display: none;">
+    <div class="pointing-modal-content">
+        <div class="pointing-modal-header">
+            <span class="close-pointing" onclick="closeCommunicationInteractionModal()">&times;</span>
+            <h2 style="color: #4caf50;">
+                <i class="fas fa-handshake"></i> Giao tiếp và tương tác là gì?
+            </h2>
+            <div class="modal-description">
+                <p>Hiểu rõ bản chất của giao tiếp và tương tác, từ giao tiếp phi ngôn ngữ đến 4 giai đoạn phát triển theo chương trình Hanen</p>
+            </div>
+        </div>
+        
+        <div class="pointing-modal-body">
+            <!-- Basic Definitions -->
+            <div class="content-section">
+                <div class="definition-box">
+                    <h3><i class="fas fa-lightbulb"></i> Định nghĩa cơ bản</h3>
+                    
+                    <div class="definition-item">
+                        <h4><i class="fas fa-comment"></i> Giao tiếp</h4>
+                        <p>Giao tiếp xảy ra khi một người gửi thông điệp đến người khác, có thể bằng ngôn từ hoặc phi ngôn từ (cử chỉ, ánh mắt, nét mặt, hành động…).</p>
+                    </div>
+                    
+                    <div class="definition-item">
+                        <h4><i class="fas fa-handshake"></i> Tương tác</h4>
+                        <p>Tương tác là quá trình hai người cùng trao đổi qua lại – ví dụ giữa một người lớn và một đứa trẻ – để tạo nên một cuộc hội thoại hai chiều.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Challenges for Autism Children -->
+            <div class="content-section">
+                <div class="challenge-box">
+                    <h3><i class="fas fa-exclamation-triangle"></i> Thách thức với trẻ tự kỷ</h3>
+                    <ul>
+                        <li>Đa số trẻ em rối loạn phổ tự kỷ (RLPTK) gặp khó khăn trong tương tác xã hội</li>
+                        <li>Để duy trì được một cuộc tương tác, trẻ cần biết chủ động đáp lại khi được hỏi, hoặc tự bắt đầu một cuộc hội thoại</li>
+                        <li>Nhiều trẻ chỉ thể hiện khả năng giao tiếp khi có nhu cầu cụ thể (ví dụ: muốn bánh, hộp sữa, đồ chơi…)</li>
+                        <li>Chưa biết sử dụng giao tiếp để chia sẻ cảm xúc hay suy nghĩ</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Non-verbal Communication -->
+            <div class="content-section">
+                <div class="nonverbal-section">
+                    <h3><i class="fas fa-hand-paper"></i> Giao tiếp không chỉ bằng lời nói</h3>
+                    
+                    <div class="key-insight">
+                        <p><strong>Giao tiếp và tương tác không nhất thiết phải có ngôn ngữ.</strong></p>
+                        <p>Nhiều trẻ tự kỷ hoặc chậm phát triển ngôn ngữ ngại sử dụng lời nói, do đó, các hình thức giao tiếp phi ngôn ngữ (ánh mắt, cử chỉ, hình ảnh…) cần được thiết lập trước, giúp trẻ từng bước phát triển ngôn ngữ sau này.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Understanding Child Communication -->
+            <div class="content-section">
+                <div class="understanding-section">
+                    <h3><i class="fas fa-heart"></i> Thấu hiểu cách trẻ giao tiếp</h3>
+                    
+                    <div class="parent-challenges">
+                        <h4><i class="fas fa-users"></i> Thách thức của phụ huynh:</h4>
+                        <ul>
+                            <li>Phụ huynh thường cảm thấy khó tương tác hoặc giao tiếp với con và không biết phải bắt đầu từ đâu</li>
+                            <li>Trẻ có thể không phản ứng khi được gọi tên, không nghe theo lời, hoặc tỏ ra thờ ơ với các nỗ lực giao tiếp của người khác</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="solution-approach">
+                        <h4><i class="fas fa-arrow-right"></i> Giải pháp:</h4>
+                        <ul>
+                            <li>Hãy tận dụng những cơ hội hàng ngày và trong vui chơi để khuyến khích trẻ tương tác</li>
+                            <li>Quan sát kỹ cách con đang giao tiếp, từ đó phát triển trên nền tảng điểm mạnh của con</li>
+                            <li>Nếu trẻ chưa sử dụng âm thanh hoặc lời nói, thay vì chỉ nói với trẻ, hãy thêm cử chỉ, điệu bộ, ánh mắt để cùng giao tiếp</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="communication-forms">
+                        <h4><i class="fas fa-list"></i> Trẻ có thể dùng nhiều hình thức khác nhau để truyền đạt nhu cầu:</h4>
+                        <div class="forms-grid">
+                            <div class="form-item">
+                                <i class="fas fa-baby"></i>
+                                <span>Khóc</span>
+                            </div>
+                            <div class="form-item">
+                                <i class="fas fa-hand-holding"></i>
+                                <span>Kéo tay người lớn đến vật mong muốn</span>
+                            </div>
+                            <div class="form-item">
+                                <i class="fas fa-eye"></i>
+                                <span>Nhìn chằm chằm vào vật</span>
+                            </div>
+                            <div class="form-item">
+                                <i class="fas fa-hand-point-right"></i>
+                                <span>Với tay</span>
+                            </div>
+                            <div class="form-item">
+                                <i class="fas fa-images"></i>
+                                <span>Sử dụng hình ảnh hoặc thẻ biểu tượng</span>
+                            </div>
+                            <div class="form-item">
+                                <i class="fas fa-repeat"></i>
+                                <span>Nhại lời (echolalia)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Echolalia Section -->
+            <div class="content-section">
+                <div class="echolalia-section">
+                    <h3><i class="fas fa-redo-alt"></i> Nhại lời – Bước đầu của phát triển giao tiếp</h3>
+                    
+                    <div class="definition">
+                        <p><strong>Nhại lời</strong> là việc trẻ lặp lại lời của người khác, đôi khi chưa hiểu ý nghĩa hoặc chưa có mục đích giao tiếp rõ ràng.</p>
+                    </div>
+                    
+                    <div class="positive-sign">
+                        <p><strong>Tuy nhiên, đây là một dấu hiệu tích cực:</strong> nó cho thấy kỹ năng ngôn ngữ và giao tiếp đang dần hình thành.</p>
+                    </div>
+                    
+                    <div class="development-example">
+                        <h4><i class="fas fa-example"></i> Ví dụ phát triển theo thời gian:</h4>
+                        <div class="example-scenario">
+                            <div class="step">
+                                <span class="step-number">1</span>
+                                <p>Nghe người lớn hỏi: "Con muốn uống gì?"</p>
+                            </div>
+                            <div class="step">
+                                <span class="step-number">2</span>
+                                <p>Sau này, trẻ có thể tự nói: "Uống gì?" để thể hiện nhu cầu của mình</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Understanding Why -->
+            <div class="content-section">
+                <div class="why-section">
+                    <h3><i class="fas fa-question-circle"></i> Hiểu "vì sao" trẻ giao tiếp</h3>
+                    <p>Để hỗ trợ trẻ hiệu quả, người lớn không chỉ cần biết <strong>"cách trẻ giao tiếp"</strong> mà còn phải hiểu <strong>"vì sao trẻ giao tiếp."</strong></p>
+                    <p>Khi nắm được mục đích của giao tiếp, phụ huynh có thể giúp trẻ tìm thêm nhiều cách và nhiều lý do hơn để chủ động giao tiếp.</p>
+                </div>
+            </div>
+
+            <!-- Two Types of Communication -->
+            <div class="content-section">
+                <div class="communication-types">
+                    <h3><i class="fas fa-exchange-alt"></i> Hai kiểu giao tiếp chính</h3>
+                    
+                    <div class="type-item">
+                        <div class="type-header">
+                            <i class="fas fa-seedling"></i>
+                            <h4>Giao tiếp tiền chủ ý (Pre-intentional communication)</h4>
+                        </div>
+                        <div class="type-content">
+                            <p><strong>Định nghĩa:</strong> Khi trẻ nói hoặc làm điều gì mà chưa có ý định tác động đến người khác.</p>
+                            <p><strong>Mục đích:</strong> Thường dùng để tự làm dịu, tự kích thích giác quan, hoặc phản ứng cảm xúc (vui/buồn).</p>
+                        </div>
+                    </div>
+                    
+                    <div class="type-item">
+                        <div class="type-header">
+                            <i class="fas fa-bullseye"></i>
+                            <h4>Giao tiếp có chủ ý (Intentional communication)</h4>
+                        </div>
+                        <div class="type-content">
+                            <p><strong>Định nghĩa:</strong> Khi trẻ hành động với mục đích gửi thông điệp đến người khác (ví dụ: yêu cầu, phản đối, chia sẻ…).</p>
+                            <p><strong>Ý nghĩa:</strong> Bước chuyển từ tiền chủ ý sang có chủ ý là một cột mốc quan trọng trong phát triển giao tiếp của trẻ tự kỷ.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="spectrum-info">
+                        <h4><i class="fas fa-chart-line"></i> Phổ liên tục (Theo Sussman, 1999):</h4>
+                        <div class="spectrum-diagram">
+                            <div class="spectrum-end">
+                                <strong>Một đầu:</strong> Những trẻ chỉ giao tiếp để đạt được điều mình muốn
+                            </div>
+                            <div class="spectrum-arrow">↔</div>
+                            <div class="spectrum-end">
+                                <strong>Đầu kia:</strong> Những trẻ biết giao tiếp vì nhiều lý do hơn – để đặt câu hỏi, nhận xét hoặc thể hiện sự thân thiện
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4 Stages of Development -->
+            <div class="content-section">
+                <div class="stages-section">
+                    <h3><i class="fas fa-layer-group"></i> 4 Giai đoạn phát triển giao tiếp (Theo chương trình Hanen)</h3>
+                    
+                    <div class="factors-info">
+                        <h4><i class="fas fa-info-circle"></i> Mức độ giao tiếp của trẻ phụ thuộc vào:</h4>
+                        <ul>
+                            <li>Khả năng tương tác với người khác</li>
+                            <li>Phương thức và lý do giao tiếp</li>
+                            <li>Mức độ hiểu ngôn ngữ của trẻ</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Stage 1 -->
+                    <div class="stage-item stage-1">
+                        <div class="stage-header">
+                            <div class="stage-icon">🧩</div>
+                            <h4>Giai đoạn 1 – "Một mình" (The Own Agenda)</h4>
+                        </div>
+                        <div class="stage-content">
+                            <ul>
+                                <li>Trẻ chơi một mình, ít quan tâm đến người khác</li>
+                                <li>Giao tiếp chủ yếu là tiền chủ ý</li>
+                                <li>Hầu hết trẻ mới được chẩn đoán tự kỷ đều ở giai đoạn này</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Stage 2 -->
+                    <div class="stage-item stage-2">
+                        <div class="stage-header">
+                            <div class="stage-icon">🤲</div>
+                            <h4>Giai đoạn 2 – "Người yêu cầu" (Requester / Social Partner)</h4>
+                        </div>
+                        <div class="stage-content">
+                            <ul>
+                                <li>Trẻ bắt đầu nhận ra hành động của mình ảnh hưởng đến người khác</li>
+                                <li>Trẻ có thể kéo tay người lớn, đưa vật hoặc chỉ vào đồ vật để thể hiện điều mình muốn</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Stage 3 -->
+                    <div class="stage-item stage-3">
+                        <div class="stage-header">
+                            <div class="stage-icon">🗨️</div>
+                            <h4>Giai đoạn 3 – "Người giao tiếp sớm" (Early Communicator / Language Partner)</h4>
+                        </div>
+                        <div class="stage-content">
+                            <ul>
+                                <li>Trẻ biết duy trì tương tác lâu hơn</li>
+                                <li>Bắt đầu nhại lời hoặc chỉ vào đồ vật</li>
+                                <li>Chuyển ánh nhìn giữa người và vật – dấu hiệu của tương tác hai chiều</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Stage 4 -->
+                    <div class="stage-item stage-4">
+                        <div class="stage-header">
+                            <div class="stage-icon">💬</div>
+                            <h4>Giai đoạn 4 – "Đối tác hội thoại" (Conversation Partner)</h4>
+                        </div>
+                        <div class="stage-content">
+                            <ul>
+                                <li>Trẻ sử dụng lời nói để giao tiếp, có thể tham gia hội thoại đơn giản</li>
+                                <li>Tuy nhiên, trẻ vẫn có thể gặp khó khăn trong môi trường mới</li>
+                                <li>Thường dùng cụm từ học thuộc hoặc nói chen (speaking over)</li>
+                                <li>Chưa tuân thủ quy tắc luân phiên hội thoại</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Expert Information -->
+            <div class="expert-section">
+                <div class="expert-info">
+                    <h3><i class="fas fa-user-md"></i> Thông tin chuyên gia</h3>
+                    <div class="expert-details">
+                        <p><strong>Nguồn:</strong> Philippa Pettitt – Trung tâm Hand in Hand Foundation biên dịch và biên soạn</p>
+                        <p><strong>Chương trình:</strong> Hanen - Chương trình can thiệp giao tiếp cho trẻ tự kỷ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal-footer-pointing">
+
+            <button onclick="shareCommunicationInteractionDocument()" class="btn-share" style="border-color: #4caf50; color: #4caf50;">
+                <i class="fas fa-share"></i> Chia sẻ
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Food Structure Modal -->
+<div id="foodStructureModal" class="pointing-modal" style="display: none;">
+    <div class="pointing-modal-content">
+        <div class="pointing-modal-header">
+            <span class="close-pointing" onclick="closeFoodStructureModal()">&times;</span>
+            <h2 style="color: #ff9800;">
+                <i class="fas fa-utensils"></i> Nhai và cấu trúc thức ăn
+            </h2>
+            <div class="modal-description">
+                <p>Hướng dẫn chi tiết về cấu trúc thức ăn theo độ tuổi từ 6-12 tháng và giải pháp cho trẻ lớn đã bỏ qua cấu trúc</p>
+            </div>
+        </div>
+        
+        <div class="pointing-modal-body">
+            <!-- Case Study Introduction -->
+            <div class="content-section">
+                <div class="case-study-box">
+                    <h3><i class="fas fa-envelope"></i> Câu hỏi từ phụ huynh</h3>
+                    <div class="parent-message">
+                        <p><strong>Tin nhắn từ một người mẹ:</strong></p>
+                        <blockquote>
+                            "Con đã gần 17 tháng vẫn còn ăn cháo, nhưng chỉ nuốt trọng. Do sợ con không ăn thô được, ông bà giới thiệu cháo cho con đến bây giờ, bây giờ giới thiệu cơm cho con thì con nhè ra, nên con vẫn ăn cháo. Liệu có nên tiếp tục cho con ăn cháo hay phải tập bé ăn cơm?"
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Expert Response -->
+            <div class="content-section">
+                <div class="expert-response">
+                    <h3><i class="fas fa-stethoscope"></i> Trả lời từ chuyên gia</h3>
+                    
+                    <div class="response-insight">
+                        <p><strong>Nếu bé đã lỡ bị bỏ qua cấu trúc thì cha mẹ đừng quá ngạc nhiên là bé không có động tác nhai và hay nhè, không muốn ăn.</strong></p>
+                    </div>
+                    
+                    <div class="guidelines-reference">
+                        <h4><i class="fas fa-book"></i> Theo hướng dẫn của BYT Anh:</h4>
+                        <ul>
+                            <li><strong>Từ 7 tháng tuổi:</strong> Chuyển sang dạng cấu trúc lumpy</li>
+                            <li><strong>Từ 10 tháng tuổi:</strong> Đã phải cần được giới thiệu cấu trúc diced</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="consequences">
+                        <h4><i class="fas fa-exclamation-triangle"></i> Hậu quả của việc kéo dài cấu trúc cháo loãng:</h4>
+                        <ul>
+                            <li>Trì hoãn khả năng sử dụng tốt các cơ để nhai</li>
+                            <li>Trì hoãn nhận biết về cấu trúc thức ăn</li>
+                            <li>Không phát triển vị giác</li>
+                            <li>Việc biếng ăn cũng nằm trong hậu quả của việc trì hoãn này</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Solutions for Older Children -->
+            <div class="content-section">
+                <div class="solutions-section">
+                    <h3><i class="fas fa-lightbulb"></i> Giải pháp cho các bé lớn đã bỏ qua cấu trúc</h3>
+                    
+                    <div class="main-approach">
+                        <p><strong>Trường hợp của bé như trên vẫn nên tiếp tục cho bé ăn cháo.</strong> Tuy nhiên, song song với điều này, cha mẹ nên giới thiệu cấu trúc khối lớn cho bé tập nhận biết cấu trúc và phát triển cơ để nhai.</p>
+                    </div>
+                    
+                    <div class="solution-types">
+                        <h4><i class="fas fa-cubes"></i> 1. Cấu trúc khối lớn:</h4>
+                        <div class="food-examples">
+                            <div class="food-item">
+                                <i class="fas fa-drumstick-bite"></i>
+                                <span>Đùi gà chỉ có vài mẫu thịt để bé gặm</span>
+                            </div>
+                            <div class="food-item">
+                                <i class="fas fa-fish"></i>
+                                <span>Miếng cá để bé cắn</span>
+                            </div>
+                            <div class="food-item">
+                                <i class="fas fa-carrot"></i>
+                                <span>Rau củ nấu mềm để bé tập cắn và nhai</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="solution-types">
+                        <h4><i class="fas fa-cookie-bite"></i> 2. Cấu trúc giòn và mỏng:</h4>
+                        <p>Cha mẹ nên chọn cấu trúc có độ giòn và mỏng giới thiệu song song để bé có thể cắn vào nghe ran rắc.</p>
+                        
+                        <div class="sensory-considerations">
+                            <h5><i class="fas fa-palette"></i> Lưu ý về cảm giác:</h5>
+                            <ul>
+                                <li>Thức ăn giới thiệu nên có 2-3 màu sắc khác nhau</li>
+                                <li>Độ tuổi từ 1-2 tuổi, bé rất nhạy cảm với âm thanh và màu sắc thức ăn</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="important-note">
+                        <h4><i class="fas fa-exclamation-circle"></i> Chú ý quan trọng:</h4>
+                        <p><strong>2 cấu trúc lớn và giòn là giới thiệu riêng rẽ ở 2 dĩa khác nhau.</strong></p>
+                        <p>Khi bé học dần cấu trúc và nhai, cha mẹ chuyển dần cháo sang cơm hạt hoặc mì nui, bỏ qua cơm nát.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Food Structure by Age -->
+            <div class="content-section">
+                <div class="age-structure-section">
+                    <h3><i class="fas fa-chart-line"></i> Cấu trúc thức ăn theo độ tuổi</h3>
+                    
+                    <div class="expert-advice">
+                        <p><strong>Tôi vẫn khuyên nếu ngay từ đầu cha mẹ cố gắng chuyển đúng cấu trúc thức ăn cho bé theo độ tuổi sẽ dễ dàng hơn cho bé làm quen với mùi vị, cấu trúc và không biếng ăn.</strong></p>
+                    </div>
+                    
+                    <div class="teeth-myth">
+                        <h4><i class="fas fa-tooth"></i> Quan niệm sai lầm về răng:</h4>
+                        <p>Nhiều cha mẹ quan tâm đến việc bé không đủ răng thì chuyển cấu trúc có được không?</p>
+                        
+                        <div class="expert-answer">
+                            <p><strong>Hiệp hội dinh dưỡng lâm sàng Anh và Viện Nhi khoa của Mỹ đã trả lời rằng:</strong></p>
+                            <blockquote>
+                                Cấu trúc thức ăn không phụ thuộc vào số răng bé có, mà nó liên quan đến sự phát triển não bộ theo độ tuổi.
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Detailed Age Structure -->
+            <div class="content-section">
+                <div class="detailed-structure">
+                    <h3><i class="fas fa-baby"></i> Cấu trúc thức ăn chi tiết theo độ tuổi</h3>
+                    
+                    <!-- Stage 1: 6 months -->
+                    <div class="age-stage stage-6months">
+                        <div class="stage-header">
+                            <div class="age-badge">6 tháng</div>
+                            <h4>Từ bắt đầu ăn dặm - Hết 6 tháng tuổi</h4>
+                        </div>
+                        <div class="stage-content">
+                            <div class="structure-type">
+                                <h5><i class="fas fa-blender"></i> Cấu trúc: Puréed</h5>
+                                <p>Cấu trúc thức ăn dặm nên ở dạng mịn, rây nhuyễn, có độ loãng, nhiều nước.</p>
+                            </div>
+                            
+                            <div class="detailed-instructions">
+                                <h5><i class="fas fa-utensils"></i> Hướng dẫn cụ thể:</h5>
+                                <ul>
+                                    <li><strong>Cháo:</strong> Tỷ lệ 1:10 (1 muỗng gạo : 10 muỗng nước)</li>
+                                    <li><strong>Thịt cá rau củ:</strong> Xay nhuyễn, mịn và rây</li>
+                                    <li><strong>Cách chế biến:</strong> Nấu cháo đúng tỷ lệ trước, sau đó trộn chung với thức ăn</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stage 2: 7-9 months -->
+                    <div class="age-stage stage-7to9months">
+                        <div class="stage-header">
+                            <div class="age-badge">7-9 tháng</div>
+                            <h4>Từ 7 tháng tuổi - Hết 9 tháng tuổi</h4>
+                        </div>
+                        <div class="stage-content">
+                            <div class="structure-type">
+                                <h5><i class="fas fa-shapes"></i> Cấu trúc: Lumpy</h5>
+                                <p>Cấu trúc thức ăn nên chuyển sang dạng cháo đặc hơn, ít loãng, có hình khối (không cần rây).</p>
+                            </div>
+                            
+                            <div class="detailed-instructions">
+                                <h5><i class="fas fa-utensils"></i> Hướng dẫn cụ thể:</h5>
+                                <ul>
+                                    <li><strong>Cháo:</strong> Đặc hơn, ít loãng, có hình khối</li>
+                                    <li><strong>Thịt cá rau củ:</strong> Xay nát (không cần rây)</li>
+                                    <li><strong>Đặc điểm:</strong> Bé bắt đầu học cảm nhận các khối thức ăn nhỏ</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stage 3: 10-12 months -->
+                    <div class="age-stage stage-10to12months">
+                        <div class="stage-header">
+                            <div class="age-badge">10-12 tháng</div>
+                            <h4>Từ 10 tháng tuổi - Hết 12 tháng tuổi</h4>
+                        </div>
+                        <div class="stage-content">
+                            <div class="structure-type">
+                                <h5><i class="fas fa-dice"></i> Cấu trúc: Diced</h5>
+                                <p>Cấu trúc thức ăn dặm nên là dạng cơm nát (cơm nấu dẻo, không quá sệt, cà nát bằng muỗng hoặc bằng tay).</p>
+                            </div>
+                            
+                            <div class="detailed-instructions">
+                                <h5><i class="fas fa-utensils"></i> Hướng dẫn cụ thể:</h5>
+                                <ul>
+                                    <li><strong>Cơm:</strong> Cơm nát (cơm nấu dẻo, cà nát bằng muỗng hoặc tay)</li>
+                                    <li><strong>Thịt cá:</strong> Có thể cà nát bằng muỗng hoặc xé nát bằng tay</li>
+                                    <li><strong>Rau củ:</strong> Cắt nhỏ, lát mỏng</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Stage 4: After 12 months -->
+                    <div class="age-stage stage-after12months">
+                        <div class="stage-header">
+                            <div class="age-badge">12+ tháng</div>
+                            <h4>Sau 12 tháng tuổi</h4>
+                        </div>
+                        <div class="stage-content">
+                            <div class="structure-type">
+                                <h5><i class="fas fa-check-circle"></i> Cấu trúc hoàn chỉnh</h5>
+                                <p>Cấu trúc thức ăn bé đã hoàn chỉnh, bé có thể chuyển dần sang cơm hạt dẻo bình thường.</p>
+                            </div>
+                            
+                            <div class="detailed-instructions">
+                                <h5><i class="fas fa-utensils"></i> Hướng dẫn cụ thể:</h5>
+                                <ul>
+                                    <li><strong>Cơm:</strong> Cơm hạt dẻo bình thường</li>
+                                    <li><strong>Thịt cá:</strong> Xé hoặc cắt nhỏ</li>
+                                    <li><strong>Đa dạng:</strong> Có thể thay đổi cháo, cơm, mì bún để đa dạng cấu trúc</li>
+                                </ul>
+                                
+                                <div class="future-benefits">
+                                    <p><strong>Lợi ích:</strong> Khi bé đã quen và đổi đúng cấu trúc thì việc đa dạng sẽ làm bé làm quen dần với thức ăn người lớn sau này.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scientific Reference -->
+            <div class="content-section">
+                <div class="reference-section">
+                    <h3><i class="fas fa-graduation-cap"></i> Tài liệu tham khảo</h3>
+                    <div class="reference-item">
+                        <p><strong>Dr. Harris, G. (2016)</strong> - Development of taste and food preferences in children. The Children's Hospital, Birmingham</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Key Takeaways -->
+            <div class="content-section">
+                <div class="takeaways-section">
+                    <h3><i class="fas fa-key"></i> Điểm quan trọng cần nhớ</h3>
+                    <div class="takeaway-grid">
+                        <div class="takeaway-item">
+                            <i class="fas fa-clock"></i>
+                            <p><strong>Đúng thời điểm</strong><br>Chuyển cấu trúc theo đúng độ tuổi não bộ</p>
+                        </div>
+                        <div class="takeaway-item">
+                            <i class="fas fa-tooth"></i>
+                            <p><strong>Không phụ thuộc răng</strong><br>Cấu trúc dựa trên phát triển não bộ</p>
+                        </div>
+                        <div class="takeaway-item">
+                            <i class="fas fa-utensils"></i>
+                            <p><strong>Riêng biệt</strong><br>Giới thiệu cấu trúc lớn và giòn ở 2 dĩa khác nhau</p>
+                        </div>
+                        <div class="takeaway-item">
+                            <i class="fas fa-chart-line"></i>
+                            <p><strong>Từng bước</strong><br>Puréed → Lumpy → Diced → Hoàn chỉnh</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="modal-footer-pointing">
+            <button onclick="downloadFoodStructureGuide()" class="btn-download" style="background: #ff9800; color: white;">
+
+            <button onclick="shareFoodStructureDocument()" class="btn-share" style="border-color: #ff9800; color: #ff9800;">
+                <i class="fas fa-share"></i> Chia sẻ
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Intensive Interaction Modal -->
+<div id="intensiveInteractionModal" class="pointing-modal" style="display: none;">
+    <div class="pointing-modal-content">
+        <div class="pointing-modal-header">
+            <span class="close-pointing" onclick="closeIntensiveInteractionModal()">&times;</span>
+            <h2 style="color: #9c27b0;">
+                <i class="fas fa-heart"></i> Chiến lược giao tiếp chuyên sâu (Intensive Interaction)
+            </h2>
+            <div class="modal-description">
+                <p>Phương pháp tiếp cận đặc biệt để hỗ trợ những người gặp khó khăn nghiêm trọng trong giao tiếp. Tập trung xây dựng mối quan hệ hai chiều qua tín hiệu phi ngôn ngữ.</p>
+            </div>
+        </div>
+        
+        <div class="pointing-modal-body">
+            <!-- Hero image và giới thiệu -->
+            <div class="document-hero">
+                <div class="hero-content">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/25.jpg" 
+                         alt="Chiến lược giao tiếp chuyên sâu"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+                         style="width: 100%; height: 300px; object-fit: cover; border-radius: 15px;">
+                    <div class="fallback-image" style="display: none; width: 100%; height: 300px; background: linear-gradient(135deg, #f3e5f5, #e1bee7); border-radius: 15px; display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 15px;">
+                        <i class="fas fa-heart" style="font-size: 4em; color: #9c27b0;"></i>
+                        <span style="color: #7b1fa2; font-size: 1.2em; font-weight: 600;">Giao tiếp chuyên sâu</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nội dung tài liệu -->
+            <div class="document-content-detailed">
+                <div class="intro-intensive">
+                    <h3><i class="fas fa-heart-pulse"></i> Intensive Interaction là gì?</h3>
+                    <p><strong>Intensive Interaction (Tương tác chuyên sâu)</strong> là phương pháp tiếp cận đặc biệt được thiết kế để hỗ trợ những người gặp khó khăn nghiêm trọng trong giao tiếp và học hỏi.</p>
+                    <p>Phương pháp này tập trung vào việc <strong>xây dựng mối quan hệ hai chiều</strong> thông qua các tín hiệu phi ngôn ngữ như ánh mắt, cử chỉ, biểu cảm khuôn mặt và âm thanh.</p>
+                </div>
+
+                <div class="content-section target-groups">
+                    <h3><i class="fas fa-users"></i> Đối tượng phù hợp</h3>
+                    
+                    <div class="target-group-grid">
+                        <div class="target-group-card">
+                            <div class="target-icon">
+                                <i class="fas fa-child"></i>
+                            </div>
+                            <div class="target-content">
+                                <h4>Trẻ chưa có ngôn ngữ</h4>
+                                <p>Những trẻ chưa phát triển khả năng giao tiếp bằng lời nói</p>
+                            </div>
+                        </div>
+                        
+                        <div class="target-group-card">
+                            <div class="target-icon">
+                                <i class="fas fa-puzzle-piece"></i>
+                            </div>
+                            <div class="target-content">
+                                <h4>Trẻ tự kỷ</h4>
+                                <p>Rối loạn phổ tự kỷ (ASD) với khó khăn giao tiếp xã hội</p>
+                            </div>
+                        </div>
+                        
+                        <div class="target-group-card">
+                            <div class="target-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="target-content">
+                                <h4>PMLD</h4>
+                                <p>Profound and Multiple Learning Disabilities - Khuyết tật học tập nghiêm trọng và đa dạng</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-section principles">
+                    <h3><i class="fas fa-compass"></i> 5 Nguyên tắc thực hiện</h3>
+                    
+                    <div class="principle-item">
+                        <div class="principle-header">
+                            <span class="principle-number">01</span>
+                            <h4>Theo dẫn dắt của trẻ</h4>
+                        </div>
+                        <div class="principle-content">
+                            <p><strong>Quan sát và phản hồi</strong> theo những gì trẻ quan tâm và thể hiện, thay vì áp đặt chương trình cố định.</p>
+                            <div class="principle-example">
+                                <strong>Ví dụ:</strong> Nếu trẻ nhìn vào tay bạn, hãy chú ý đến tay và tương tác qua cử chỉ tay.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="principle-item">
+                        <div class="principle-header">
+                            <span class="principle-number">02</span>
+                            <h4>Điều chỉnh theo phản hồi</h4>
+                        </div>
+                        <div class="principle-content">
+                            <p><strong>Linh hoạt thay đổi</strong> cách tiếp cận dựa trên phản ứng của trẻ để duy trì sự tương tác tích cực.</p>
+                            <div class="principle-example">
+                                <strong>Ví dụ:</strong> Nếu trẻ tỏ ra khó chịu với âm thanh to, hãy chuyển sang âm thanh nhẹ nhàng hơn.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="principle-item">
+                        <div class="principle-header">
+                            <span class="principle-number">03</span>
+                            <h4>Tôn trọng ngôn ngữ cơ thể</h4>
+                        </div>
+                        <div class="principle-content">
+                            <p><strong>Chú ý đến các tín hiệu phi ngôn ngữ</strong> như ánh mắt, cử chỉ, tư thế cơ thể của trẻ.</p>
+                            <div class="principle-example">
+                                <strong>Ví dụ:</strong> Khi trẻ quay mặt đi, hiểu rằng trẻ cần thời gian nghỉ ngơi.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="principle-item">
+                        <div class="principle-header">
+                            <span class="principle-number">04</span>
+                            <h4>Xây dựng mối quan hệ</h4>
+                        </div>
+                        <div class="principle-content">
+                            <p><strong>Tập trung vào kết nối cảm xúc</strong> và sự tin tưởng thay vì chỉ dạy kỹ năng cụ thể.</p>
+                            <div class="principle-example">
+                                <strong>Ví dụ:</strong> Dành thời gian để trẻ cảm thấy thoải mái và an toàn trước khi mở rộng hoạt động.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="principle-item">
+                        <div class="principle-header">
+                            <span class="principle-number">05</span>
+                            <h4>Kiên nhẫn và bền bỉ</h4>
+                        </div>
+                        <div class="principle-content">
+                            <p><strong>Không vội vàng</strong> mà cho phép quá trình phát triển diễn ra một cách tự nhiên theo thời gian.</p>
+                            <div class="principle-example">
+                                <strong>Ví dụ:</strong> Chấp nhận những khoảnh khắc im lặng như một phần của quá trình giao tiếp.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-section interaction-stages">
+                    <h3><i class="fas fa-stairs"></i> 2 Giai đoạn tương tác</h3>
+                    
+                    <div class="stage-container">
+                        <div class="stage-item stage-primary">
+                            <div class="stage-header">
+                                <div class="stage-badge">Giai đoạn 1</div>
+                                <h4>Xây dựng sự chú ý và kết nối</h4>
+                            </div>
+                            <div class="stage-content">
+                                <div class="stage-description">
+                                    <p><strong>Mục tiêu:</strong> Thiết lập sự chú ý lẫn nhau và tạo ra những khoảnh khắc kết nối đầu tiên.</p>
+                                </div>
+                                
+                                <div class="stage-activities">
+                                    <h5><i class="fas fa-play"></i> Hoạt động thực hiện:</h5>
+                                    <ul class="activity-list">
+                                        <li><strong>Bắt chước âm thanh:</strong> Nhái lại những âm thanh mà trẻ tạo ra</li>
+                                        <li><strong>Phản chiếu cử chỉ:</strong> Bắt chước các động tác của trẻ một cách tự nhiên</li>
+                                        <li><strong>Trao đổi ánh mắt:</strong> Tìm kiếm và duy trì giao tiếp bằng mắt</li>
+                                        <li><strong>Chia sẻ không gian:</strong> Ngồi gần trẻ ở vị trí thoải mái</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="stage-video">
+                                    <div class="video-placeholder">
+                                        <i class="fas fa-play-circle"></i>
+                                        <p><strong>Video minh họa:</strong> Intensive Interaction Foundation Course - Part 1</p>
+                                        <small>Xem video để hiểu rõ cách thực hiện giai đoạn 1</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="stage-item stage-secondary">
+                            <div class="stage-header">
+                                <div class="stage-badge">Giai đoạn 2</div>
+                                <h4>Phát triển tương tác phức tạp</h4>
+                            </div>
+                            <div class="stage-content">
+                                <div class="stage-description">
+                                    <p><strong>Mục tiêu:</strong> Mở rộng và phát triển các hình thức tương tác phong phú hơn.</p>
+                                </div>
+                                
+                                <div class="stage-activities">
+                                    <h5><i class="fas fa-rocket"></i> Hoạt động nâng cao:</h5>
+                                    <ul class="activity-list">
+                                        <li><strong>Trò chơi lượt:</strong> Tạo ra những trò chơi đơn giản với quy tắc lượt chơi</li>
+                                        <li><strong>Biến tấu âm thanh:</strong> Thử nghiệm các âm thanh và nhịp điệu khác nhau</li>
+                                        <li><strong>Tương tác vật thể:</strong> Sử dụng đồ vật để tăng cường tương tác</li>
+                                        <li><strong>Mở rộng thời gian:</strong> Kéo dài thời gian tương tác theo khả năng của trẻ</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="stage-video">
+                                    <div class="video-placeholder">
+                                        <i class="fas fa-play-circle"></i>
+                                        <p><strong>Video minh họa:</strong> Advanced Intensive Interaction Techniques</p>
+                                        <small>Kỹ thuật nâng cao cho giai đoạn 2</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content-section benefits">
+                    <h3><i class="fas fa-star"></i> Lợi ích của Intensive Interaction</h3>
+                    
+                    <div class="benefit-grid">
+                        <div class="benefit-card">
+                            <div class="benefit-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="benefit-text">
+                                <h4>Kết nối cảm xúc</h4>
+                                <p>Tạo mối liên kết sâu sắc giữa người thực hiện và trẻ</p>
+                            </div>
+                        </div>
+                        
+                        <div class="benefit-card">
+                            <div class="benefit-icon">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                            <div class="benefit-text">
+                                <h4>Cải thiện chú ý</h4>
+                                <p>Tăng khả năng tập trung và chú ý của trẻ</p>
+                            </div>
+                        </div>
+                        
+                        <div class="benefit-card">
+                            <div class="benefit-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="benefit-text">
+                                <h4>Kỹ năng xã hội</h4>
+                                <p>Phát triển nhận thức xã hội và khả năng tương tác</p>
+                            </div>
+                        </div>
+                        
+                        <div class="benefit-card">
+                            <div class="benefit-icon">
+                                <i class="fas fa-smile"></i>
+                            </div>
+                            <div class="benefit-text">
+                                <h4>Tăng hạnh phúc</h4>
+                                <p>Mang lại niềm vui và sự thoải mái cho trẻ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="conclusion-golden intensive-conclusion">
+                    <div class="conclusion-highlight">
+                        <i class="fas fa-heart-pulse"></i>
+                        <h3>Intensive Interaction - Kết nối từ trái tim</h3>
+                    </div>
+                    <div class="conclusion-content">
+                        <p>💜 <strong>Intensive Interaction không chỉ là một phương pháp, mà là cách tiếp cận nhân văn</strong> giúp những người có khó khăn giao tiếp cảm nhận được sự yêu thương và hiểu biết.</p>
+                        <p><strong>Hãy kiên nhẫn, theo dẫn dắt của trẻ và tin tưởng vào sức mạnh của kết nối con người!</strong></p>
+                    </div>
+                    
+                    <div class="call-to-action">
+                        <div class="cta-content">
+                            <h4><i class="fas fa-graduation-cap"></i> Học thêm về Intensive Interaction</h4>
+                            <p>Liên hệ Hand in Hand Foundation để tham gia khóa đào tạo chuyên sâu về phương pháp Intensive Interaction.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer-pointing">
+
+            <button onclick="shareIntensiveInteractionDocument()" class="btn-share" style="border-color: #9c27b0; color: #9c27b0;">
+                <i class="fas fa-share-alt"></i> Chia sẻ
             </button>
         </div>
     </div>
@@ -7916,12 +8185,12 @@ get_header(); ?>
 }
 
 /* Food Structure Modal Styles */
-.pointing-modal#foodStructureModal .modal-content-pointing {
+.pointing-modal#foodStructureModal .pointing-modal-content {
     background: linear-gradient(135deg, #fff8e1, #ffffff);
     border: 2px solid #ff9800;
 }
 
-.pointing-modal#foodStructureModal .modal-body-pointing {
+.pointing-modal#foodStructureModal .pointing-modal-body {
     max-height: 80vh;
     overflow-y: auto;
     padding: 20px;
@@ -8075,7 +8344,7 @@ get_header(); ?>
 }
 
 /* Communication and Interaction Modal Styles */
-.pointing-modal#communicationInteractionModal .modal-content-pointing {
+.pointing-modal#communicationInteractionModal .pointing-modal-content {
     background: linear-gradient(135deg, #e8f5e8, #ffffff);
     border: 2px solid #4caf50;
     max-width: 95vw;
@@ -8086,7 +8355,7 @@ get_header(); ?>
     transform: scale(1.02);
 }
 
-.pointing-modal#communicationInteractionModal .modal-body-pointing {
+.pointing-modal#communicationInteractionModal .pointing-modal-body {
     max-height: 80vh;
     overflow-y: auto;
     padding: 35px;
@@ -8488,12 +8757,12 @@ get_header(); ?>
 }
 
 @media (max-width: 768px) {
-    .pointing-modal#communicationInteractionModal .modal-content-pointing {
+    .pointing-modal#communicationInteractionModal .pointing-modal-content {
         width: 95vw;
         max-width: 95vw;
     }
     
-    .pointing-modal#communicationInteractionModal .modal-body-pointing {
+    .pointing-modal#communicationInteractionModal .pointing-modal-body {
         padding: 20px;
         max-height: 80vh;
     }
@@ -8646,12 +8915,12 @@ get_header(); ?>
 }
 
 /* Intensive Interaction Modal Styles */
-.pointing-modal#intensiveInteractionModal .modal-content-pointing {
+.pointing-modal#intensiveInteractionModal .pointing-modal-content {
     background: linear-gradient(135deg, #f3e5f5, #ffffff);
     border: 2px solid #9c27b0;
 }
 
-.pointing-modal#intensiveInteractionModal .modal-body-pointing {
+.pointing-modal#intensiveInteractionModal .pointing-modal-body {
     max-height: 80vh;
     overflow-y: auto;
     padding: 20px;
@@ -8890,12 +9159,12 @@ get_header(); ?>
 }
 
 /* Autism Communication Modal Styles */
-.pointing-modal#autismCommunicationModal .modal-content-pointing {
+.pointing-modal#autismCommunicationModal .pointing-modal-content {
     background: linear-gradient(135deg, #f3e5f5, #ffffff);
     border: 2px solid #673ab7;
 }
 
-.pointing-modal#autismCommunicationModal .modal-body-pointing {
+.pointing-modal#autismCommunicationModal .pointing-modal-body {
     max-height: 80vh;
     overflow-y: auto;
     padding: 20px;
@@ -10288,61 +10557,51 @@ get_header(); ?>
 }
 
 /* Screen Time Modal Enhanced Scrolling */
-.pointing-modal#screenTimeBrainModal .modal-content-pointing {
-    background: linear-gradient(135deg, #fce4ec, #ffffff);
-    border: 2px solid #e91e63;
-    max-width: 95vw;
-    width: 1400px;
+.pointing-modal#screenTimeBrainModal .pointing-modal-content {
     max-height: 95vh;
-    border-radius: 25px;
-    box-shadow: 0 25px 80px rgba(0, 0, 0, 0.4);
-    transform: scale(1.02);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 
-.pointing-modal#screenTimeBrainModal .modal-body-pointing {
-    max-height: 80vh;
+.pointing-modal#screenTimeBrainModal .pointing-modal-body {
     overflow-y: auto;
-    padding: 35px;
-    line-height: 1.6;
-    color: #333;
-    font-size: 1.05em;
+    overflow-x: hidden;
+    max-height: calc(95vh - 140px);
+    padding-right: 15px;
+    margin-right: -15px;
 }
 
-.pointing-modal#screenTimeBrainModal .modal-body-pointing::-webkit-scrollbar {
+.pointing-modal#screenTimeBrainModal .pointing-modal-body::-webkit-scrollbar {
     width: 12px;
 }
 
-.pointing-modal#screenTimeBrainModal .modal-body-pointing::-webkit-scrollbar-track {
+.pointing-modal#screenTimeBrainModal .pointing-modal-body::-webkit-scrollbar-track {
     background: #f1f1f1;
     border-radius: 10px;
     margin: 10px 0;
 }
 
-.pointing-modal#screenTimeBrainModal .modal-body-pointing::-webkit-scrollbar-thumb {
+.pointing-modal#screenTimeBrainModal .pointing-modal-body::-webkit-scrollbar-thumb {
     background: linear-gradient(135deg, #e91e63, #c2185b);
     border-radius: 10px;
     box-shadow: inset 0 0 5px rgba(0,0,0,0.1);
 }
 
-.pointing-modal#screenTimeBrainModal .modal-body-pointing::-webkit-scrollbar-thumb:hover {
+.pointing-modal#screenTimeBrainModal .pointing-modal-body::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(135deg, #c2185b, #ad1457);
 }
 
-.pointing-modal#screenTimeBrainModal .modal-body-pointing {
+.pointing-modal#screenTimeBrainModal .pointing-modal-body {
     scrollbar-width: thin;
     scrollbar-color: #e91e63 #f1f1f1;
 }
 
 /* Responsive Design for Screen Time */
 @media (max-width: 768px) {
-    .pointing-modal#screenTimeBrainModal .modal-content-pointing {
-        width: 95vw;
-        max-width: 95vw;
-    }
-    
-    .pointing-modal#screenTimeBrainModal .modal-body-pointing {
-        padding: 20px;
-        max-height: 80vh;
+    .pointing-modal#screenTimeBrainModal .pointing-modal-body {
+        padding-right: 10px;
+        margin-right: -10px;
     }
     
     .attention-chain {
@@ -11382,60 +11641,6 @@ get_header(); ?>
         grid-template-columns: 1fr;
     }
 }
-
-/* Additional styles for new modals */
-.strategy-item, .phase-item, .age-stage, .stage {
-    background: #f8f9fa;
-    padding: 15px;
-    margin-bottom: 15px;
-    border-radius: 10px;
-    border-left: 4px solid #007cba;
-}
-
-.strategy-item h4, .phase-item h4, .age-stage h4, .stage h5 {
-    color: #333;
-    margin-bottom: 8px;
-    font-weight: 600;
-}
-
-.strategy-item p, .phase-item p, .age-stage p, .stage p {
-    margin: 0;
-    color: #666;
-    line-height: 1.5;
-}
-
-.impact-list ul, .method-description ul {
-    list-style: none;
-    padding: 0;
-}
-
-.impact-list li, .method-description li {
-    background: #f0f8ff;
-    padding: 10px 15px;
-    margin-bottom: 10px;
-    border-radius: 8px;
-    border-left: 3px solid #2196f3;
-}
-
-.phases-list, .strategy-list, .age-stages, .stages {
-    display: grid;
-    gap: 15px;
-    margin-top: 20px;
-}
-
-.btn-close {
-    background: #6c757d;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-right: 10px;
-}
-
-.btn-close:hover {
-    background: #5a6268;
-}
 </style>
 
 <script>
@@ -11492,32 +11697,6 @@ function closePointingModal() {
 
 function downloadPointingGuide() {
     alert('Tính năng tải tài liệu sẽ được bổ sung. Vui lòng liên hệ Hand in Hand Foundation để nhận tài liệu.');
-}
-
-// Close functions for new modals
-function closeScreenTimeBrainModal() {
-    document.getElementById('screenTimeBrainModal').style.display = 'none';
-    document.body.style.overflow = 'auto';
-}
-
-function closeAutismCommunicationModal() {
-    document.getElementById('autismCommunicationModal').style.display = 'none';
-    document.body.style.overflow = 'auto';
-}
-
-function closeCommunicationInteractionModal() {
-    document.getElementById('communicationInteractionModal').style.display = 'none';
-    document.body.style.overflow = 'auto';
-}
-
-function closeFoodStructureModal() {
-    document.getElementById('foodStructureModal').style.display = 'none';
-    document.body.style.overflow = 'auto';
-}
-
-function closeIntensiveInteractionModal() {
-    document.getElementById('intensiveInteractionModal').style.display = 'none';
-    document.body.style.overflow = 'auto';
 }
 
 function shareDocument() {
@@ -12209,7 +12388,7 @@ function showScreenTimeBrainDocument() {
     document.body.style.overflow = 'hidden';
     
     // Setup scroll listeners for Screen Time modal
-    const modalBody = document.querySelector('#screenTimeBrainModal .modal-body-pointing');
+    const modalBody = document.querySelector('#screenTimeBrainModal .pointing-modal-body');
     if (modalBody) {
         modalBody.addEventListener('scroll', function() {
             updateScreenTimeProgress();
@@ -12257,7 +12436,7 @@ function shareScreenTimeBrainDocument() {
 }
 
 function scrollToTopScreenTime() {
-    const modalBody = document.querySelector('#screenTimeBrainModal .modal-body-pointing');
+    const modalBody = document.querySelector('#screenTimeBrainModal .pointing-modal-body');
     if (modalBody) {
         modalBody.scrollTo({
             top: 0,
@@ -12267,7 +12446,7 @@ function scrollToTopScreenTime() {
 }
 
 function updateScreenTimeProgress() {
-    const modalBody = document.querySelector('#screenTimeBrainModal .modal-body-pointing');
+    const modalBody = document.querySelector('#screenTimeBrainModal .pointing-modal-body');
     const progressBar = document.getElementById('screenTimeProgress');
     const scrollToTopBtn = document.getElementById('screenTimeScrollTop');
     

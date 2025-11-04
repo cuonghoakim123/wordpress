@@ -34,7 +34,11 @@ function handinhand_scripts() {
     
     // Additional JavaScript files
     wp_enqueue_script('handinhand-content', get_template_directory_uri() . '/js/content.js', array(), '1.0.0', true);
-    wp_enqueue_script('handinhand-onboarding', get_template_directory_uri() . '/js/onboarding.js', array(), '1.0.0', true);
+    
+    // Only load onboarding on front page and main pages
+    if (is_front_page() || is_page()) {
+        wp_enqueue_script('handinhand-onboarding', get_template_directory_uri() . '/js/onboarding.js', array(), '1.0.0', true);
+    }
     
     // Localize script for AJAX
     wp_localize_script('handinhand-script', 'handinhand_ajax', array(
@@ -131,3 +135,46 @@ function handinhand_get_page_link($slug) {
     }
     return home_url('/' . $slug);
 }
+
+// Handle custom page routes
+function handinhand_custom_rewrite_rules() {
+    add_rewrite_rule('^tin-tuc/?$', 'index.php?custom_page=tin-tuc', 'top');
+    add_rewrite_rule('^tai-lieu/?$', 'index.php?custom_page=tai-lieu', 'top');
+}
+add_action('init', 'handinhand_custom_rewrite_rules');
+
+// Add custom query vars
+function handinhand_query_vars($vars) {
+    $vars[] = 'custom_page';
+    return $vars;
+}
+add_filter('query_vars', 'handinhand_query_vars');
+
+// Handle template loading for custom pages
+function handinhand_template_include($template) {
+    $custom_page = get_query_var('custom_page');
+    
+    if ($custom_page == 'tin-tuc') {
+        $new_template = locate_template(array('page-tin-tuc.php'));
+        if (!empty($new_template)) {
+            return $new_template;
+        }
+    }
+    
+    if ($custom_page == 'tai-lieu') {
+        $new_template = locate_template(array('page-tai-lieu.php'));
+        if (!empty($new_template)) {
+            return $new_template;
+        }
+    }
+    
+    return $template;
+}
+add_filter('template_include', 'handinhand_template_include');
+
+// Flush rewrite rules on theme activation
+function handinhand_flush_rewrite_rules() {
+    handinhand_custom_rewrite_rules();
+    flush_rewrite_rules();
+}
+add_action('after_switch_theme', 'handinhand_flush_rewrite_rules');

@@ -5,28 +5,42 @@
 
 // Onboarding functionality
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('Onboarding.js loaded successfully');
-    
-    // Initialize onboarding if needed
-    initializeOnboarding();
+    try {
+        console.log('Onboarding.js loaded successfully');
+        
+        // Initialize onboarding if needed
+        initializeOnboarding();
+    } catch (error) {
+        console.warn('Onboarding initialization failed:', error);
+    }
 });
 
 function initializeOnboarding() {
-    console.log('Onboarding functionality initialized');
-    
-    // Check if this is user's first visit
-    const hasVisited = localStorage.getItem('handinhand_visited');
-    
-    if (!hasVisited) {
-        // Mark as visited
-        localStorage.setItem('handinhand_visited', 'true');
+    try {
+        console.log('Onboarding functionality initialized');
         
-        // Show welcome message or tour (if needed)
-        showWelcomeMessage();
+        // Check if localStorage is available
+        if (typeof Storage === "undefined") {
+            console.warn('LocalStorage not supported');
+            return;
+        }
+        
+        // Check if this is user's first visit
+        const hasVisited = localStorage.getItem('handinhand_visited');
+        
+        if (!hasVisited) {
+            // Mark as visited
+            localStorage.setItem('handinhand_visited', 'true');
+            
+            // Show welcome message or tour (if needed)
+            showWelcomeMessage();
+        }
+        
+        // Handle any onboarding-specific interactions
+        setupOnboardingInteractions();
+    } catch (error) {
+        console.error('Onboarding initialization error:', error);
     }
-    
-    // Handle any onboarding-specific interactions
-    setupOnboardingInteractions();
 }
 
 function showWelcomeMessage() {

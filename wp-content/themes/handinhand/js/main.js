@@ -3,16 +3,22 @@ jQuery(document).ready(function($) {
     
     console.log('Hand in Hand Foundation - Main.js v1.0.1 loaded successfully');
     
-    // Initialize all components
-    initializeNavigation();
-    initializeScrollEffects();
-    initializeMobileMenu();
-    initializeDocumentFunctions();
+    try {
+        // Initialize all components with error handling
+        initializeNavigation();
+        initializeScrollEffects();
+        initializeMobileMenu();
+        initializeAdditionalMobileMenu();
+        initializeDocumentFunctions();
+    } catch (error) {
+        console.error('Error during initialization:', error);
+    }
     
-    // Smooth Scrolling for anchor links
-    $('a[href*="#"]:not([href="#"])').on('click', function() {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-            var target = $(this.hash);
+    // Smooth Scrolling for anchor links with error handling
+    try {
+        $('a[href*="#"]:not([href="#"])').on('click', function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
             if (target.length) {
                 $('html, body').animate({
@@ -96,54 +102,101 @@ jQuery(document).ready(function($) {
         $(this)[0].reset();
     });
     
+    } catch (error) {
+        console.error('Error in jQuery ready function:', error);
+    }
+    
 });
 
 // Initialize Navigation
 function initializeNavigation() {
-    // Add active class to current menu item
-    var currentUrl = window.location.href;
-    $('.main-navigation a').each(function() {
-        var linkUrl = $(this).attr('href');
-        if (currentUrl.indexOf(linkUrl) !== -1 && linkUrl !== '/') {
-            $(this).addClass('active');
-        }
-    });
+    // Check if jQuery is available
+    if (typeof $ === 'undefined' || typeof jQuery === 'undefined') {
+        console.warn('jQuery not available, skipping navigation initialization');
+        return;
+    }
+    
+    try {
+        // Add active class to current menu item
+        var currentUrl = window.location.href;
+        $('.main-navigation a').each(function() {
+            var linkUrl = $(this).attr('href');
+            if (currentUrl.indexOf(linkUrl) !== -1 && linkUrl !== '/') {
+                $(this).addClass('active');
+            }
+        });
+    } catch (error) {
+        console.error('Error in initializeNavigation:', error);
+    }
 }
 
 // Initialize Scroll Effects
 function initializeScrollEffects() {
-    var header = $('.site-header');
-    var scrollThreshold = 100;
+    // Check if jQuery is available
+    if (typeof $ === 'undefined' || typeof jQuery === 'undefined') {
+        console.warn('jQuery not available, skipping scroll effects initialization');
+        return;
+    }
     
-    $(window).on('scroll', function() {
-        if ($(window).scrollTop() > scrollThreshold) {
-            header.addClass('scrolled');
-        } else {
-            header.removeClass('scrolled');
-        }
+    try {
+        var header = $('.site-header');
+        var scrollThreshold = 100;
         
-        // Animate elements on scroll
+        $(window).on('scroll', function() {
+            if ($(window).scrollTop() > scrollThreshold) {
+                header.addClass('scrolled');
+            } else {
+                header.removeClass('scrolled');
+            }
+            
+            // Animate elements on scroll
+            animateOnScroll();
+        });
+        
+        // Run once on load
         animateOnScroll();
-    });
-    
-    // Run once on load
-    animateOnScroll();
+    } catch (error) {
+        console.error('Error in initializeScrollEffects:', error);
+    }
 }
 
 // Initialize Mobile Menu
 function initializeMobileMenu() {
-    $('.menu-toggle').on('click', function() {
-        $(this).toggleClass('active');
-        $('.main-navigation').toggleClass('active');
-    });
+    // Check if jQuery is available
+    if (typeof $ === 'undefined' || typeof jQuery === 'undefined') {
+        console.warn('jQuery not available, skipping mobile menu initialization');
+        return;
+    }
     
-    // Close mobile menu when clicking outside
-    $(document).on('click', function(event) {
-        if (!$(event.target).closest('.site-header').length) {
-            $('.main-navigation').removeClass('active');
-            $('.menu-toggle').removeClass('active');
-        }
-    });
+    try {
+        $('.menu-toggle').on('click', function() {
+            $(this).toggleClass('active');
+            $('.main-navigation').toggleClass('active');
+        });
+    } catch (error) {
+        console.error('Error in initializeMobileMenu:', error);
+    }
+}
+
+// Additional Mobile Menu Behaviors
+function initializeAdditionalMobileMenu() {
+    // Check if jQuery is available
+    if (typeof $ === 'undefined' || typeof jQuery === 'undefined') {
+        console.warn('jQuery not available, skipping additional mobile menu initialization');
+        return;
+    }
+    
+    try {
+        // Close mobile menu when clicking outside
+        $(document).on('click', function(event) {
+            if (!$(event.target).closest('.site-header').length) {
+                $('.main-navigation').removeClass('active');
+                $('.menu-toggle').removeClass('active');
+            }
+        });
+    } catch (error) {
+        console.error('Error in initializeAdditionalMobileMenu:', error);
+    }
 }
 
 // Initialize Document Functions
@@ -234,8 +287,26 @@ window.HandInHandTheme = {
 
 // Show Parents Teacher Document
 function showParentsTeacherDocument() {
+    console.log('showParentsTeacherDocument called from main.js');
+    
+    // Check if we're on the tai-lieu page with the new modal structure
+    const newModal = document.getElementById('parentsTeacherModal');
+    if (newModal) {
+        console.log('Using new modal structure');
+        newModal.style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+        return;
+    }
+    
+    // Fallback to old modal structure if it exists
     const modal = document.getElementById('documentsModal');
     const content = document.querySelector('.modal-document-content');
+    
+    if (!modal || !content) {
+        console.error('Modal elements not found');
+        alert('Không thể mở tài liệu. Vui lòng tải lại trang.');
+        return;
+    }
     
     content.innerHTML = `
         <div class="modal-header">

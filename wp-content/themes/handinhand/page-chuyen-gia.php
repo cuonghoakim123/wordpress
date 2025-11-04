@@ -1178,7 +1178,7 @@ body {
             <div class="profile-header">
                 <div class="profile-image">
                     <!-- Ảnh Cô Hiền Đỗ -->
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/image.png"
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/23.png"
                          alt="Cô Theresa Hiền Đỗ - Giám đốc Hand in Hand Foundation" 
                          loading="lazy">
                 </div>
