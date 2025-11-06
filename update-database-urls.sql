@@ -20,35 +20,35 @@ WHERE option_name IN ('siteurl', 'home');
 
 -- 2. Update GUIDs trong wp_posts (cho media/attachments)
 UPDATE wp_posts 
-SET guid = REPLACE(guid, @old_url, @new_url);
+SET guid = REPLACE(guid COLLATE utf8mb4_unicode_520_ci, @old_url, @new_url);
 
 -- 3. Update URLs trong post content
 UPDATE wp_posts 
-SET post_content = REPLACE(post_content, @old_url, @new_url)
+SET post_content = REPLACE(post_content COLLATE utf8mb4_unicode_520_ci, @old_url, @new_url)
 WHERE post_content LIKE CONCAT('%', @old_url, '%');
 
 -- 4. Update URLs trong post excerpts
 UPDATE wp_posts 
-SET post_excerpt = REPLACE(post_excerpt, @old_url, @new_url)
+SET post_excerpt = REPLACE(post_excerpt COLLATE utf8mb4_unicode_520_ci, @old_url, @new_url)
 WHERE post_excerpt LIKE CONCAT('%', @old_url, '%');
 
 -- 5. Update URLs trong post meta
 UPDATE wp_postmeta 
-SET meta_value = REPLACE(meta_value, @old_url, @new_url)
+SET meta_value = REPLACE(meta_value COLLATE utf8mb4_unicode_520_ci, @old_url, @new_url)
 WHERE meta_value LIKE CONCAT('%', @old_url, '%');
 
 -- 6. Update URLs trong comments
 UPDATE wp_comments 
-SET comment_content = REPLACE(comment_content, @old_url, @new_url)
+SET comment_content = REPLACE(comment_content COLLATE utf8mb4_unicode_520_ci, @old_url, @new_url)
 WHERE comment_content LIKE CONCAT('%', @old_url, '%');
 
 UPDATE wp_comments 
-SET comment_author_url = REPLACE(comment_author_url, @old_url, @new_url)
+SET comment_author_url = REPLACE(comment_author_url COLLATE utf8mb4_unicode_520_ci, @old_url, @new_url)
 WHERE comment_author_url LIKE CONCAT('%', @old_url, '%');
 
 -- 7. Update URLs trong options table
 UPDATE wp_options 
-SET option_value = REPLACE(option_value, @old_url, @new_url)
+SET option_value = REPLACE(option_value COLLATE utf8mb4_unicode_520_ci, @old_url, @new_url)
 WHERE option_value LIKE CONCAT('%', @old_url, '%')
 AND option_name NOT IN ('siteurl', 'home');
 

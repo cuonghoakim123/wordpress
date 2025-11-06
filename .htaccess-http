@@ -1,0 +1,64 @@
+# ============================================================
+# .htaccess cho WordPress KHÔNG CÓ SSL (Development/HTTP)
+# Dành cho: Hand in Hand Foundation
+# ============================================================
+
+# KHÔNG force HTTPS (dùng cho testing với HTTP)
+
+# ============================================================
+# WordPress Permalinks (QUAN TRỌNG!)
+# ============================================================
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+
+# ============================================================
+# Security Headers
+# ============================================================
+<IfModule mod_headers.c>
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set X-XSS-Protection "1; mode=block"
+    Header always set X-Content-Type-Options "nosniff"
+</IfModule>
+
+# ============================================================
+# Bảo vệ các file quan trọng
+# ============================================================
+<Files wp-config.php>
+    Order allow,deny
+    Deny from all
+</Files>
+
+<Files .htaccess>
+    Order allow,deny
+    Deny from all
+</Files>
+
+# ============================================================
+# Tắt directory browsing
+# ============================================================
+Options -Indexes
+
+# ============================================================
+# Giới hạn upload file size
+# ============================================================
+php_value upload_max_filesize 64M
+php_value post_max_size 64M
+php_value max_execution_time 300
+php_value max_input_time 300
+
+# ============================================================
+# LƯU Ý
+# ============================================================
+# File này KHÔNG force HTTPS
+# Dùng cho testing trên localhost hoặc HTTP domain
+# Khi deploy production với SSL, dùng .htaccess-production
+# ============================================================

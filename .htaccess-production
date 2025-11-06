@@ -1,0 +1,155 @@
+# ============================================================
+# .htaccess cho WordPress với SSL/HTTPS Support
+# Dành cho: Hand in Hand Foundation
+# ============================================================
+
+# Force HTTPS (Redirect tất cả HTTP sang HTTPS)
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+</IfModule>
+
+# ============================================================
+# WordPress Permalinks (QUAN TRỌNG!)
+# ============================================================
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+
+# ============================================================
+# Security Headers
+# ============================================================
+<IfModule mod_headers.c>
+    # Bảo vệ khỏi clickjacking
+    Header always set X-Frame-Options "SAMEORIGIN"
+    
+    # Bảo vệ khỏi XSS attacks
+    Header always set X-XSS-Protection "1; mode=block"
+    
+    # Ngăn MIME type sniffing
+    Header always set X-Content-Type-Options "nosniff"
+    
+    # Referrer Policy
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    
+    # Content Security Policy (tùy chọn - có thể bỏ comment nếu cần)
+    # Header always set Content-Security-Policy "default-src 'self' https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:;"
+</IfModule>
+
+# ============================================================
+# Bảo vệ các file quan trọng
+# ============================================================
+# Chặn truy cập vào wp-config.php
+<Files wp-config.php>
+    Order allow,deny
+    Deny from all
+</Files>
+
+# Chặn truy cập vào .htaccess
+<Files .htaccess>
+    Order allow,deny
+    Deny from all
+</Files>
+
+# Chặn truy cập vào error_log
+<Files error_log>
+    Order allow,deny
+    Deny from all
+</Files>
+
+# ============================================================
+# Tắt directory browsing
+# ============================================================
+Options -Indexes
+
+# ============================================================
+# Bảo vệ wp-includes
+# ============================================================
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^wp-admin/includes/ - [F,L]
+RewriteRule !^wp-includes/ - [S=3]
+RewriteRule ^wp-includes/[^/]+\.php$ - [F,L]
+RewriteRule ^wp-includes/js/tinymce/langs/.+\.php - [F,L]
+RewriteRule ^wp-includes/theme-compat/ - [F,L]
+</IfModule>
+
+# ============================================================
+# Chặn XML-RPC (nếu không dùng)
+# ============================================================
+# <Files xmlrpc.php>
+#     Order allow,deny
+#     Deny from all
+# </Files>
+
+# ============================================================
+# Giới hạn upload file size
+# ============================================================
+php_value upload_max_filesize 64M
+php_value post_max_size 64M
+php_value max_execution_time 300
+php_value max_input_time 300
+
+# ============================================================
+# Cache Control
+# ============================================================
+<IfModule mod_expires.c>
+    ExpiresActive On
+    
+    # Images
+    ExpiresByType image/jpg "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType image/x-icon "access plus 1 year"
+    
+    # CSS and JavaScript
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType text/javascript "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    
+    # Fonts
+    ExpiresByType font/woff "access plus 1 year"
+    ExpiresByType font/woff2 "access plus 1 year"
+    ExpiresByType application/font-woff "access plus 1 year"
+    ExpiresByType application/font-woff2 "access plus 1 year"
+    
+    # HTML
+    ExpiresByType text/html "access plus 1 hour"
+</IfModule>
+
+# ============================================================
+# Compression (Gzip)
+# ============================================================
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE text/javascript
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/x-javascript
+    AddOutputFilterByType DEFLATE application/json
+    AddOutputFilterByType DEFLATE application/xml
+    AddOutputFilterByType DEFLATE text/xml
+    AddOutputFilterByType DEFLATE image/svg+xml
+</IfModule>
+
+# ============================================================
+# LƯU Ý QUAN TRỌNG
+# ============================================================
+# 1. File này dành cho production (có SSL)
+# 2. Nếu chưa cài SSL, bỏ comment phần "Force HTTPS" ở đầu file
+# 3. Sau khi upload lên hosting, regenerate permalinks:
+#    WordPress Admin → Settings → Permalinks → Save Changes
+# ============================================================
